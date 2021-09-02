@@ -22,4 +22,4 @@ This is an array of objects. Each object can have 3 values:
 | -----------    | ----------- |
 | word           | Individual word in sentence       |
 | definition     | The definition for 'word' that should show up at the bottom of the page when 'word' is hovered over    |
-| link           | (Optional) A URL. If 'link' exists, the corresponding 'word' will be an <a> tag with the URL value here |
+| link           | (Optional) A URL. If 'link' exists, the corresponding 'word' will be a link with the URL value here |
