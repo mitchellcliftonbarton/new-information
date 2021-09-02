@@ -1,0 +1,22 @@
+@layer base {
+  @font-face {
+    font-family: 'Helvetica Narrow';
+    src: url('./../fonts/Helvetica-Narrow.eot');
+    src: url('./../fonts/Helvetica-Narrow.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/Helvetica-Narrow.woff2') format('woff2'),
+      url('./../fonts/Helvetica-Narrow.woff') format('woff'),
+      url('./../fonts/Helvetica-Narrow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  .h-text {
+    @apply text-h-text-mobile font-h-narrow;
+    -webkit-font-smoothing: antialiased;
+
+    @media screen and (min-width: theme('screens.lg')) {
+      @apply text-h-text;
+    }
+  }
+}
