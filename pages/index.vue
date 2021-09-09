@@ -1,19 +1,23 @@
 <template>
   <main class="p-8 lg:p-10 relative">
     <div class="h-text text-black whitespace-pre-wrap">
-      <p @mouseleave="defText = null" class="break-words">
+      <p @mouseleave="overrideText = null" class="break-words">
         <span
           v-for="(word, index) in text" 
           :key="index"
+          ref="word"
           @mouseenter="handleMouseEnter(word)"
           @click.prevent="handleClick(word)"
           class="cursor-default hover:text-blue whitespace-nowrap"
+          :class="{ 'text-blue': index === activeTextItem }"
         >
           <a v-if="word.link" :href="word.link" class="whitespace-nowrap">{{ word.word }}&nbsp;</a>
           <span v-else class="whitespace-nowrap">{{ word.word }}&nbsp;</span>
         </span>
       </p>
     </div>
+
+    <div ref="proxy" class="hidden"></div>
 
     <div 
       :class="{ 'active': showAbout }" 
@@ -38,27 +42,62 @@ import { mapState } from 'vuex'
 export default {
   data () {
     return {
-      defText: null,
-      showAbout: false
+      overrideText: null,
+      showAbout: false,
+      tl: null,
+      tlIsPaused: false,
+      activeTextItem: null
     }
   },
   computed: {
-    ...mapState(['text', 'about', 'isMobile'])
+    ...mapState(['text', 'about', 'isMobile']),
+    defText () {
+      return this.overrideText ? this.overrideText : this.activeTextItem ? this.text[this.activeTextItem].definition : false
+    }
   },
   methods: {
-    setDefText (obj) {
+    setOverrideText (obj) {
       this.showAbout = false
-      this.defText = obj.definition
+      this.overrideText = obj.definition
     },
     toggleAbout () {
-      this.showAbout ? this.defText = null : this.defText = this.about.text
+      if (this.showAbout) {
+        this.overrideText = null
+      } else {
+        if (this.isMobile ) this.tl.pause()
+        this.activeTextItem = null
+        this.overrideText = this.about.text
+      }
       this.showAbout = !this.showAbout
     },
     handleMouseEnter (word) {
-      if (!this.isMobile) this.setDefText(word)
+      if (!this.isMobile) this.setOverrideText(word)
     },
     handleClick (word) {
-      if (this.isMobile) this.setDefText(word)
+      if (this.isMobile) {
+        this.tl.pause()
+        this.activeTextItem = null
+        this.setOverrideText(word)
+      }
+    }
+  },
+  mounted () {
+    if (this.isMobile) {
+      this.tl = this.$gsap.timeline({ paused: true, repeat: -1 })
+
+      this.$refs.word.forEach((textItem, index) => {
+        this.tl.to(this.$refs.proxy, { 
+          duration: 0, 
+          color: 'blue',
+          delay: 1,
+          onComplete: () => {
+            console.log(index)
+            this.activeTextItem = index
+          }
+        })
+      })
+
+      this.tl.play()
     }
   }
 }
