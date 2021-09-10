@@ -1,11 +1,9 @@
 @layer base {
   @font-face {
     font-family: 'Helvetica Narrow';
-    src: url('./../fonts/Helvetica-Narrow.eot');
-    src: url('./../fonts/Helvetica-Narrow.eot?#iefix') format('embedded-opentype'),
-      url('./../fonts/Helvetica-Narrow.woff2') format('woff2'),
-      url('./../fonts/Helvetica-Narrow.woff') format('woff'),
-      url('./../fonts/Helvetica-Narrow.ttf') format('truetype');
+    src: url('./../fonts/helvetica-narrow_1-webfont.woff2') format('woff2'),
+      url('./../fonts/helvetica-narrow_1-webfont.woff') format('woff'),
+      url('./../fonts/helvetica-narrow_1-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

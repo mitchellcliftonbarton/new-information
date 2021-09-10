@@ -40,4 +40,13 @@ body {
     border-radius: 0px;
     cursor: pointer;
   }
+
+  .upside-down {
+    transform: rotate(180deg);
+    display: inline-block;
+  }
+
+  .overline {
+    text-decoration: overline black;
+  }
 }

@@ -15,7 +15,7 @@ module.exports = {
       blue: 'blue'
     },
     fontFamily: {
-      'h-narrow': ['Helvetica Narrow', 'Helvetica', 'sans-serif'],
+      'h-narrow': ['Helvetica Narrow', 'sans-serif'],
     },
     fontSize: {
       base: ['1.2rem', '1.2'],

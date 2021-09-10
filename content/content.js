@@ -22,7 +22,7 @@ export default {
       definition: '/’a/ used as a function word before singular nouns when the referent is unspecified'
     },
     {
-      word: 'Brooklyn',
+      word: 'Broo<span class="upside-down">k</span>lyn',
       definition: '/’bru-kl en/ former city (1834–98) at the southwestern end of Long Island and now a borough of New York City population 2.5 mil'
     },
     {
@@ -30,7 +30,7 @@ export default {
       definition: '/nu/ based'
     },
     {
-      word: 'design',
+      word: '<span class="overline">design</span>',
       definition: '/nu/ design'
     },
     {

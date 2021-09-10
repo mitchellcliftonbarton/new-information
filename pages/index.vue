@@ -1,7 +1,10 @@
 <template>
   <main class="p-8 lg:p-10 relative">
     <div class="h-text text-black whitespace-pre-wrap">
-      <p @mouseleave="overrideText = null" class="break-words">
+      <p 
+        @mouseleave="overrideText = null" 
+        class="break-words"
+      >
         <span
           v-for="(word, index) in text" 
           :key="index"
@@ -11,8 +14,8 @@
           class="cursor-default hover:text-blue whitespace-nowrap"
           :class="{ 'text-blue': index === activeTextItem }"
         >
-          <a v-if="word.link" :href="word.link" class="whitespace-nowrap">{{ word.word }}&nbsp;</a>
-          <span v-else class="whitespace-nowrap">{{ word.word }}&nbsp;</span>
+          <a v-if="word.link" :href="word.link" class="whitespace-nowrap" v-html="`${word.word}&nbsp;`"></a>
+          <span v-else class="whitespace-nowrap" v-html="`${word.word}&nbsp;`"></span>
         </span>
       </p>
     </div>
@@ -30,7 +33,11 @@
     </div>
 
     <div class="bottom fixed bottom-0 left-0 p-8 lg:p-10 h-text text-black flex items-end w-full">
-      <button @click.prevent="toggleAbout()" class="mr-10">?</button>
+      <button 
+        ref="aboutButton"
+        class="mr-10"
+        :class="{ 'text-blue': showAbout }"
+      >?</button>
       <p v-if="defText" class="text-blue">{{ defText }}</p>
     </div>
   </main>
@@ -52,7 +59,7 @@ export default {
   computed: {
     ...mapState(['text', 'about', 'isMobile']),
     defText () {
-      return this.overrideText ? this.overrideText : this.activeTextItem ? this.text[this.activeTextItem].definition : false
+      return this.overrideText !== null ? this.overrideText : this.activeTextItem !== null ? this.text[this.activeTextItem].definition : false
     }
   },
   methods: {
@@ -91,13 +98,27 @@ export default {
           color: 'blue',
           delay: 1,
           onComplete: () => {
-            console.log(index)
             this.activeTextItem = index
+            console.log(this.activeTextItem)
           }
         })
       })
 
       this.tl.play()
+    }
+
+    if (!this.isMobile) {
+      this.$refs.aboutButton.addEventListener('mouseenter', () => {
+        this.toggleAbout()
+      })
+
+      this.$refs.aboutButton.addEventListener('mouseleave', () => {
+        this.toggleAbout()
+      })
+    } else {
+      this.$refs.aboutButton.addEventListener('click', () => {
+        this.toggleAbout()
+      })
     }
   }
 }
