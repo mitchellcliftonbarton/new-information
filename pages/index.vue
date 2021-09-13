@@ -1,6 +1,6 @@
 <template>
   <main class="p-8 lg:p-10 relative">
-    <div class="h-text text-black whitespace-pre-wrap">
+    <div class="h-text text-black whitespace-pre-wrap pr-20">
       <p 
         @mouseleave="overrideText = null" 
         class="break-words"
@@ -40,6 +40,12 @@
       >?</button>
       <p v-if="defText" class="text-blue">{{ defText }}</p>
     </div>
+
+    <button 
+      @click.prevent="handleAsterisk()" 
+      :class="{ 'text-blue': showAsterisk }"
+      class="h-text text-black absolute top-10 right-10 hover:text-blue"
+    >*</button>
   </main>
 </template>
 
@@ -53,7 +59,8 @@ export default {
       showAbout: false,
       tl: null,
       tlIsPaused: false,
-      activeTextItem: null
+      activeTextItem: null,
+      showAsterisk: false
     }
   },
   computed: {
@@ -85,6 +92,15 @@ export default {
         this.tl.pause()
         this.activeTextItem = null
         this.setOverrideText(word)
+      }
+    },
+    handleAsterisk () {
+      if (this.showAsterisk) {
+        this.showAsterisk = false
+        this.overrideText = null
+      } else {
+        this.showAsterisk = true
+        this.overrideText = 'All definitions are pulled directly from Merriam-Webster\'s dictionary.*'
       }
     }
   },

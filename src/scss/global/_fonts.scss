@@ -1,9 +1,8 @@
 @layer base {
   @font-face {
     font-family: 'Helvetica Narrow';
-    src: url('./../fonts/helvetica-narrow_1-webfont.woff2') format('woff2'),
-      url('./../fonts/helvetica-narrow_1-webfont.woff') format('woff'),
-      url('./../fonts/helvetica-narrow_1-webfont.ttf') format('truetype');
+    src: url('./../fonts/h-narrow.woff2') format('woff2'),
+      url('./../fonts/h-narrow.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
