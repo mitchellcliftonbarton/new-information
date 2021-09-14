@@ -6,113 +6,122 @@ export default {
   },
   text: [
     {
-      word: 'New',
+      word: 'New&nbsp;',
       definition: '/nu/ having recently come into existence'
     },
     {
-      word: 'Information',
+      word: 'Information&nbsp;',
       definition: '/in-f er-’ma-sh en/ knowledge obtained from investigation, study, or instruction'
     },
     {
-      word: 'is',
+      word: 'is&nbsp;',
       definition: '/iz/ present tense third-person singular of “be”'
     },
     {
-      word: 'a',
+      word: 'a&nbsp;',
       definition: '/’a/ used as a function word before singular nouns when the referent is unspecified'
     },
     {
-      word: 'Broo<span class="upside-down">k</span>lyn',
+      word: 'Broo<span class="upside-down">k</span>lyn&nbsp;',
       definition: '/’bru-kl en/ former city (1834–98) at the southwestern end of Long Island and now a borough of New York City population 2.5 mil'
     },
     {
-      word: 'based',
+      word: 'based&nbsp;',
       definition: '/nu/ based'
     },
     {
-      word: '<span class="overline">design</span>',
+      word: '<span class="overline">design</span>&nbsp;',
       definition: '/nu/ design'
     },
     {
-      word: 'studio',
+      word: 'studio&nbsp;',
       definition: '/nu/ studio'
     },
     {
-      word: 'that',
+      word: 'that&nbsp;',
       definition: '/nu/ that'
     },
     {
-      word: 'opened',
+      word: 'opened&nbsp;',
       definition: '/nu/ opened'
     },
     {
-      word: 'in',
+      word: 'in&nbsp;',
       definition: '/nu/ in'
     },
     {
-      word: '2021.',
+      word: '2021',
       definition: '/nu/ 2021'
     },
     {
-      word: 'To',
+      word: '.&nbsp;'
+    },
+    {
+      word: 'To&nbsp;',
       definition: '/nu/ to'
     },
     {
-      word: 'get',
+      word: 'get&nbsp;',
       definition: '/nu/ get'
     },
     {
-      word: 'in',
+      word: 'in&nbsp;',
       definition: '/nu/ in'
     },
     {
-      word: 'touch,',
+      word: 'touch',
       definition: '/nu/ touch'
     },
     {
-      word: 'please',
+      word: ',&nbsp;'
+    },
+    {
+      word: 'please&nbsp;',
       definition: '/nu/ please'
     },
     {
-      word: 'email',
+      word: 'email&nbsp;',
       definition: '/nu/ email'
     },
     {
-      word: 'us',
+      word: 'us&nbsp;',
       definition: '/nu/ us'
     },
     {
-      word: 'at',
+      word: 'at&nbsp;',
       definition: '/nu/ at'
     },
     {
-      word: 'hello@newinfo.studio',
+      word: 'hello@newinfo.studio&nbsp;',
       definition: '/nu/ our email',
       link: 'mailto:hello@newinfo.studio'
     },
     {
-      word: 'or',
+      word: 'or&nbsp;',
       definition: '/nu/ or'
     },
     {
-      word: 'subscribe',
+      word: 'subscribe&nbsp;',
       definition: '/nu/ subscribe'
     },
     {
-      word: 'to',
+      word: 'to&nbsp;',
       definition: '/nu/ to'
     },
     {
-      word: 'our',
+      word: 'our&nbsp;',
       definition: '/nu/ our'
     },
     {
-      word: 'occasional',
+      word: 'occasional&nbsp;',
       definition: '/nu/ occasional'
     },
     {
-      word: 'newsletter.',
+      word: 'newsletter',
       definition: '/nu/ newsletter'
-    }
+    },
+    {
+      word: '.&nbsp;'
+    },
   ]
 }

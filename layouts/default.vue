@@ -1,5 +1,6 @@
 <template>
   <div
+    :class="`device-${device}`"
     class="main"
   >
     <Nuxt />
@@ -8,6 +9,11 @@
 
 <script>
 export default {
+  data () {
+    return {
+      device: null
+    }
+  },
   methods: {
     setIsMobile () {
       if (process.client) {
@@ -15,14 +21,25 @@ export default {
         ? this.$store.dispatch('setIsMobile', true)
         : this.$store.dispatch('setIsMobile', false)
       }
+    },
+    getDeviceType () {
+        if (process.client) {
+          const ua = navigator.userAgent
+          if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+              return "tablet"
+          }
+          else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+              return "mobile"
+          }
+          return "desktop"
+        }
     }
   },
   created () {
     this.setIsMobile()
+  },
+  mounted () {
+    this.device = this.getDeviceType()
   }
 }
 </script>
-
-<style lang="scss" scoped>
-  
-</style>

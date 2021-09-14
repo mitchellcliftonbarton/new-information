@@ -3,7 +3,7 @@ import content from '@/content/content.js'
 export const state = () => ({
   isMobile: false,
   text: content.text,
-  about: content.about
+  about: content.about,
 })
 
 export const mutations = {

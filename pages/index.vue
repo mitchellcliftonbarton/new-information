@@ -5,18 +5,17 @@
         @mouseleave="overrideText = null" 
         class="break-words"
       >
-        <span
-          v-for="(word, index) in text" 
+        <component 
+          v-for="(word, index) in text"
+          :ref="word.definition ? 'word' : 'not-word'"
           :key="index"
-          ref="word"
-          @mouseenter="handleMouseEnter(word)"
-          @click.prevent="handleClick(word)"
-          class="cursor-default hover:text-blue whitespace-nowrap"
+          :is="word.link ? 'Link' : 'Word'"
+          :word="word"
+          @mouseenter.native="handleMouseEnter(word)"
+          @click.native="handleClick(word)"
           :class="{ 'text-blue': index === activeTextItem }"
-        >
-          <a v-if="word.link" :href="word.link" class="whitespace-nowrap" v-html="`${word.word}&nbsp;`"></a>
-          <span v-else class="whitespace-nowrap" v-html="`${word.word}&nbsp;`"></span>
-        </span>
+          class="hover:text-blue whitespace-nowrap"
+        ></component>
       </p>
     </div>
 
@@ -51,6 +50,8 @@
 
 <script>
 import { mapState } from 'vuex'
+import Link from '@/components/Link'
+import Word from '@/components/Word'
 
 export default {
   data () {
@@ -63,6 +64,7 @@ export default {
       showAsterisk: false
     }
   },
+  components: { Link, Word },
   computed: {
     ...mapState(['text', 'about', 'isMobile']),
     defText () {
@@ -85,10 +87,10 @@ export default {
       this.showAbout = !this.showAbout
     },
     handleMouseEnter (word) {
-      if (!this.isMobile) this.setOverrideText(word)
+      if (!this.isMobile && word.definition) this.setOverrideText(word)
     },
     handleClick (word) {
-      if (this.isMobile) {
+      if (this.isMobile && word.definition) {
         this.tl.pause()
         this.activeTextItem = null
         this.setOverrideText(word)
