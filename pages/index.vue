@@ -24,17 +24,23 @@
 
         <div id="mc_embed_signup" class="inline">
           <form action="https://studio.us5.list-manage.com/subscribe/post?u=449e3187f98c4ba89d808f08d&amp;id=7463220291" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate inline" target="_blank" novalidate>
-              <div id="mc_embed_signup_scroll" class="inline">
-                <label class="hidden" for="mce-EMAIL">Subscribe</label>
-                <input type="email" value="" name="EMAIL" class="email h-text" id="mce-EMAIL" required>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
+              <div id="mc_embed_signup_scroll" class="inline relative">
+                <div class="mc-field-group inline">
+                  <label class="hidden" for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+                  <input type="email" value="" name="EMAIL" class="required email h-text" id="mce-EMAIL">
+                </div>
+                <div id="mce-responses" class="clear absolute mt-5">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_449e3187f98c4ba89d808f08d_7463220291" tabindex="-1" value=""></div>
                 <div class="clear inline h-text"><input type="submit" value="→" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
               </div>
           </form>
         </div>
-
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
         <!--End mc_embed_signup-->
+
       </div>
     </div>
 
@@ -164,7 +170,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   .about {
     opacity: 0;
     pointer-events: none;
@@ -208,6 +214,10 @@ export default {
       &[type="submit"] {
         cursor: pointer;
       }
+    }
+
+    div.mce_inline_error {
+      display: none !important;
     }
   }
 </style>
