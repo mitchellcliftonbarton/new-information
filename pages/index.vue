@@ -4,7 +4,7 @@
       :class="{ 'hidden': showAbout && isMobile}"
       class="h-text text-black whitespace-pre-wrap pr-20"
     >
-      <p 
+      <div 
         @mouseleave="overrideText = null" 
         class="break-words"
       >
@@ -19,7 +19,23 @@
           :class="{ 'text-blue': index === activeTextItem }"
           class="hover:text-blue whitespace-nowrap inline-block lg:inline"
         ></component>
-      </p>
+
+        <!-- Begin Mailchimp Signup Form -->
+
+        <div id="mc_embed_signup" class="inline">
+          <form action="https://studio.us5.list-manage.com/subscribe/post?u=449e3187f98c4ba89d808f08d&amp;id=7463220291" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate inline" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll" class="inline">
+                <label class="hidden" for="mce-EMAIL">Subscribe</label>
+                <input type="email" value="" name="EMAIL" class="email h-text" id="mce-EMAIL" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_449e3187f98c4ba89d808f08d_7463220291" tabindex="-1" value=""></div>
+                <div class="clear inline h-text"><input type="submit" value="→" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+              </div>
+          </form>
+        </div>
+
+        <!--End mc_embed_signup-->
+      </div>
     </div>
 
     <div ref="proxy" class="hidden"></div>
@@ -161,6 +177,37 @@ export default {
     &.active {
       opacity: 1;
       pointer-events: auto;
+    }
+  }
+
+  #mc_embed_signup {
+    margin-left: -10px;
+
+    input {
+      border: 0;
+      outline: none;
+      box-shadow: none;
+      background: none;
+      border-radius: 0px;
+
+      &[type="email"] {
+        border-bottom: 2px solid black;
+        width: 280px;
+
+        .device-mobile & {
+          width: auto;
+        }
+
+        &:active,
+        &:focus {
+          outline: none;
+          box-shadow: none;
+        }
+      }
+
+      &[type="submit"] {
+        cursor: pointer;
+      }
     }
   }
 </style>
