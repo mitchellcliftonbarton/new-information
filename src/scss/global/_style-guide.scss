@@ -40,13 +40,17 @@ body {
     border-radius: 0px;
     cursor: pointer;
   }
+}
 
-  .upside-down {
-    transform: rotate(180deg) translateY(-5px);
-    display: inline-block;
-  }
+.upside-down {
+  transform: rotate(180deg) translateY(-5px);
+  display: inline-block;
 
-  .overline {
-    text-decoration: overline black;
+  .device-mobile & {
+    transform: rotate(180deg) translateY(-4px);
   }
+}
+
+.overline {
+  text-decoration: overline black;
 }

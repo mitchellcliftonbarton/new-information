@@ -1,6 +1,9 @@
 <template>
   <main class="p-8 lg:p-10 relative">
-    <div class="h-text text-black whitespace-pre-wrap pr-20">
+    <div 
+      :class="{ 'hidden': showAbout && isMobile}"
+      class="h-text text-black whitespace-pre-wrap pr-20"
+    >
       <p 
         @mouseleave="overrideText = null" 
         class="break-words"
@@ -84,6 +87,7 @@ export default {
         this.activeTextItem = null
         this.overrideText = this.about.text
       }
+      this.showAsterisk = false
       this.showAbout = !this.showAbout
     },
     handleMouseEnter (word) {
@@ -99,9 +103,11 @@ export default {
     handleAsterisk () {
       if (this.showAsterisk) {
         this.showAsterisk = false
+        this.showAbout = false
         this.overrideText = null
       } else {
         this.showAsterisk = true
+        this.showAbout = false
         this.overrideText = 'All definitions are pulled directly from Merriam-Webster\'s dictionary.*'
       }
     }
