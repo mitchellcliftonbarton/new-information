@@ -14,7 +14,7 @@
           @mouseenter.native="handleMouseEnter(word)"
           @click.native="handleClick(word)"
           :class="{ 'text-blue': index === activeTextItem }"
-          class="hover:text-blue whitespace-nowrap"
+          class="hover:text-blue whitespace-nowrap inline-block lg:inline"
         ></component>
       </p>
     </div>
