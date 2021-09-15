@@ -19,8 +19,8 @@ module.exports = {
     },
     fontSize: {
       base: ['1.2rem', '1.2'],
-      'h-text': ['2.8rem', '1'],
-      'h-text-mobile': ['2.2rem', '1'],
+      'h-text': ['2.8rem', '1.15'],
+      'h-text-mobile': ['2.2rem', '1.15'],
     },
     flex: {
       '0-0': '0 0 auto',

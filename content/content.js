@@ -4,6 +4,9 @@ export default {
     imgAlt: 'New Information team on Google Hangouts',
     text: 'Pictured above is New Information on Google Meet with Dave (bottom), Inyeong (right), and Stefanie (left).'
   },
+  email: {
+    definition: 'This is the definition that shows up when you hover over the email signup'
+  },
   text: [
     {
       word: 'New&nbsp;',

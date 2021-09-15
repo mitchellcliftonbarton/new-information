@@ -1,7 +1,6 @@
 <template>
-  <main class="p-8 lg:p-10 relative">
+  <main class="main relative">
     <div 
-      :class="{ 'hidden': showAbout && isMobile}"
       class="h-text text-black whitespace-pre-wrap pr-20"
     >
       <div 
@@ -10,20 +9,20 @@
       >
         <component 
           v-for="(word, index) in text"
-          :ref="word.definition ? 'word' : 'not-word'"
           :key="index"
           :is="word.link ? 'Link' : 'Word'"
           :word="word"
+          :data-index="index"
           @mouseenter.native="handleMouseEnter(word)"
           @click.native="handleClick(word)"
-          :class="{ 'text-blue': index === activeTextItem }"
-          class="hover:text-blue whitespace-nowrap inline-block lg:inline"
+          :class="{ 'text-blue': index === activeTextItem && word.definition, 'word-item hover:text-blue': word.definition }"
+          class="whitespace-nowrap inline-block lg:inline"
         ></component>
 
         <!-- Begin Mailchimp Signup Form -->
 
         <div id="mc_embed_signup" class="inline">
-          <form action="https://studio.us5.list-manage.com/subscribe/post?u=449e3187f98c4ba89d808f08d&amp;id=7463220291" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate inline" target="_blank" novalidate>
+          <form ref="form" action="https://studio.us5.list-manage.com/subscribe/post?u=449e3187f98c4ba89d808f08d&amp;id=7463220291" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate inline" target="_blank" novalidate>
               <div id="mc_embed_signup_scroll" class="inline relative">
                 <div class="mc-field-group inline">
                   <label class="hidden" for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
@@ -34,7 +33,11 @@
                   <div class="response" id="mce-success-response" style="display:none"></div>
                 </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_449e3187f98c4ba89d808f08d_7463220291" tabindex="-1" value=""></div>
-                <div class="clear inline h-text"><input type="submit" value="→" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                <div class="clear inline h-text">
+                  <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 10"><rect class="cls-1" y="4.01" width="47.01" height="1.99"/><polygon class="cls-1" points="36.26 10 35.56 8.08 44.02 5 35.56 1.92 36.26 0 50 5 36.26 10"/></svg>
+                  </button>
+                </div>
               </div>
           </form>
         </div>
@@ -65,10 +68,10 @@
       <p v-if="defText" class="text-blue">{{ defText }}</p>
     </div>
 
-    <button 
-      @click.prevent="handleAsterisk()" 
+    <button
+      ref="asterisk"
       :class="{ 'text-blue': showAsterisk }"
-      class="h-text text-black absolute top-10 right-10 hover:text-blue"
+      class="asterisk h-text text-black absolute hover:text-blue"
     >*</button>
   </main>
 </template>
@@ -91,7 +94,7 @@ export default {
   },
   components: { Link, Word },
   computed: {
-    ...mapState(['text', 'about', 'isMobile']),
+    ...mapState(['text', 'about', 'email', 'isMobile', 'device']),
     defText () {
       return this.overrideText !== null ? this.overrideText : this.activeTextItem !== null ? this.text[this.activeTextItem].definition : false
     }
@@ -105,7 +108,7 @@ export default {
       if (this.showAbout) {
         this.overrideText = null
       } else {
-        if (this.isMobile ) this.tl.pause()
+        if (this.device === 'mobile' ) this.tl.pause()
         this.activeTextItem = null
         this.overrideText = this.about.text
       }
@@ -132,20 +135,34 @@ export default {
         this.showAbout = false
         this.overrideText = 'All definitions are pulled directly from Merriam-Webster\'s dictionary.*'
       }
+    },
+    getDeviceType () {
+        if (process.client) {
+          const ua = navigator.userAgent
+          if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+              return "tablet"
+          }
+          else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+              return "mobile"
+          }
+          return "desktop"
+        }
     }
   },
   mounted () {
-    if (this.isMobile) {
-      this.tl = this.$gsap.timeline({ paused: true, repeat: -1 })
+    this.$store.dispatch('setDevice', this.getDeviceType())
 
-      this.$refs.word.forEach((textItem, index) => {
+    if (this.device === 'mobile') {
+      this.tl = this.$gsap.timeline({ paused: true, repeat: -1 })
+      const words = Array.from(document.querySelectorAll('.word-item'))
+
+      words.forEach((textItem, index) => {
         this.tl.to(this.$refs.proxy, { 
           duration: 0, 
           color: 'blue',
           delay: 1,
           onComplete: () => {
-            this.activeTextItem = index
-            console.log(this.activeTextItem)
+            this.activeTextItem = parseInt(textItem.dataset.index)
           }
         })
       })
@@ -153,7 +170,7 @@ export default {
       this.tl.play()
     }
 
-    if (!this.isMobile) {
+    if (this.device === 'desktop') {
       this.$refs.aboutButton.addEventListener('mouseenter', () => {
         this.toggleAbout()
       })
@@ -161,9 +178,29 @@ export default {
       this.$refs.aboutButton.addEventListener('mouseleave', () => {
         this.toggleAbout()
       })
+
+      this.$refs.asterisk.addEventListener('mouseenter', () => {
+        this.handleAsterisk()
+      })
+
+      this.$refs.asterisk.addEventListener('mouseleave', () => {
+        this.handleAsterisk()
+      })
+
+      this.$refs.form.addEventListener('mouseenter', () => {
+        if (this.email.definition) this.overrideText = this.email.definition
+      })
+
+      this.$refs.form.addEventListener('mouseleave', () => {
+        this.overrideText = null
+      })
     } else {
       this.$refs.aboutButton.addEventListener('click', () => {
         this.toggleAbout()
+      })
+
+      this.$refs.asterisk.addEventListener('click', () => {
+        this.handleAsterisk()
       })
     }
   }
@@ -183,6 +220,16 @@ export default {
     &.active {
       opacity: 1;
       pointer-events: auto;
+    }
+  }
+
+  .asterisk {
+    @apply top-8 right-8;
+
+    .device-mobile & {
+      @apply top-6 right-6;
+      font-size: 6rem;
+      transform: translateY(-10px);
     }
   }
 
@@ -208,11 +255,42 @@ export default {
         &:focus {
           outline: none;
           box-shadow: none;
+          border-bottom: 2px solid blue;
+          color: blue;
+        }
+
+        &.mce_inline_error {
+          border-bottom: 2px solid red;
+        }
+
+        &:hover {
+          border-bottom: 2px solid blue;
+          color: blue;
+        }
+      }
+    }
+
+    button {
+      cursor: pointer;
+
+      &:hover {
+        color: blue;
+
+        svg {
+          rect,
+          polygon {
+            fill: blue;
+          }
         }
       }
 
-      &[type="submit"] {
-        cursor: pointer;
+      svg {
+        width: 50px;
+
+        rect,
+        polygon {
+          fill: #231f20;
+        }
       }
     }
 
