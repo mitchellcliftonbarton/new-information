@@ -1,12 +1,20 @@
 <template>
   <main class="main relative">
     <div 
-      class="h-text text-black whitespace-pre-wrap pr-20"
+      class="h-text text-black"
     >
       <div 
         @mouseleave="overrideText = null" 
         class="break-words"
       >
+        <div class="asterisk-container flex justify-end items-start float-right w-10 h-10">
+          <button
+            ref="asterisk"
+            :class="{ 'text-blue': showAsterisk }"
+            class="asterisk h-text text-black absolute hover:text-blue"
+          >*</button>
+        </div>
+
         <component 
           v-for="(word, index) in text"
           :key="index"
@@ -22,7 +30,7 @@
         <!-- Begin Mailchimp Signup Form -->
 
         <div id="mc_embed_signup" class="inline">
-          <form ref="form" action="https://studio.us5.list-manage.com/subscribe/post?u=449e3187f98c4ba89d808f08d&amp;id=7463220291" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate inline" target="_blank" novalidate>
+          <form ref="form" action="https://studio.us5.list-manage.com/subscribe/post?u=449e3187f98c4ba89d808f08d&amp;id=7463220291" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate inline whitespace-nowrap" target="_blank" novalidate>
               <div id="mc_embed_signup_scroll" class="inline relative">
                 <div class="mc-field-group inline">
                   <label class="hidden" for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
@@ -59,7 +67,7 @@
       >
     </div>
 
-    <div class="bottom fixed bottom-0 left-0 p-8 lg:p-10 h-text text-black flex items-end w-full">
+    <div class="about-button-container bottom fixed bottom-0 left-0 h-text text-black flex items-end w-full">
       <button 
         ref="aboutButton"
         class="mr-10"
@@ -67,12 +75,6 @@
       >?</button>
       <p v-if="defText" class="text-blue">{{ defText }}</p>
     </div>
-
-    <button
-      ref="asterisk"
-      :class="{ 'text-blue': showAsterisk }"
-      class="asterisk h-text text-black absolute hover:text-blue"
-    >*</button>
   </main>
 </template>
 
@@ -223,18 +225,31 @@ export default {
     }
   }
 
-  .asterisk {
-    @apply top-8 right-8;
+  .about-button-container {
+    @apply p-8;
 
     .device-mobile & {
-      @apply top-6 right-6;
-      font-size: 6rem;
-      transform: translateY(-10px);
+      @apply p-6;
+    }
+  }
+
+  .asterisk {
+    // @apply top-8 right-8;
+
+    // .device-mobile & {
+    //   @apply top-6 right-6;
+    //   font-size: 6rem;
+    //   transform: translateY(-10px);
+    // }
+
+    &-container {
+      width: 4rem;
+      height: 5rem;
     }
   }
 
   #mc_embed_signup {
-    margin-left: -10px;
+    // margin-left: -10px;
 
     input {
       border: 0;
@@ -260,7 +275,8 @@ export default {
         }
 
         &.mce_inline_error {
-          border-bottom: 2px solid red;
+          // border-bottom: 2px solid red;
+          border-bottom: 2px solid black;
         }
 
         &:hover {

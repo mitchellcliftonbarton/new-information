@@ -4,6 +4,14 @@
   }
 }
 
+::selection {
+  background: white;
+}
+
+::-moz-selection {
+  background: white;
+}
+
 html {
   font-size: 10px;
   width: 100%;
