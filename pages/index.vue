@@ -23,7 +23,7 @@
           :data-index="index"
           @mouseenter.native="handleMouseEnter(word)"
           @click.native="handleClick(word)"
-          :class="{ 'text-blue': index === activeTextItem && word.definition, 'word-item hover:text-blue': word.definition }"
+          :class="{ 'text-blue': index === activeTextItem && word.definition, 'word-item hover:text-blue': word.definition && !word.group }"
           class="whitespace-nowrap inline-block lg:inline"
         ></component>
 
@@ -133,6 +133,7 @@ export default {
         this.showAbout = false
         this.overrideText = null
       } else {
+        if (this.device === 'mobile' ) this.tl.pause()
         this.showAsterisk = true
         this.showAbout = false
         this.overrideText = 'All definitions are pulled directly from Merriam-Webster\'s dictionary.*'
@@ -234,14 +235,6 @@ export default {
   }
 
   .asterisk {
-    // @apply top-8 right-8;
-
-    // .device-mobile & {
-    //   @apply top-6 right-6;
-    //   font-size: 6rem;
-    //   transform: translateY(-10px);
-    // }
-
     &-container {
       width: 4rem;
       height: 5rem;
@@ -249,8 +242,6 @@ export default {
   }
 
   #mc_embed_signup {
-    // margin-left: -10px;
-
     input {
       border: 0;
       outline: none;
@@ -275,7 +266,6 @@ export default {
         }
 
         &.mce_inline_error {
-          // border-bottom: 2px solid red;
           border-bottom: 2px solid black;
         }
 
@@ -312,6 +302,10 @@ export default {
 
     div.mce_inline_error {
       display: none !important;
+    }
+
+    #mce-error-response {
+      white-space: initial;
     }
   }
 </style>

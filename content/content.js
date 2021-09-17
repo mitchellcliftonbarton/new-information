@@ -53,11 +53,8 @@ export default {
       definition: '/nu/ in'
     },
     {
-      word: '2021',
+      word: '2021.&nbsp;',
       definition: '/nu/ 2021'
-    },
-    {
-      word: '.&nbsp;'
     },
     {
       word: 'To&nbsp;',
@@ -72,11 +69,8 @@ export default {
       definition: '/nu/ in'
     },
     {
-      word: 'touch',
+      word: 'touch,&nbsp;',
       definition: '/nu/ touch'
-    },
-    {
-      word: ',&nbsp;'
     },
     {
       word: 'please&nbsp;',
@@ -120,11 +114,8 @@ export default {
       definition: '/nu/ occasional'
     },
     {
-      word: 'newsletter',
+      word: 'newsletter.&nbsp;',
       definition: '/nu/ newsletter'
-    },
-    {
-      word: '.&nbsp;'
     },
   ]
 }
