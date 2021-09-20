@@ -11,10 +11,11 @@
           <button
             ref="asterisk"
             :class="{ 'text-blue': showAsterisk }"
-            class="asterisk h-text text-black absolute hover:text-blue"
+            class="asterisk h-text text-black hover:text-blue"
           >*</button>
         </div>
 
+        <div>
         <component 
           v-for="(word, index) in text"
           :key="index"
@@ -24,7 +25,7 @@
           @mouseenter.native="handleMouseEnter(word)"
           @click.native="handleClick(word)"
           :class="{ 'text-blue': index === activeTextItem && word.definition, 'word-item hover:text-blue': word.definition && !word.group }"
-          class="whitespace-nowrap inline-block lg:inline"
+          class="whitespace-nowrap inline-block"
         ></component>
 
         <!-- Begin Mailchimp Signup Form -->
@@ -51,7 +52,7 @@
         </div>
         <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
         <!--End mc_embed_signup-->
-
+        </div>
       </div>
     </div>
 
@@ -124,6 +125,7 @@ export default {
       if (this.isMobile && word.definition) {
         this.tl.pause()
         this.activeTextItem = null
+        this.showAsterisk = false
         this.setOverrideText(word)
       }
     },
@@ -133,7 +135,10 @@ export default {
         this.showAbout = false
         this.overrideText = null
       } else {
-        if (this.device === 'mobile' ) this.tl.pause()
+        if (this.device === 'mobile' ) {
+          this.tl.pause()
+          this.activeTextItem = null
+        }
         this.showAsterisk = true
         this.showAbout = false
         this.overrideText = 'All definitions are pulled directly from Merriam-Webster\'s dictionary.*'

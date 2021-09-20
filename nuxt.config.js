@@ -1,16 +1,63 @@
+import content from './content/content.js'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'New Information',
+    title: content.seo.title,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'New Information is a Brooklyn based design studio that opened in 2021. Currently, we are working with the Bernard and Anne Spitzer School of Architecture, the Queens Museum, Monacelli Press, and the Processing Foundation. We are Dave Yun, Inyeong Cho, and Stefanie Tam. To get in touch, please email us at hello@newinfo.studio or subscribe to our occasional newsletter.' },
+      { hid: 'description', name: 'description', content: content.seo.description },
       { name: 'format-detection', content: 'telephone=no' },
-      { hid: 'keywords', name: 'keywords', content: 'New Information, Brooklyn, New York, Graphic Design, Design' }
+      { hid: 'keywords', name: 'keywords', content: content.seo.keywords },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: content.seo.title
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: content.seo.description
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: content.seo.image
+      },
+      {
+        hid: 'twitter:image:alt',
+        name: 'twitter:image:alt',
+        content: content.seo.title
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: content.seo.title
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: content.seo.description
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: content.seo.image
+      },
+      {
+        hid: 'og:image:secure_url',
+        property: 'og:image:secure_url',
+        content: content.seo.image
+      },
+      {
+        hid: 'og:image:alt',
+        property: 'og:image:alt',
+        content: content.seo.title
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

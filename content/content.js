@@ -1,4 +1,10 @@
 export default {
+  seo: {
+    title: 'New Information',
+    description: 'New Information is a Brooklyn based design studio that opened in 2021. Currently, we are working with the Bernard and Anne Spitzer School of Architecture, the Queens Museum, Monacelli Press, and the Processing Foundation. We are Dave Yun, Inyeong Cho, and Stefanie Tam. To get in touch, please email us at hello@newinfo.studio or subscribe to our occasional newsletter.',
+    keywords: 'New, Information, Studio, Brooklyn, Design',
+    image: '/test.jpg' // this needs the "/" before it, and should live in the 'static' directory
+  },
   about: {
     img: 'test.jpg',
     imgAlt: 'New Information team on Google Hangouts',
@@ -34,7 +40,7 @@ export default {
     },
     {
       word: '<span class="overline">design</span>&nbsp;',
-      definition: '/nu/ design'
+      definition: '/nu/ <span class="overline">design</span>'
     },
     {
       word: 'studio&nbsp;',
