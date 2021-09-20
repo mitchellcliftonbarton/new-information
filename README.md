@@ -4,7 +4,16 @@
 
 To update content on the site, edit `/content/content.js`. Once edited, you should commit, and push your changes to the 'main' branch. Netlify will then detect the push and deploy to the live site.
 
-There are two objects that can be edited in the content.js file, 'about' and 'text'.
+There are four objects that can be edited in the content.js file, 'seo', 'about', 'email', 'text'.
+
+### Seo
+
+| Property      | Description |
+| -----------   | ----------- |
+| title         | SEO title       |
+| description   | SEO description       |
+| keywords      | SEO keywords (should be a comma separated list) |
+| image         | Path to social media image. Should have a forward slash in front of it like this '/test.jpg', and the file should live in `/static` |
 
 ### About
 
@@ -14,12 +23,20 @@ There are two objects that can be edited in the content.js file, 'about' and 'te
 | imgAlt        | Alt text for 'img'       |
 | text          | About text that appears next to ? |
 
+### Email
+
+| Property      | Description |
+| -----------   | ----------- |
+| definition    | This is the definition that shows up when you hover over the email signup       |
+
 ### Text
 
 This is an array of objects. Each object can have 3 values:
 
 | Property       | Description |
 | -----------    | ----------- |
-| word           | Individual word in sentence       |
+| word           | Individual word in sentence (include a '&nbsp;' on the end to add a space)       |
 | definition     | The definition for 'word' that should show up at the bottom of the page when 'word' is hovered over    |
 | link           | (Optional) A URL. If 'link' exists, the corresponding 'word' will be a link with the URL value here |
+
+The 'word' and 'definition' properties can also have <span> tags embedded in them. These span elements can have either the class 'overline' to add an overline, or 'upside-down' to flip a character upside down.
