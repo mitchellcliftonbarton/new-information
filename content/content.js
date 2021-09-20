@@ -16,11 +16,11 @@ export default {
   text: [
     {
       word: 'New&nbsp;',
-      definition: '/nu/ having recently come into existence'
+      definition: '/nü/ having recently come into existence'
     },
     {
       word: 'Information&nbsp;',
-      definition: '/in-f er-’ma-sh en/ knowledge obtained from investigation, study, or instruction'
+      definition: '/in-f<span class="upside-down">e</span>r-’m<span class="overline">a</span>-sh<span class="upside-down">e</span>n/ knowledge obtained from investigation, study, or instruction'
     },
     {
       word: 'is&nbsp;',
