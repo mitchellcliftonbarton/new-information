@@ -112,7 +112,7 @@ export default {
     },  
     {
       word: 'Dave Yun,&nbsp;',
-      definition: 'Dave Yun’s bio goes here.'
+      definition: 'David Yun is a graphic designer, educator and founder of New Information. Formerly, he founded and ran Wax Studios and Wax Magazine, along with Aeriel Brown and Zak Klauck. At Wax Studios, Dave directed identity projects, campaign designs, and digital projects with MoMA, Nike, Artsy, Google, Luhring Augustine Gallery, Rubin Museum of Art, Asian American Arts Alliance, and many other progressive cultural institutions and brands. Dave previously worked at leading design and branding firms, including 2×4 and Pentagram. He has taught or served as visiting critic at Yale School of Art, Columbia University (GSAPP), Rutgers University and the New York Center for Art & Media Studies. He currently runs a thesis seminar at Parsons the New School for Design. David holds a BFA in Anthropology and Music from Wheaton College, and MFA in Graphic Design from Yale School of Art.'
     },
     {
       word: 'Inyeong Cho,&nbsp;',
