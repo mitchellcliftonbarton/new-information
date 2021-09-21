@@ -60,20 +60,19 @@ body {
 }
 
 .overline {
-  // text-decoration: overline black;
   position: relative;
 
   &:before {
     content: '';
     position: absolute;
-    top: 5px;
+    top: 7px;
     left: 0px;
     height: 2px;
     background-color: black;
     width: 100%;
 
     .device-mobile & {
-      top: 3px;
+      top: 5px;
     }
   }
 

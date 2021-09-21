@@ -20,6 +20,9 @@ export default {
   },
   created () {
     this.setIsMobile()
+  },
+  mounted () {
+    console.log('%c \nDevelopment by Cold Rice \n \ncold-rice.info \n \n', 'color: grey')
   }
 }
 </script>

@@ -6,6 +6,7 @@ export const state = () => ({
   about: content.about,
   email: content.email,
   seo: content.seo,
+  general: content.general,
   device: 'desktop'
 })
 

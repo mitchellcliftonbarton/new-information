@@ -4,7 +4,14 @@
 
 To update content on the site, edit `/content/content.js`. Once edited, you should commit, and push your changes to the 'main' branch. Netlify will then detect the push and deploy to the live site.
 
-There are four objects that can be edited in the content.js file, 'seo', 'about', 'email', 'text'.
+There are five objects that can be edited in the content.js file, 'general', 'seo', 'about', 'email', 'text'.
+
+### General
+
+| Property      | Description |
+| -----------   | ----------- |
+| mobileAnimationDuration         | Timing for mobile animation (in seconds)     |
+| asteriskCharacter         | Character that shows up in top right hand corner     |
 
 ### Seo
 

@@ -4,54 +4,53 @@
       class="h-text text-black"
     >
       <div 
-        @mouseleave="overrideText = null" 
-        class="break-words"
+        @mouseleave="overrideText = null"
       >
         <div class="asterisk-container flex justify-end items-start float-right w-10 h-10">
           <button
             ref="asterisk"
             :class="{ 'text-blue': showAsterisk }"
             class="asterisk h-text text-black hover:text-blue"
-          >*</button>
+            v-html="general.asteriskCharacter"
+          ></button>
         </div>
 
-        <div>
-        <component 
-          v-for="(word, index) in text"
-          :key="index"
-          :is="word.link ? 'Link' : 'Word'"
-          :word="word"
-          :data-index="index"
-          @mouseenter.native="handleMouseEnter(word)"
-          @click.native="handleClick(word)"
-          :class="{ 'text-blue': index === activeTextItem && word.definition, 'word-item hover:text-blue': word.definition && !word.group }"
-          class="whitespace-nowrap inline-block"
-        ></component>
+        <div class="words">
+          <component 
+            v-for="(word, index) in text"
+            :key="index"
+            :is="word.link ? 'Link' : 'Word'"
+            :word="word"
+            :data-index="index"
+            @mouseenter.native="handleMouseEnter(word)"
+            @click.native="handleClick(word)"
+            :class="{ 'text-blue': index === activeTextItem && word.definition, 'word-item hover:text-blue': word.definition && !word.group, 'multiple': word.multiple }"
+          ></component>
 
-        <!-- Begin Mailchimp Signup Form -->
+          <!-- Begin Mailchimp Signup Form -->
 
-        <div id="mc_embed_signup" class="inline">
-          <form ref="form" action="https://studio.us5.list-manage.com/subscribe/post?u=449e3187f98c4ba89d808f08d&amp;id=7463220291" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate inline whitespace-nowrap" target="_blank" novalidate>
-              <div id="mc_embed_signup_scroll" class="inline relative">
-                <div class="mc-field-group inline">
-                  <label class="hidden" for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
-                  <input type="email" value="" name="EMAIL" class="required email h-text" id="mce-EMAIL">
+          <div id="mc_embed_signup" class="inline">
+            <form ref="form" action="https://studio.us5.list-manage.com/subscribe/post?u=449e3187f98c4ba89d808f08d&amp;id=7463220291" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate inline whitespace-nowrap" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll" class="inline relative">
+                  <div class="mc-field-group inline">
+                    <label class="hidden" for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+                    <input type="email" value="" name="EMAIL" class="required email h-text" id="mce-EMAIL">
+                  </div>
+                  <div id="mce-responses" class="clear absolute mt-5">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_449e3187f98c4ba89d808f08d_7463220291" tabindex="-1" value=""></div>
+                  <div class="clear inline h-text">
+                    <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button">
+                      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 10"><rect class="cls-1" y="4.01" width="47.01" height="1.99"/><polygon class="cls-1" points="36.26 10 35.56 8.08 44.02 5 35.56 1.92 36.26 0 50 5 36.26 10"/></svg>
+                    </button>
+                  </div>
                 </div>
-                <div id="mce-responses" class="clear absolute mt-5">
-                  <div class="response" id="mce-error-response" style="display:none"></div>
-                  <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_449e3187f98c4ba89d808f08d_7463220291" tabindex="-1" value=""></div>
-                <div class="clear inline h-text">
-                  <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button">
-                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 10"><rect class="cls-1" y="4.01" width="47.01" height="1.99"/><polygon class="cls-1" points="36.26 10 35.56 8.08 44.02 5 35.56 1.92 36.26 0 50 5 36.26 10"/></svg>
-                  </button>
-                </div>
-              </div>
-          </form>
-        </div>
-        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-        <!--End mc_embed_signup-->
+            </form>
+          </div>
+          <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+          <!--End mc_embed_signup-->
         </div>
       </div>
     </div>
@@ -97,7 +96,7 @@ export default {
   },
   components: { Link, Word },
   computed: {
-    ...mapState(['text', 'about', 'email', 'isMobile', 'device']),
+    ...mapState(['text', 'about', 'email', 'isMobile', 'device', 'general']),
     defText () {
       return this.overrideText !== null ? this.overrideText : this.activeTextItem !== null ? this.text[this.activeTextItem].definition : false
     }
@@ -168,7 +167,7 @@ export default {
         this.tl.to(this.$refs.proxy, { 
           duration: 0, 
           color: 'blue',
-          delay: 1,
+          delay: this.general.mobileAnimationDuration,
           onComplete: () => {
             this.activeTextItem = parseInt(textItem.dataset.index)
           }
@@ -243,6 +242,25 @@ export default {
     &-container {
       width: 4rem;
       height: 5rem;
+    }
+  }
+
+  .words {
+    // span {
+    //   display: inline;
+    // }
+
+    // a {
+    //   display: inline;
+    // }
+
+    .word-item {
+      // display: inline;
+      // inline-size: min-content;
+
+      &.multiple {
+        // display: inline;
+      }
     }
   }
 

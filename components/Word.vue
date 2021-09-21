@@ -1,6 +1,6 @@
 <template>
   <span 
-    class="cursor-default whitespace-nowrap" 
+    class="cursor-default" 
     v-html="word.word"
   ></span>
 </template>
