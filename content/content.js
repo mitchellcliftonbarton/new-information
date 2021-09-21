@@ -102,6 +102,7 @@ export default {
       word: 'the Processing Foundation.&nbsp;',
       definition: 'We are currently designing the book, “Processing Community Catalog,” in celebration of the Processing Foundation’s 20th Anniversary.'
     }, 
+    /*
     {
       word: 'We&nbsp;',
       definition: '/’w<span class="upside-down">e</span>/ I and another or others not including you—used as pronoun of the first person plural.'
@@ -125,7 +126,8 @@ export default {
     {
       word: 'Stefanie Tam.&nbsp;',
       definition: 'Stefanie Tam’s bio goes here.'
-    },  
+    },
+    */
     {
       word: 'To&nbsp;',
       definition: '/’tü/ used to indicate that the following verb is in the infinitive form.'
