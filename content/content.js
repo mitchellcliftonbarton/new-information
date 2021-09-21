@@ -16,51 +16,51 @@ export default {
   text: [
     {
       word: 'New&nbsp;',
-      definition: '/nü/ having recently come into existence'
+      definition: '/’nü/ having recently come into existence.'
     },
     {
       word: 'Information&nbsp;',
-      definition: '/in-f<span class="upside-down">e</span>r-’m<span class="overline">a</span>-sh<span class="upside-down">e</span>n/ knowledge obtained from investigation, study, or instruction'
+      definition: '/’in-f<span class="upside-down">e</span>r-’m<span class="overline">a</span>-sh<span class="upside-down">e</span>n/ knowledge obtained from investigation, study, or instruction.'
     },
     {
       word: 'is&nbsp;',
-      definition: '/iz/ present tense third-person singular of “be”'
+      definition: '/’iz/ present tense third-person singular of “be.”'
     },
     {
       word: 'a&nbsp;',
-      definition: '/’a/ used as a function word before singular nouns when the referent is unspecified'
+      definition: '/’<span class="overline">a</span>/ used as a function word before singular nouns when the referent is unspecified.'
     },
     {
       word: 'Broo<span class="upside-down">k</span>lyn&nbsp;',
-      definition: '/’bru-kl en/ former city (1834–98) at the southwestern end of Long Island and now a borough of New York City population 2.5 mil'
+      definition: '/’brü-kl<span class="upside-down">e</span>n/ former city (1834–98) at the southwestern end of Long Island and now a borough of New York City population 2.5 mil'
     },
     {
       word: 'based&nbsp;',
-      definition: '/nu/ based'
+      definition: '/’b<span class="overline">a</span>st/ having a specified type of base or basis.'
     },
     {
-      word: '<span class="overline">design</span>&nbsp;',
-      definition: '/nu/ <span class="overline">design</span>'
+      word: 'design&nbsp;',
+      definition: '/’di’-z<span class="overline">i</span>n/ a particular purpose or intention held in view by an individual or group.'
     },
     {
       word: 'studio&nbsp;',
-      definition: '/nu/ studio'
+      definition: '/’stü-d<span class="overline">e</span>-(,)<span class="overline">o</span>/ a place for the study of an art.'
     },
     {
       word: 'that&nbsp;',
-      definition: '/nu/ that'
+      definition: '/’that/ the person, thing, or idea indicated, mentioned, or understood from the situation.'
     },
     {
       word: 'opened&nbsp;',
-      definition: '/nu/ opened'
+      definition: '/’<span class="overline">o</span>–p<span class="upside-down">e</span>nd/ to make available for or active in a regular function.'
     },
     {
       word: 'in&nbsp;',
-      definition: '/nu/ in'
+      definition: '/’in/ used as a function word to indicate inclusion, location, or position within limits'
     },
     {
       word: '2021.&nbsp;',
-      definition: '/nu/ 2021'
+      definition: '/’twen-t<span class="overline">e</span> twen-t<span class="overline">e</span> w<span class="upside-down">e</span>n/ a period of about 365 1/4 solar days required for one revolution of the earth around the sun.'
     },
     {
       word: 'To&nbsp;',
