@@ -76,6 +76,12 @@ body {
       top: 3px;
     }
   }
+
+  .text-blue & {
+    &:before {
+      background-color: blue;
+    }
+  }
 }
 
 main.main {

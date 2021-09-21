@@ -74,7 +74,7 @@
         class="mr-10"
         :class="{ 'text-blue': showAbout }"
       >?</button>
-      <p v-if="defText" class="text-blue">{{ defText }}</p>
+      <p v-if="defText" class="text-blue" v-html="defText"></p>
     </div>
   </main>
 </template>
