@@ -6,7 +6,7 @@ export default {
     image: '/NewInformation.jpg' // this needs the "/" before it, and should live in the 'static' directory
   },
   about: {
-    img: 'NewInformation.jpg',
+    img: 'NewInformation_GoogleMeet.jpg',
     imgAlt: 'New Information with Dave Yun, Inyeong Cho, and Stefanie Tam.',
     text: 'Pictured above is New Information with Dave (bottom), Inyeong (right), and Stefanie (left).'
   },
