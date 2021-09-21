@@ -6,12 +6,12 @@ export default {
     image: '/test.jpg' // this needs the "/" before it, and should live in the 'static' directory
   },
   about: {
-    img: 'test.jpg',
-    imgAlt: 'New Information team on Google Hangouts',
+    img: 'NewInformation_GoogleMeet.jpg',
+    imgAlt: 'New Information on Google Meet.',
     text: 'Pictured above is New Information on Google Meet with Dave (bottom), Inyeong (right), and Stefanie (left).'
   },
   email: {
-    definition: 'This is the definition that shows up when you hover over the email signup'
+    definition: 'To subscribe to our newsletter, enter a valid email address above.'
   },
   text: [
     {
@@ -32,7 +32,7 @@ export default {
     },
     {
       word: 'Brooklyn&nbsp;',
-      definition: '/’brü-kl<span class="upside-down">e</span>n/ former city (1834–98) at the southwestern end of Long Island and now a borough of New York City population 2.5 mil'
+      definition: '/’brü-kl<span class="upside-down">e</span>n/ former city (1834–98) at the southwestern end of Long Island and now a borough of New York City population 2.5 mil.'
     },
     {
       word: 'based&nbsp;',
@@ -56,7 +56,7 @@ export default {
     },
     {
       word: 'in&nbsp;',
-      definition: '/’in/ used as a function word to indicate inclusion, location, or position within limits'
+      definition: '/’in/ used as a function word to indicate inclusion, location, or position within limits.'
     },
     {
       word: '2021.&nbsp;',
@@ -123,7 +123,7 @@ export default {
       definition: '/’<span class="upside-down">e</span>nd/ used as a function word to indicate connection or addition especially of items within the same class or type —used to join sentence elements of the same grammatical rank or function.'
     },
     {
-      word: 'Stefanie Tam,&nbsp;',
+      word: 'Stefanie Tam.&nbsp;',
       definition: 'Stefanie Tam’s bio goes here.'
     },  
     {
@@ -160,7 +160,7 @@ export default {
     },
     {
       word: 'hello@newinfo.studio&nbsp;',
-      definition: 'Our studio hours are 10AM–7PM EST, so we will get back to you as soon as possible.',
+      definition: 'Our studio hours are 10AM–7PM EST. We will get back to you as soon as possible!',
       link: 'mailto:hello@newinfo.studio'
     },
     {
