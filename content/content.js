@@ -1,6 +1,6 @@
 export default {
   general: {
-    mobileAnimationDuration: 1, // in seconds,
+    mobileAnimationDuration: 3, // in seconds,
     asteriskCharacter: '*'
   },
   seo: {
