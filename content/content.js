@@ -92,7 +92,7 @@ export default {
     },   
     {
       word: 'the Queens Museum, ',
-      definition: 'We designed the "Year of Uncertainty" website and exhibition, which will be coming online this Fall.'
+      definition: 'We designed the “Year of Uncertainty” website and exhibition, which will be coming online this Fall.'
     },   
     {
       word: 'Monacelli Press, ',
