@@ -134,7 +134,7 @@ export default {
     },
     {
       word: 'Stefanie Tam. ',
-      definition: 'Stefanie Tam is a designer at New Information. She previously worked at Studio Lin, Wax Studios, Stink Studios, and The Underground Museum. Stefanie’s keen on archives, communication between web/print, and haiku.'
+      definition: 'Stefanie Tam is a designer at New Information. She previously worked at Studio Lin, Wax Studios, and the Underground Museum. Stefanie holds a BA in Design, Media Arts from UCLA, and attended Yale School of Art’s Graphic Design MFA program. On sunny days, she can be found lying on soft grass patches.'
     },
     
     {
