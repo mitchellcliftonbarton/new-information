@@ -88,11 +88,11 @@ export default {
     }, 
     {
       word: 'the Bernard and Anne Spitzer School of Architecture, ',
-      definition: 'We designed the Graduate Programs Spitzer Unit System 2021–2022 site and are currently redesigning the program’s full website.'
+      definition: 'We designed the Graduate Programs Spitzer Unit System 2021–2022 site and are currently expanding program’s full website.'
     },   
     {
       word: 'the Queens Museum, ',
-      definition: 'We designed the Year of Uncertainty identity and site and are currently redesigning the museum’s new identity and website.'
+      definition: 'We designed the "Year of Uncertainty" website and exhibition, which will be coming online this Fall.'
     },   
     {
       word: 'Monacelli Press, ',
