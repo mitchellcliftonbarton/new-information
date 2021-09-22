@@ -125,8 +125,7 @@ export default {
     },
     {
       word: 'Inyeong Cho, ',
-      definition: 'Inyeong Cho is a designer at New Information. She previously worked at Wax Studios, on projects ranging from identity and books, to digital activations and animation. Inyeong holds a BFA from School of Visual Arts.
-'
+      definition: 'Inyeong Cho is a designer at New Information. She previously worked at Wax Studios, on projects ranging from identity and books, to digital activations and animation. Inyeong holds a BFA from School of Visual Arts.'
     },
     {
       word: 'and ',
@@ -134,7 +133,7 @@ export default {
     },
     {
       word: 'Stefanie Tam. ',
-      definition: 'Stefanie Tam is a designer at New Information. She previously worked at Studio Lin, Wax Studios, and the Underground Museum. Stefanie holds a BA in Design, Media Arts from UCLA, and attended Yale School of Art’s Graphic Design MFA program. On sunny days, she can be found lying on soft grass patches.'
+      definition: 'Stefanie Tam is a designer at New Information. She previously worked at Studio Lin, Wax Studios, and the Underground Museum. Stefanie holds a BA in Design, Media Arts from UCLA and attended Yale School of Art’s Graphic Design MFA program. On sunny days, she can be found lying on soft grass patches.'
     },
     
     {
