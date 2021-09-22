@@ -88,8 +88,7 @@ export default {
     }, 
     {
       word: 'the Bernard and Anne Spitzer School of Architecture, ',
-      definition: 'We designed the Graduate Programs Spitzer Unit System 2021–2022 site and are currently expanding the program’s full website.',
-      link: 'https://unitsystem.ssa.ccny.cuny.edu/'
+      definition: 'We designed the Graduate Programs Spitzer Unit System 2021–2022 site and are currently expanding the program’s full website.'
     },   
     {
       word: 'the Queens Museum, ',
