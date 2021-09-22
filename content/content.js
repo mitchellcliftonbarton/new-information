@@ -1,6 +1,6 @@
 export default {
   general: {
-    mobileAnimationDuration: 3, // in seconds,
+    mobileAnimationDuration: 2.5, // in seconds,
     asteriskDescription: 'All definitions are pulled directly from Merriam-Webster’s dictionary.*'
   },
   seo: {
