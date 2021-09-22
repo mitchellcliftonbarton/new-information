@@ -1,7 +1,7 @@
 export default {
   general: {
-    mobileAnimationDuration: 3, // in seconds,
-    asteriskDescription: 'All definitions are pulled directly from Merriam-Webster\'s dictionary.*'
+    mobileAnimationDuration: 2, // in seconds,
+    asteriskDescription: 'All definitions are pulled directly from Merriam-Webster’s dictionary.*'
   },
   seo: {
     title: 'New Information',
