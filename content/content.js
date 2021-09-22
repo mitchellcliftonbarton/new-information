@@ -125,7 +125,7 @@ export default {
     },
     {
       word: 'Inyeong Cho, ',
-      definition: 'Inyeong Cho is a designer at New Information. She previously worked at Wax Studios, on projects ranging from identity and books, to digital activations and animation. Inyeong holds a BFA from School of Visual Arts.'
+      definition: 'Inyeong Cho is a designer at New Information. She previously worked at Wax Studios on projects including identity, books, digital activations, and animation. Inyeong holds a BFA from School of Visual Arts. She enjoys biking around the city.'
     },
     {
       word: 'and ',
