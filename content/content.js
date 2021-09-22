@@ -122,7 +122,7 @@ export default {
     },  
     {
       word: 'Dave Yun, ',
-      definition: 'Dave Yun is the founder and creative director of New Information. Formerly, as a partner in Wax Studios, he directed projects for MoMA, Nike, Artsy, Google, Luhring Augustine Gallery, Rubin Museum of Art, Asian American Arts Alliance, and many other progressive collaborators. Dave previously led design teams at 2×4 and Pentagram. He has taught or served as visiting critic at Yale School of Art, Columbia University, and Parsons, and holds an MFA from Yale School of Art.'
+      definition: 'Dave Yun is the founder and creative director of New Information. He formerly ran Wax Studios, Wax Magazine, and led design teams at 2×4 and Pentagram. Dave has taught or served as visiting critic at Yale School of Art, Columbia University, and Parsons, and holds an MFA from Yale School of Art. The only thing he loves more than design is 🏄🏻‍♂️.'
     },
     {
       word: 'Inyeong Cho, ',
