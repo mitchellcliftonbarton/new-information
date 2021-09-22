@@ -88,15 +88,20 @@ export default {
     }, 
     {
       word: 'the Bernard and Anne Spitzer School of Architecture, ',
-      definition: 'We designed the Graduate Programs Spitzer Unit System 2021–2022 site and are currently expanding program’s full website.'
+      definition: 'We designed the Graduate Programs Spitzer Unit System 2021–2022 site and are currently expanding the program’s full website.',
+      link: 'https://unitsystem.ssa.ccny.cuny.edu/'
     },   
     {
       word: 'the Queens Museum, ',
-      definition: 'We designed the “Year of Uncertainty” website and exhibition, which will be coming online this Fall.'
+      definition: 'We designed the “Year of Uncertainty” website and exhibition, which will be going up online and at the Museum this Fall.'
     },   
     {
       word: 'Monacelli Press, ',
-      definition: 'We are currently designing the book, “Listening to Clay, Conversations with Contemporary Japanese Ceramic Artists.”'
+      definition: 'We are currently designing a book about contemporary Japanese ceramic art.'
+    },
+    {
+      word: 'Nike, ',
+      definition: 'We designed a campaign this Spring for Kevin Durant\’s latest kicks.'
     },   
     {
       word: 'and ',
