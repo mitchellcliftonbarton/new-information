@@ -11,8 +11,7 @@
             ref="asterisk"
             :class="{ 'text-blue': showAsterisk }"
             class="asterisk h-text text-black hover:text-blue"
-            v-html="general.asteriskCharacter"
-          ></button>
+          >*</button>
         </div>
 
         <div class="words">
@@ -59,7 +58,7 @@
 
     <div 
       :class="{ 'active': showAbout }" 
-      class="about fixed top-0 left-0 w-full h-full flex justify-center items-center"
+      class="about relative lg:fixed top-0 left-0 w-full h-full flex justify-center items-center mt-12 lg:mt-0"
     >
       <img 
         :src="require(`@/src/images/${about.img}`)" 
@@ -140,7 +139,7 @@ export default {
         }
         this.showAsterisk = true
         this.showAbout = false
-        this.overrideText = 'All definitions are pulled directly from Merriam-Webster\'s dictionary.*'
+        this.overrideText = this.general.asteriskDescription
       }
     },
     getDeviceType () {

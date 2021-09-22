@@ -11,7 +11,7 @@ There are five objects that can be edited in the content.js file, 'general', 'se
 | Property      | Description |
 | -----------   | ----------- |
 | mobileAnimationDuration         | Timing for mobile animation (in seconds)     |
-| asteriskCharacter         | Character that shows up in top right hand corner     |
+| asteriskDescription         | Text that shows up when the asterisk in the top right corner is hovered     |
 
 ### Seo
 

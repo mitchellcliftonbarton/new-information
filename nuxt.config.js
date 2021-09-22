@@ -60,7 +60,7 @@ export default {
       }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' }
     ]
   },
 
@@ -79,14 +79,12 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     'nuxt-gsap-module',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
   ],
 
@@ -94,6 +92,9 @@ export default {
   pwa: {
     manifest: {
       lang: 'en'
+    },
+    icon: {
+      fileName: 'app-icon.png'
     }
   },
 
