@@ -1,4 +1,4 @@
-import content from './content/content.js'
+import content from './content/index'
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target

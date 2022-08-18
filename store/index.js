@@ -1,12 +1,8 @@
-import content from '@/content/content.js'
+import content from '@/content/index'
 
 export const state = () => ({
   isMobile: false,
-  text: content.text,
-  about: content.about,
-  email: content.email,
-  seo: content.seo,
-  general: content.general,
+  projects: content.projects,
   device: 'desktop'
 })
 
