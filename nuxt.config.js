@@ -80,12 +80,17 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxtjs/tailwindcss',
-    'nuxt-gsap-module',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/pwa',
+    ['nuxt-lazy-load', {
+      observerConfig: {
+        rootMargin: '0px 0px 50% 0px',
+        threshold: 0
+      }
+    }]
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -96,10 +101,6 @@ export default {
     icon: {
       fileName: 'app-icon.png'
     }
-  },
-
-  gsap: {
-    /* module options */
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

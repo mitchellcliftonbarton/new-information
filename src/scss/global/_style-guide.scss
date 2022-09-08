@@ -20,8 +20,9 @@ html {
 
 body {
   height: 100%;
-  cursor: auto;
+  // cursor: auto;
   overflow: hidden;
+  background-color: black;
 
   p,
   span,
@@ -61,4 +62,17 @@ body {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+}
+
+img,
+video {
+  &.lazyLoad {
+    opacity: 0;
+    transition: opacity .7s;
+    transition-delay: 100ms;
+
+    &.isLoaded {
+      opacity: 1;
+    }
+  }
 }

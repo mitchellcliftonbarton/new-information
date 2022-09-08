@@ -1,14 +1,24 @@
 <template>
-  <div
-    :class="`device-${$store.state.device}`"
-    class="main"
-  >
-    <Nuxt />
+  <div>
+    <MainNav />
+
+    <main
+      :class="`device-${$store.state.device}`"
+      class="main"
+    >
+      <Nuxt />
+    </main>
+
+    <MainFooter />
   </div>
 </template>
 
 <script>
+import MainNav from '~/components/MainNav.vue'
+import MainFooter from '~/components/MainFooter.vue'
+
 export default {
+  components: { MainNav, MainFooter },
   methods: {
     setIsMobile () {
       if (process.client) {
@@ -26,3 +36,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+  body {
+    overflow: hidden;
+  }
+</style>
