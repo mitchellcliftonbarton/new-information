@@ -18,6 +18,11 @@ export default {
   },
   mounted() {
       this.$store.dispatch("setCurrentProject", this.firstProject);
+  },
+  beforeRouteEnter(to, from, next) {
+    next(vm => {
+      vm.$store.dispatch('setBackLink', '/')
+    })
   }
 }
 </script>

@@ -3,11 +3,14 @@ import content from '@/content/index'
 export const state = () => ({
   isMobile: false,
   projects: content.projects,
+  information: content.information,
+  log: content.log,
   device: 'desktop',
   currentProject: null,
   currentColorOverride: null,
   previousLinkActive: false,
   nextLinkActive: false,
+  backLink: "/"
 })
 
 export const mutations = {
@@ -29,6 +32,9 @@ export const mutations = {
   setNextLinkActive: (state, bool) => {
     state.nextLinkActive = bool
   },
+  setBackLink: (state, str) => {
+    state.backLink = str
+  }
 }
 
 export const actions = {
@@ -50,11 +56,14 @@ export const actions = {
   setNextLinkActive ({commit}, bool) {
     commit('setNextLinkActive', bool)
   },
+  setBackLink ({commit}, str) {
+    commit('setBackLink', str)
+  },
 }
 
 export const getters = {
   currentColor: state => {
-    return state.currentColorOverride ? state.currentColorOverride : state.currentProject ? state.currentProject.color : 'black'
+    return state.currentColorOverride ? state.currentColorOverride : state.currentProject ? state.currentProject.color : state.projects[0].color
   },
   previousProject: state => {
     if (state.currentProject) {

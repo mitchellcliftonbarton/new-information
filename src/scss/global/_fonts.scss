@@ -15,5 +15,13 @@
     .device-mobile & {
       @apply text-h-text-mobile font-h-narrow;
     }
+
+    &.rich-text {
+      a {
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
   }
 }
