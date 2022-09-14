@@ -9,12 +9,16 @@
   }
 
   .h-text {
-    @apply text-h-text font-h-narrow;
+    @apply text-h-text-mobile font-h-narrow;
     -webkit-font-smoothing: antialiased;
 
-    .device-mobile & {
-      @apply text-h-text-mobile font-h-narrow;
+    @media screen and (min-width: theme('screens.lg')) {
+      @apply text-h-text;
     }
+
+    // .device-mobile & {
+    //   @apply text-h-text-mobile font-h-narrow;
+    // }
 
     &.rich-text {
       a {

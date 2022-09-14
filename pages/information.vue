@@ -1,9 +1,9 @@
 <template>
   <div 
-    class="main relative h-screen w-full p-6 grid grid-cols-6 gap-6" 
+    class="main relative min-h-screen w-full p-4 lg:p-6 grid grid-cols-8 lg:grid-cols-6 gap-4 lg:gap-6 pb-32 lg:pb-0" 
     :style="{ backgroundColor: currentColor }"
   >
-    <div class="col-span-1">
+    <div class="col-span-4 lg:col-span-1 flex flex-col items-start">
       <nuxt-link :to="backLink" class="h-text text-white mb-12 inline-block">New Information</nuxt-link>
 
       <a 
@@ -35,15 +35,23 @@
       </div>
     </div>
 
-    <div 
-      v-if="information.textColumn1" 
-      class="col-span-2 h-text text-white rich-text" 
-      v-html="information.textColumn1"
-    ></div>
+    <div class="col-span-3 lg:col-span-2">
+      <div 
+        v-if="information.textColumn1" 
+        class="h-text text-white rich-text mb-12 lg:mb-0" 
+        v-html="information.textColumn1"
+      ></div>
+
+      <div 
+        v-if="information.textColumn2" 
+        class="h-text text-white rich-text lg:hidden" 
+        v-html="information.textColumn2"
+      ></div>
+    </div>
 
     <div 
       v-if="information.textColumn2" 
-      class="col-span-2 h-text text-white rich-text" 
+      class="col-span-2 h-text text-white rich-text hidden lg:block" 
       v-html="information.textColumn2"
     ></div>
 
@@ -78,6 +86,10 @@ export default {
 
 <style lang="scss" scoped>
   .closer svg {
-    width: 4.8rem;
+    width: 3.4rem;
+
+    @media screen and (min-width: theme('screens.lg')) {
+      width: 4.8rem;
+    }
   }
 </style>

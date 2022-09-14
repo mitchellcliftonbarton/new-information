@@ -1,17 +1,17 @@
 <template>
   <div 
-    class="main relative h-screen w-full p-6 grid grid-cols-6 gap-6" 
+    class="main relative min-h-screen w-full p-4 lg:p-6 grid grid-cols-8 lg:grid-cols-6 gap-4 lg:gap-6 pb-32 lg:pb-0" 
     :style="{ backgroundColor: currentColor }"
   >
-    <div class="col-span-5">
+    <div class="col-span-7 lg:col-span-5">
       <p 
         v-for="(item, index) in log" 
         :key="index"
-        class="item h-text text-white"
+        class="item h-text text-white grid grid-cols-7 gap-4 lg:block"
       >
-        <span class="date mr-8">On {{ item.date }}</span>
-        <span class="mr-8">New Information</span>
-        <span>{{ item.text }}</span>
+        <span class="date mr-8 hidden lg:inline">On {{ item.date }}</span>
+        <span class="lg:mr-8 col-span-4">New Information</span>
+        <span class="col-span-3">{{ item.text }}</span>
       </p>
     </div>
 
@@ -44,7 +44,11 @@ export default {
 
 <style lang="scss" scoped>
   .closer svg {
-    width: 4.8rem;
+    width: 3.4rem;
+
+    @media screen and (min-width: theme('screens.lg')) {
+      width: 4.8rem;
+    }
   }
 
   .item {
@@ -53,8 +57,10 @@ export default {
     }
 
     &:hover {
-      .date {
-        display: inline;
+      @media screen and (min-width: theme('screens.lg')) {
+        .date {
+          display: inline;
+        }
       }
     }
   }

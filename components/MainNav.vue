@@ -1,20 +1,18 @@
 <template>
   <header 
     id="nav" 
-    class="fixed top-0 left-0 flex justify-between items-center p-6"
+    class="fixed top-0 left-0 flex lg:justify-start items-start p-4 lg:p-6 w-full lg:w-auto"
   >
-    <div class="flex">
-      <nuxt-link 
-        to="/information" 
-        class="h-text"
-        :style="{ color: currentColor }"
-      >New Information</nuxt-link>
-      <p 
-        v-if="currentProject" 
-        class="h-text ml-8"
-        :style="{ color: currentColor }"
-      >{{ currentProject.title }}</p>
-    </div>
+    <nuxt-link 
+      to="/information" 
+      class="h-text w-1/2 lg:w-auto"
+      :style="{ color: currentColor }"
+    >New Information</nuxt-link>
+    <p 
+      v-if="currentProject" 
+      class="h-text w-1/2 lg:w-auto lg:ml-8"
+      :style="{ color: currentColor }"
+    >{{ currentProject.title }}</p>
   </header>
 </template>
 

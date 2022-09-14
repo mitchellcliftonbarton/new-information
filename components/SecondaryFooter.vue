@@ -1,5 +1,5 @@
 <template>
-  <footer id="secondary-footer" class="fixed bottom-0 left-0 p-6 grid grid-cols-6 gap-6 w-full">
+  <footer id="secondary-footer" class="fixed bottom-0 left-0 p-4 lg:p-6 grid grid-cols-2 lg:grid-cols-6 gap-4 lg:gap-6 w-full" :style="{ backgroundColor: currentColor }">
     <div class="col-span-1 flex justify-start items-end">
       <nuxt-link 
         :to="backLink" 
@@ -8,11 +8,11 @@
 
       <nuxt-link 
         :to="$route.name == 'information' ? '/log' : '/information'" 
-        class="h-text text-white ml-8 inline-block"
+        class="h-text text-white ml-6 lg:ml-8 inline-block"
       >{{ $route.name == 'information' ? 'Log' : 'Information' }}</nuxt-link>
     </div>
 
-    <div class="col-span-5">
+    <div class="col-span-1 lg:col-span-5">
       <!-- Begin Mailchimp Signup Form -->
 
       <div id="mc_embed_signup" class="inline">
@@ -20,7 +20,7 @@
             <div id="mc_embed_signup_scroll" class="relative flex w-full">
               <div class="mc-field-group input">
                 <label class="wcag-hidden" for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
-                <input type="email" value="" name="EMAIL" class="required email h-text py-1 px-2 w-full" placeholder="Subscribe to our newsletter" id="mce-EMAIL">
+                <input type="email" value="" name="EMAIL" class="required email h-text py-1 px-2 w-full" :placeholder="isMobile ? 'Email' : 'Subscribe to our newsletter'" id="mce-EMAIL">
               </div>
               <div id="mce-responses" class="clear absolute">
                 <div class="response" id="mce-error-response" style="display:none"></div>
@@ -53,7 +53,7 @@ import { mapState, mapGetters } from 'vuex'
 export default {
   name: 'MainFooter',
   computed: {
-    ...mapState(['currentProject', 'backLink']),
+    ...mapState(['currentProject', 'backLink', 'isMobile']),
     ...mapGetters(['currentColor'])
   }
 }
@@ -81,28 +81,9 @@ export default {
           border-bottom: 2px solid white;
           color: white;
 
-          .device-mobile & {
-            width: auto;
-          }
-
           &::placeholder {
             color: white;
           }
-
-          // &:active,
-          // &:focus {
-          //   outline: none;
-          //   box-shadow: none;
-          //   border-bottom: 2px solid blue;
-          //   color: blue;
-          // }
-          // &.mce_inline_error {
-          //   border-bottom: 2px solid black;
-          // }
-          // &:hover {
-          //   border-bottom: 2px solid blue;
-          //   color: blue;
-          // }
         }
       }
       button {
@@ -111,22 +92,10 @@ export default {
         width: auto;
         color: white;
 
-        // &:hover {
-        //   color: blue;
-        //   svg {
-        //     rect,
-        //     polygon {
-        //       fill: blue;
-        //     }
-        //   }
-        // }
-        // svg {
-        //   width: 50px;
-        //   rect,
-        //   polygon {
-        //     fill: #231f20;
-        //   }
-        // }
+        &:hover {
+          background-color: white;
+          color: black;
+        }
       }
 
       div.mce_inline_error {

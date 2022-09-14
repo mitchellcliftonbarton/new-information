@@ -1,10 +1,10 @@
 <template>
   <div class="project w-full h-screen relative">
-    <NextLinks />
+    <NextLinks v-if="!isMobile" />
 
     <img 
       v-if="currentProject" 
-      :src="require(`/src/images/${currentProject.image}`)" 
+      :src="!isMobile ? require(`/src/images/${currentProject.image}`) : currentProject.mobileImage ? require(`/src/images/${currentProject.mobileImage}`) : require(`/src/images/${currentProject.image}`)" 
       alt="" 
       class="object-cover object-center w-full h-full"
     >
@@ -23,6 +23,7 @@
             transform: `translate3d(${leftCursor.x}px, ${leftCursor.y}px, 0px)`
           }"
           :color="currentColor"
+          class="hidden lg:block"
         />
       </nuxt-link>
 
@@ -39,6 +40,7 @@
             transform: `translate3d(${rightCursor.x}px, ${rightCursor.y}px, 0px)`
           }"
           :color="currentColor"
+          class="hidden lg:block"
         />
       </nuxt-link>
     </div>
@@ -69,32 +71,42 @@ export default {
     }
   },
   computed: {
-    ...mapState(['currentProject']),
+    ...mapState(['currentProject', 'isMobile']),
     ...mapGetters(['previousProject', 'nextProject', 'currentColor']),
   },
   methods: {
     handlePrevEnter() {
-      this.$store.dispatch('setNextLinkActive', false)
-      this.$store.dispatch('setPreviousLinkActive', true)
+      if (!this.isMobile) {
+        this.$store.dispatch('setNextLinkActive', false)
+        this.$store.dispatch('setPreviousLinkActive', true)
 
-      // this.leftCursor.show = true
+        // this.leftCursor.show = true
+      }
     },
     handleNextEnter() {
-      this.$store.dispatch('setPreviousLinkActive', false)
-      this.$store.dispatch('setNextLinkActive', true)
+      if (!this.isMobile) {
+        this.$store.dispatch('setPreviousLinkActive', false)
+        this.$store.dispatch('setNextLinkActive', true)
 
-      // this.rightCursor.show = true
+        // this.rightCursor.show = true
+      }
     },
     handlePrevLeave() {
-      this.leftCursor.show = false
+      if (!this.isMobile) {
+        this.leftCursor.show = false
+      }
     },
     handleNextLeave() {
-      this.rightCursor.show = false
+      if (!this.isMobile) {
+        this.rightCursor.show = false
+      }
     },
-    handleMouseMove (e, side) {
-      if (!side.show) side.show = true
-      side.x = e.clientX - e.target.getBoundingClientRect().left - 20
-      side.y = e.clientY - e.target.getBoundingClientRect().top - 15
+    handleMouseMove(e, side) {
+      if (!this.isMobile) {
+        if (!side.show) side.show = true
+        side.x = e.clientX - e.target.getBoundingClientRect().left - 20
+        side.y = e.clientY - e.target.getBoundingClientRect().top - 15
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <footer id="footer" class="fixed bottom-0 left-0 p-6 flex justify-start items-start">
+  <footer id="footer" class="fixed bottom-0 left-0 p-4 lg:p-6 flex justify-start items-end">
     <nuxt-link 
       to="/information" 
       class="h-text" 
@@ -8,7 +8,7 @@
 
     <p 
       v-if="currentProject" 
-      class="h-text ml-8" 
+      class="h-text ml-6 lg:ml-8" 
       :style="{ color: currentColor }"
     >{{ currentProject.caption }}</p>
   </footer>
