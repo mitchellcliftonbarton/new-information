@@ -43,6 +43,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  .closer a {
+    position: sticky;
+    top: 1rem;
+  }
+
   .closer svg {
     width: 3.4rem;
 

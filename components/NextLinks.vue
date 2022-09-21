@@ -1,5 +1,5 @@
 <template>
-  <div :class="previousLinkActive || nextLinkActive ? 'pointer-events-auto' : 'pointer-events-none'" class="next fixed top-0 right-0 p-6">
+  <div class="pointer-events-none next fixed top-0 right-0 p-6">
     <nuxt-link 
       v-if="previousLinkActive" 
       :to="`/projects/${previousProject.slug}`" 

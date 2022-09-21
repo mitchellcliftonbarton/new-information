@@ -1,7 +1,7 @@
 <template>
   <footer id="footer" class="fixed bottom-0 left-0 p-4 lg:p-6 flex justify-start items-end">
     <nuxt-link 
-      to="/information" 
+      to="/log" 
       class="h-text" 
       :style="{ color: currentColor }"
     >?</nuxt-link>

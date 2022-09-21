@@ -22,7 +22,7 @@
           :style="{
             transform: `translate3d(${leftCursor.x}px, ${leftCursor.y}px, 0px)`
           }"
-          :color="currentColor"
+          :color="previousProject.color"
           class="hidden lg:block"
         />
       </nuxt-link>
@@ -39,7 +39,7 @@
           :style="{
             transform: `translate3d(${rightCursor.x}px, ${rightCursor.y}px, 0px)`
           }"
-          :color="currentColor"
+          :color="nextProject.color"
           class="hidden lg:block"
         />
       </nuxt-link>
@@ -93,11 +93,13 @@ export default {
     },
     handlePrevLeave() {
       if (!this.isMobile) {
+        this.$store.dispatch('setPreviousLinkActive', false)
         this.leftCursor.show = false
       }
     },
     handleNextLeave() {
       if (!this.isMobile) {
+        this.$store.dispatch('setNextLinkActive', false)
         this.rightCursor.show = false
       }
     },

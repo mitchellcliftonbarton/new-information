@@ -5,12 +5,12 @@
   >
     <nuxt-link 
       to="/information" 
-      class="h-text w-1/2 lg:w-auto"
+      class="h-text w-1/2 lg:w-auto lg:mr-8"
       :style="{ color: currentColor }"
     >New Information</nuxt-link>
     <p 
       v-if="currentProject" 
-      class="h-text w-1/2 lg:w-auto lg:ml-8"
+      class="h-text w-1/2 lg:w-auto"
       :style="{ color: currentColor }"
     >{{ currentProject.title }}</p>
   </header>
