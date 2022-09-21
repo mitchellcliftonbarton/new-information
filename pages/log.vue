@@ -57,6 +57,9 @@ export default {
   }
 
   .item {
+    text-indent: -187px;
+    padding-left: 187px;
+
     .date {
       display: none;
     }

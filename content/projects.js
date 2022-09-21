@@ -31,6 +31,7 @@ export default [
     title: 'Graduate Programs Spitzer Unit System',
     caption: 'Graduate Programs Spitzer Unit System is a two semester-long teaching, research and design environment.',
     image: 'spitzer.jpg',
+    video: 'monument-8.mp4',
     mobileImage: 'spitzer-mobile.jpg',
     color: '#FFCE00',
     slug: 'spitzer'

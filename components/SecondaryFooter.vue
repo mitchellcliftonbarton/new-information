@@ -1,8 +1,8 @@
 <template>
-  <footer id="secondary-footer" class="fixed bottom-0 left-0 p-4 lg:p-6 grid grid-cols-2 lg:grid-cols-6 gap-4 lg:gap-6 w-full" :style="{ backgroundColor: currentColor }">
-    <div class="col-span-1 flex justify-start items-end">
+  <footer id="secondary-footer" class="fixed bottom-0 left-0 p-4 lg:p-6 flex w-full">
+    <div class="left flex justify-start items-center lg:mr-8">
       <nuxt-link 
-        :to="backLink" 
+        :to="$route.name == 'information' ? '/log' : '/information'"
         class="h-text text-white" 
       >?</nuxt-link>
 
@@ -12,7 +12,7 @@
       >{{ $route.name == 'information' ? 'Log' : 'Information' }}</nuxt-link>
     </div>
 
-    <div class="col-span-1 lg:col-span-5">
+    <div class="w-full">
       <!-- Begin Mailchimp Signup Form -->
 
       <div id="mc_embed_signup" class="inline">
@@ -20,7 +20,15 @@
             <div id="mc_embed_signup_scroll" class="relative flex w-full">
               <div class="mc-field-group input">
                 <label class="wcag-hidden" for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
-                <input type="email" value="" name="EMAIL" class="required email h-text py-1 px-2 w-full" :placeholder="isMobile ? 'Email' : 'Subscribe to our newsletter'" id="mce-EMAIL">
+                <input 
+                  type="email" 
+                  value="" 
+                  name="EMAIL" 
+                  class="required email h-text py-1 px-2 w-full" 
+                  :placeholder="isMobile ? 'Email' : 'Subscribe to our newsletter'" 
+                  id="mce-EMAIL"
+                  :style="{ backgroundColor: currentColor }"
+                >
               </div>
               <div id="mce-responses" class="clear absolute">
                 <div class="response" id="mce-error-response" style="display:none"></div>
@@ -34,6 +42,7 @@
                   id="mc-embedded-subscribe" 
                   class="button py-1 px-2" 
                   aria-label="Click to subscribe to New Info's email list"
+                  :style="{ backgroundColor: currentColor }"
                 >
                   Subscribe
                 </button>
@@ -62,6 +71,11 @@ export default {
 <style lang="scss" scoped>
   #secondary-footer {
     z-index: 500;
+
+    .left {
+      width: 167px;
+      flex: 0 0 auto;
+    }
 
     #mc_embed_signup {
       .input {

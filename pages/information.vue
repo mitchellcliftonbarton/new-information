@@ -1,46 +1,58 @@
 <template>
   <div 
-    class="main relative min-h-screen w-full p-4 lg:p-6 grid grid-cols-8 lg:grid-cols-6 gap-4 lg:gap-6 pb-32 lg:pb-0" 
+    class="main relative min-h-screen w-full p-4 lg:p-6 flex pb-32 lg:pb-0" 
     :style="{ backgroundColor: currentColor }"
   >
-    <div class="col-span-4 lg:col-span-1 flex flex-col items-start">
-      <nuxt-link :to="backLink" class="h-text text-white mb-12 inline-block">New Information</nuxt-link>
+    <div class="left lg:mr-8">
+      <div class="flex flex-col items-start h-text">
+        <nuxt-link :to="backLink" class="h-text text-white inline-block">New Information</nuxt-link>
 
-      <a 
-        v-if="information.address && information.addressLink" 
-        class="h-text text-white inline-block mb-12 lg:hover:underline" 
-        v-html="information.address"
-        :href="information.addressLink"
-        target="_blank"
-        rel="noreferrer"
-      ></a>
-
-      <div 
-        v-else-if="information.address && !information.addressLink" 
-        class="h-text text-white mb-12" 
-        v-html="information.address"
-      ></div>
-
-      <div v-if="information.email || information.instagram">
+        <br>
+        
         <a 
-          v-if="information.email" 
-          :href="`mailto:${information.email}`" 
-          class="h-text text-white break-all lg:hover:underline"
-        >{{ information.email }}</a>
-        <a 
-          v-if="information.instagram" 
-          :href="information.instagram" 
-          class="h-text text-white lg:hover:underline"
-        >Instagram</a>
+          v-if="information.address && information.addressLink" 
+          class="h-text text-white inline-block lg:hover:underline" 
+          v-html="information.address"
+          :href="information.addressLink"
+          target="_blank"
+          rel="noreferrer"
+        ></a>
+
+        <div 
+          v-else-if="information.address && !information.addressLink" 
+          class="h-text text-white" 
+          v-html="information.address"
+        ></div>
+
+        <br>
+
+        <div v-if="information.email || information.instagram">
+          <p>
+            <a 
+              v-if="information.email" 
+              :href="`mailto:${information.email}`" 
+              class="h-text text-white break-all lg:hover:underline"
+            >{{ information.email }}</a>
+          </p>
+          <p>
+            <a 
+              v-if="information.instagram" 
+              :href="information.instagram" 
+              class="h-text text-white lg:hover:underline"
+            >Instagram</a>
+          </p>
+        </div>
       </div>
     </div>
 
-    <div class="col-span-3 lg:col-span-2">
+    <div class="w-1/3 lg:mr-8 max-w-3xl">
       <div 
         v-if="information.textColumn1" 
-        class="h-text text-white rich-text mb-12 lg:mb-0" 
+        class="h-text text-white rich-text lg:mb-0" 
         v-html="information.textColumn1"
       ></div>
+
+      <br class="lg:hidden">
 
       <div 
         v-if="information.textColumn2" 
@@ -51,14 +63,16 @@
 
     <div 
       v-if="information.textColumn2" 
-      class="col-span-2 h-text text-white rich-text hidden lg:block" 
+      class="w-1/3 h-text text-white rich-text hidden lg:block max-w-3xl" 
       v-html="information.textColumn2"
     ></div>
 
-    <div class="closer col-span-1 flex justify-end items-start">
-      <nuxt-link :to="backLink">
-        <XIcon />
-      </nuxt-link>
+    <div class="closer w-auto">
+      <div class="flex justify-end items-start">
+        <nuxt-link :to="backLink">
+          <XIcon />
+        </nuxt-link>
+      </div>
     </div>
   </div>
 </template>
@@ -85,9 +99,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .closer a {
+  .closer {
+    flex: 1;
+  }
+
+  .closer div {
     position: sticky;
     top: 1rem;
+    flex: 1 0 auto;
+
+    @media screen and (min-width: theme('screens.lg')) {
+      top: 1.5rem;
+    }
   }
 
   .closer svg {
@@ -96,5 +119,22 @@ export default {
     @media screen and (min-width: theme('screens.lg')) {
       width: 4.8rem;
     }
+  }
+
+  .left {
+    width: 167px;
+
+    & > div {
+      position: sticky;
+      top: 1rem;
+
+      @media screen and (min-width: theme('screens.lg')) {
+        top: 1.5rem;
+      }
+    }
+  }
+
+  a {
+    text-decoration-thickness: 2px;
   }
 </style>

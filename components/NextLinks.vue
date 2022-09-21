@@ -1,5 +1,5 @@
 <template>
-  <div class="pointer-events-none next fixed top-0 right-0 p-6">
+  <div class="pointer-events-none next fixed top-0 right-0 p-6 hidden lg:block">
     <nuxt-link 
       v-if="previousLinkActive" 
       :to="`/projects/${previousProject.slug}`" 
