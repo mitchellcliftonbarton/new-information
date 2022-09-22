@@ -16,7 +16,7 @@
     <img 
       v-else-if="currentProject && currentProject.image" 
       :src="!isMobile ? require(`/src/images/${currentProject.image}`) : currentProject.mobileImage ? require(`/src/images/${currentProject.mobileImage}`) : require(`/src/images/${currentProject.image}`)" 
-      alt="" 
+      :alt="currentProject.imageAlt" 
       class="object-cover object-center w-full h-full"
     >
   </div>
