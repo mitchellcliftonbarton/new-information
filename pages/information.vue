@@ -101,6 +101,10 @@ export default {
 <style lang="scss" scoped>
   .closer {
     flex: 1;
+
+    a {
+      transform: translateX(8px) translateY(-8px);
+    }
   }
 
   .closer div {
@@ -122,7 +126,7 @@ export default {
   }
 
   .left {
-    width: 167px;
+    width: 173px;
 
     & > div {
       position: sticky;

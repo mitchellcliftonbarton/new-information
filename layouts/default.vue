@@ -3,10 +3,18 @@
     <MainNav />
 
     <main
-      :class="`device-${$store.state.device}`"
+      :class="`device-${device}`"
       class="main relative"
     >
       <Nuxt />
+
+      <div v-if="currentProject" class="fixed top-0 left-0 w-full h-screen">
+        <ProjectImage 
+          v-for="(project, index) in projects" 
+          :key="index" 
+          :project="project"
+        />
+      </div>
 
       <div class="big-links absolute top-0 left-0 w-full h-full flex">
         <nuxt-link 
@@ -22,7 +30,6 @@
               transform: `translate3d(${leftCursor.x}px, ${leftCursor.y}px, 0px)`
             }"
             :color="previousProject.color"
-            class="hidden lg:block"
           />
         </nuxt-link>
 
@@ -39,7 +46,6 @@
               transform: `translate3d(${rightCursor.x}px, ${rightCursor.y}px, 0px)`
             }"
             :color="nextProject.color"
-            class="hidden lg:block"
           />
         </nuxt-link>
       </div>
@@ -55,9 +61,10 @@ import MainNav from '~/components/MainNav.vue'
 import MainFooter from '~/components/MainFooter.vue'
 import PreviousArrow from '~/components/PreviousArrow.vue'
 import NextArrow from '~/components/NextArrow.vue'
+import ProjectImage from '~/components/ProjectImage.vue'
 
 export default {
-  components: { MainNav, MainFooter, PreviousArrow, NextArrow },
+  components: { MainNav, MainFooter, PreviousArrow, NextArrow, ProjectImage },
   data() {
     return {
       leftCursor: {
@@ -73,7 +80,7 @@ export default {
     }
   },
   computed: {
-    ...mapState(['currentProject', 'isMobile']),
+    ...mapState(['projects', 'currentProject', 'isMobile', 'device']),
     ...mapGetters(['previousProject', 'nextProject', 'currentColor']),
   },
   methods: {
@@ -85,7 +92,7 @@ export default {
       }
     },
     handlePrevEnter() {
-      if (!this.isMobile) {
+      if (this.device === 'desktop') {
         this.$store.dispatch('setNextLinkActive', false)
         this.$store.dispatch('setPreviousLinkActive', true)
 
@@ -93,7 +100,7 @@ export default {
       }
     },
     handleNextEnter() {
-      if (!this.isMobile) {
+      if (this.device === 'desktop') {
         this.$store.dispatch('setPreviousLinkActive', false)
         this.$store.dispatch('setNextLinkActive', true)
 
@@ -101,29 +108,43 @@ export default {
       }
     },
     handlePrevLeave() {
-      if (!this.isMobile) {
+      if (this.device === 'desktop') {
         this.$store.dispatch('setPreviousLinkActive', false)
         this.leftCursor.show = false
       }
     },
     handleNextLeave() {
-      if (!this.isMobile) {
+      if (this.device === 'desktop') {
         this.$store.dispatch('setNextLinkActive', false)
         this.rightCursor.show = false
       }
     },
     handleMouseMove(e, side) {
-      if (!this.isMobile) {
+      if (this.device === 'desktop') {
         if (!side.show) side.show = true
         side.x = e.clientX - e.target.getBoundingClientRect().left - 20
         side.y = e.clientY - e.target.getBoundingClientRect().top - 15
+      }
+    },
+    getDeviceType () {
+      if (process.client) {
+        const ua = navigator.userAgent
+        if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+            return "tablet"
+        }
+        else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+            return "mobile"
+        }
+        return "desktop"
       }
     }
   },
   created () {
     this.setIsMobile()
   },
-  mounted () {
+  mounted() {
+    this.$store.dispatch('setDevice', this.getDeviceType())
+    
     console.log('%c \nDevelopment by Cold Rice \n \ncold-rice.info \n \n', 'color: grey')
   }
 }
@@ -132,6 +153,14 @@ export default {
 <style lang="scss" scoped>
   body {
     overflow: hidden;
+  }
+
+  .project-image {
+    opacity: 0;
+
+    &.active {
+      opacity: 1;
+    }
   }
 
   .prev,
