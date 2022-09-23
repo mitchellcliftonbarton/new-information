@@ -1,26 +1,10 @@
 export default [
   {
-    date: '7.14.22',
-    text: 'has been listening to music by Yves Tumor, FKA Twigs, Jerry Paper, Childish Gambino, and more.'
+    date: '9.23.22',
+    text: 'has been listening to music by Frankie Cosmos, Japanese Breakfast, Mack Browne & The Brothers, and more.'
   },
   {
-    date: '7.14.22',
-    text: 'has been reading Jia Tolentino, Min Jin Lee, and Jenny Odell.'
-  },
-  {
-    date: '7.14.22',
-    text: 'has been listening to music by Yves Tumor, FKA Twigs, Jerry Paper, Childish Gambino, and more.'
-  },
-  {
-    date: '7.14.22',
-    text: 'has been listening to music by Yves Tumor, FKA Twigs, Jerry Paper, Childish Gambino, and more.'
-  },
-  {
-    date: '7.14.22',
-    text: 'has been listening to music by Yves Tumor, FKA Twigs, Jerry Paper, Childish Gambino, and more.'
-  },
-  {
-    date: '7.14.22',
-    text: 'has been listening to music by Yves Tumor, FKA Twigs, Jerry Paper, Childish Gambino, and more.'
+    date: '9.22.22',
+    text: 'has updated their website.'
   }
 ]
