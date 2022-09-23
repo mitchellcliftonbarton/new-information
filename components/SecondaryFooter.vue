@@ -12,7 +12,7 @@
       >{{ $route.name == 'information' ? 'Log' : 'Information' }}</nuxt-link>
     </div>
 
-    <div class="w-full">
+    <div class="w-1/2 md:w-full">
       <!-- Begin Mailchimp Signup Form -->
 
       <div id="mc_embed_signup" class="inline">
@@ -73,8 +73,16 @@ export default {
     z-index: 500;
 
     .left {
-      width: 167px;
-      flex: 0 0 auto;
+      width: 50%;
+
+      @media screen and (min-width: theme('screens.md')) {
+        width: 147px;
+        flex: 0 0 auto;
+      }
+
+      @media screen and (min-width: theme('screens.lg')) {
+        width: 167px;
+      }
     }
 
     #mc_embed_signup {

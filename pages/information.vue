@@ -27,7 +27,7 @@
         <br>
 
         <div v-if="information.email || information.instagram">
-          <p>
+          <p class="md:pr-4 lg:pr-0">
             <a 
               v-if="information.email" 
               :href="`mailto:${information.email}`" 
@@ -46,7 +46,7 @@
       </div>
     </div>
 
-    <div class="w-1/3 lg:mr-8 max-w-3xl">
+    <div class="w-1/2 lg:w-1/3 lg:mr-8 lg:max-w-3xl pl-3 md:pl-0 pr-16 md:pr-0">
       <div 
         v-if="information.textColumn1" 
         class="h-text text-white rich-text lg:mb-0" 
@@ -101,10 +101,23 @@ export default {
 
 <style lang="scss" scoped>
   .closer {
-    flex: 1;
+    position: fixed;
+    top: 8px;
+    right: 8px;
+
+    @media screen and (min-width: theme('screens.md')) {
+      position: relative;
+      top: auto;
+      right: auto;
+      flex: 1;
+    }
 
     a {
-      transform: translateX(8px) translateY(-8px);
+      transform: translateX(6px) translateY(-6px);
+
+      @media screen and (min-width: theme('screens.lg')) {
+        transform: translateX(8px) translateY(-8px);
+      }
     }
   }
 
@@ -127,7 +140,15 @@ export default {
   }
 
   .left {
-    width: 173px;
+    width: 50%;
+
+    @media screen and (min-width: theme('screens.md')) {
+      width: 155px;
+    }
+
+    @media screen and (min-width: theme('screens.lg')) {
+      width: 173px;
+    }
 
     & > div {
       position: sticky;
