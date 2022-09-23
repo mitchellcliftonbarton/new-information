@@ -31,8 +31,9 @@
             <a 
               v-if="information.email" 
               :href="`mailto:${information.email}`" 
-              class="h-text text-white break-all lg:hover:underline"
-            >{{ information.email }}</a>
+              class="h-text text-white break-word lg:hover:underline"
+              v-html="information.emailString ? information.emailString : information.email"
+            ></a>
           </p>
           <p>
             <a 

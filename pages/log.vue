@@ -7,18 +7,20 @@
       <p 
         v-for="(item, index) in log" 
         :key="index"
-        class="item h-text text-white grid grid-cols-7 gap-4 lg:block"
+        class="item h-text text-white flex lg:block"
       >
         <span class="date mr-8 hidden lg:inline">On {{ item.date }}</span>
-        <span class="lg:mr-8 col-span-4">New Information</span>
-        <span class="col-span-3">{{ item.text }}</span>
+        <span class="lg:mr-8 title">New Information</span>
+        <span class="w-full">{{ item.text }}</span>
       </p>
     </div>
 
     <div class="closer col-span-1 flex justify-end items-start">
-      <nuxt-link :to="backLink">
-        <XIcon />
-      </nuxt-link>
+      <div class="flex justify-end items-start">
+        <nuxt-link :to="backLink">
+          <XIcon />
+        </nuxt-link>
+      </div>
     </div>
   </div>
 </template>
@@ -43,9 +45,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .closer a {
+  .closer > div {
     position: sticky;
     top: 1rem;
+  }
+
+  .closer a {
+    transform: translateX(8px) translateY(-8px);
   }
 
   .closer svg {
@@ -57,11 +63,15 @@ export default {
   }
 
   .item {
-    text-indent: -187px;
-    padding-left: 187px;
+    text-indent: -192px;
+    padding-left: 192px;
 
     .date {
       display: none;
+    }
+
+    .title {
+      width: 173px;
     }
 
     &:hover {

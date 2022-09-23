@@ -13,6 +13,7 @@ There are four files that can be edited in the content folder: `information.js`,
 | address         | A string for your studio address. Will take HTML     |
 | addressLink     | A URL for google maps of the studio address     |
 | email           | A string for your studio email     |
+| emailString     | A string for your studio email (can use html to determine where it breaks)     |
 | instagram       | A URL for your studio instagram     |
 | textColumn1     | A string for the text that should appear in the information first column     |
 | textColumn2     | A string for the text that should appear in the information second column     |

@@ -1,5 +1,5 @@
 <template>
-  <footer id="secondary-footer" class="fixed bottom-0 left-0 p-4 lg:p-6 flex w-full">
+  <footer id="secondary-footer" class="fixed bottom-0 left-0 p-4 lg:px-6 lg:py-6 lg:pb-4 flex w-full">
     <div class="left flex justify-start items-center lg:mr-8">
       <nuxt-link 
         :to="$route.name == 'information' ? '/log' : '/information'"
@@ -8,7 +8,7 @@
 
       <nuxt-link 
         :to="$route.name == 'information' ? '/log' : '/information'" 
-        class="h-text text-white ml-6 lg:ml-8 inline-block"
+        class="h-text text-white ml-6 lg:ml-9 inline-block"
       >{{ $route.name == 'information' ? 'Log' : 'Information' }}</nuxt-link>
     </div>
 
