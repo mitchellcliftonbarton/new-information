@@ -18,7 +18,7 @@ export default [
   {
     title: 'Listening To Clay',
     caption: 'Listening to Clay presents conversations with some of the most important living Japanese ceramic artists.',
-    image: 'clay.jpg',
+    image: 'New Info Website Clay.jpg',
     imageAlt: 'Alt text',
     color: '#0038FF',
     slug: 'listening-to-clay'
