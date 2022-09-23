@@ -28,7 +28,7 @@ export default [
     caption: 'All The Small Things, takes the reader on a dynamic tour of Cory Arcangel’s museum installation, interweaving texts, code, and musical charts along the way.',
     image: 'NewInformation_AllTheSmallThings_a.jpg',
     imageAlt: 'Alt text goes here.',
-    color: '#1BFA33',
+    color: '#FF00C7',
     slug: 'all-the-small-things'
   },
   {
@@ -36,7 +36,7 @@ export default [
     caption: 'Branding for Nike’s KD14 exuberantly conveys the energy of both the athlete and his footwear.',
     image: 'NewInformation_NikeKD14_a.jpg',
     imageAlt: 'Alt text goes here.',
-    color: '#1BFA33',
+    color: '#00FFFF',
     slug: 'nike-kd-14'
   },
   {
@@ -44,8 +44,8 @@ export default [
     caption: 'An e-commerce site for Krink features a specimen-like grid, oversized filtering tools, and a graffiti-based screensaver.',
     image: 'NewInformation_Krink_a.jpg',
     imageAlt: 'Alt text goes here.',
-    color: '#1BFA33',
-    slug: 'nike-kd-14'
+    color: '#3AD42F',
+    slug: 'krink'
   },
   {
     title: 'Agency—Agency',
@@ -55,18 +55,18 @@ export default [
     slug: 'agency-agency'
   },
   {
-    title: 'Sacha Maric',
-    caption: 'Caption goes here.',
-    video: 'NewInformation_Sacha Maric_a.mp4',
-    color: '#00C9FF',
-    slug: 'sacha-maric'
-  },
-  {
     title: 'The Elm',
     caption: 'Identity for a new restaurant in the Berkshires featuring contemporary New England style cuisine.',
     image: 'NewInformation_TheElm_a.jpg',
     imageAlt: 'Alt text goes here.',
-    color: '#008E20',
+    color: '#0038FF',
     slug: 'the-elm'
+  },
+  {
+    title: 'Sacha Maric',
+    caption: 'Caption goes here.',
+    video: 'NewInformation_Sacha Maric_a.mp4',
+    color: '#00FFFF',
+    slug: 'sacha-maric'
   }
 ]
