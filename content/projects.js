@@ -1,44 +1,58 @@
 export default [
   {
     title: 'Year of Uncertainty',
-    caption: 'Year of Uncertainty is a framework for strengthening connection among the Museum, our communities, and constituents, focused on creating new possibilities for culture, kinship, and mutual support.',
+    caption: 'Caption goes here.',
     image: 'you.jpg',
-    imageAlt: 'Alt text',
+    imageAlt: 'Alt text goes here.',
     color: '#FF00C7',
     slug: 'year-of-uncertainty'
   },
   {
-    title: 'Michelangelo Pistoletto',
-    caption: 'Michelangelo Pistoletto is an Italian painter, action and object artist, and art theorist.',
-    image: 'michelangelo.jpg',
-    imageAlt: 'Alt text',
-    color: '#3DEA00',
-    slug: 'michelangelo-pistoletto'
-  },
-  {
     title: 'Listening To Clay',
-    caption: 'Listening to Clay presents conversations with some of the most important living Japanese ceramic artists.',
-    image: 'New Info Website Clay.jpg',
-    imageAlt: 'Alt text',
+    caption: 'Caption goes here.',
+    image: 'NewInformation_ListeningToClay_a.jpg',
+    imageAlt: 'Alt text goes here.',
     color: '#0038FF',
     slug: 'listening-to-clay'
   },
   {
-    title: 'Taking Inventory',
-    caption: 'Taking Inventory takes stock of all the elements that make up RBW: the atmosphere of lighting, the parts that form their products, and the people who design them, build them, and market them.',
-    image: 'inventory.jpg',
-    imageAlt: 'Alt text',
-    color: '#FF3D00',
-    slug: 'taking-inventory'
+    title: 'Graduate Programs Spitzer Unit System',
+    caption: 'Caption goes here.',
+    image: 'NewInformation_Spitzer_a.jpg',
+    imageAlt: 'Alt text goes here.',
+    color: '#FFCE00',
+    slug: 'graduate-programs-spitzer-unit-system'
   },
   {
-    title: 'Graduate Programs Spitzer Unit System',
-    caption: 'Graduate Programs Spitzer Unit System is a two semester-long teaching, research and design environment.',
-    image: 'spitzer.jpg',
-    imageAlt: 'Alt text',
-    video: 'buzzer-beaters.mp4',
-    mobileImage: 'spitzer-mobile.jpg',
+    title: 'All The Small Things',
+    caption: 'Caption goes here.',
+    image: 'NewInformation_AllTheSmallThings_a.jpg',
+    imageAlt: 'Alt text goes here.',
     color: '#FFCE00',
-    slug: 'spitzer'
+    slug: 'all-the-small-things'
+  },
+  {
+    title: 'The Elm',
+    caption: 'Caption goes here.',
+    image: 'NewInformation_TheElm_a.jpg',
+    imageAlt: 'Alt text goes here.',
+    color: '#FFCE00',
+    slug: 'the-elm'
+  },
+  {
+    title: 'Agency—Agency',
+    caption: 'Caption goes here.',
+    video: 'NewInformation_AgencyAgency_a.mp4',
+    color: '#FFCE00',
+    slug: 'agency-agency'
+  },
+  {
+    title: 'Sacha Maric',
+    caption: 'Caption goes here.',
+    video: 'NewInformation_Sacha Maric_a.mp4',
+    color: '#FFCE00',
+    slug: 'agency-agency'
   }
+ 
+  
 ]
