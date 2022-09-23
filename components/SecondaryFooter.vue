@@ -113,6 +113,7 @@ export default {
         border: 2px solid white;
         width: auto;
         color: white;
+        height: 100%;
 
         &:hover {
           background-color: white;
