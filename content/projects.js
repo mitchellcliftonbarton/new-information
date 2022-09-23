@@ -48,6 +48,14 @@ export default [
     slug: 'krink'
   },
   {
+    title: 'Year of Uncertainty Website',
+    caption: 'Caption goes here.',
+    image: 'NewInformation_YoUWebsite_a.jpg',
+    imageAlt: 'Alt text goes here.',
+    color: '#B97834',
+    slug: 'year-of-uncertainty-website'
+  },
+  {
     title: 'Agency—Agency',
     caption: 'Caption goes here.',
     video: 'NewInformation_AgencyAgency_a.mp4',
