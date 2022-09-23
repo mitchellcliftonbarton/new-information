@@ -40,7 +40,7 @@
                   type="submit" 
                   name="subscribe" 
                   id="mc-embedded-subscribe" 
-                  class="button py-1 px-2" 
+                  class="button h-text py-1 px-2" 
                   aria-label="Click to subscribe to New Info's email list"
                   :style="{ backgroundColor: currentColor }"
                 >
