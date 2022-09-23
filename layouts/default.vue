@@ -166,6 +166,7 @@ export default {
   .prev,
   .next {
     cursor: none;
+    -webkit-tap-highlight-color: transparent;
 
     svg {
       position: absolute;
