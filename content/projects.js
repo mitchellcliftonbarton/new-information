@@ -1,7 +1,7 @@
 export default [
   {
     title: 'with Queens Museum',
-    caption: 'Year of Uncertainty (YoU) is a framework for strengthening connection among the Queens Museum, our communities, and constituents, focused on creating new possibilities for culture, kinship, and mutual support.',
+    caption: 'Exhibition design for Year of Uncertainty (YoU) at the Queens Museum.',
     image: 'you.jpg',
     imageAlt: 'Alt text goes here.',
     color: '#FF00C7',
@@ -9,9 +9,9 @@ export default [
   },
   {
     title: 'with Queens Museum',
-    caption: 'Caption goes here.',
+    caption: 'A new brand identity for the Queens Museum connects past with present.',
     image: 'NewInformation_QueensMuseum_a.jpg',
-    imageAlt: 'Alt text goes here.',
+    imageAlt: 'Image of an entrance doorway to the Queens Museum featuring bright green entrance signage in both English and Spanish.',
     color: '#a8fb00',
     slug: 'queens-museum'
   },
@@ -25,7 +25,7 @@ export default [
   },
  {
     title: 'with Spitzer Architecture',
-    caption: 'Our website for the Spitzer Unit System surfaces relationships among students, faculty, and their respective courses of study.',
+    caption: 'Website for the Spitzer Unit System surfaces relationships among students, faculty, and their respective courses of study.',
     image: 'NewInformation_SpitzerUnit_a.mp4',
     imageAlt: 'Alt text goes here.',
     color: '#FFCE00',
@@ -33,7 +33,7 @@ export default [
   },
   {
     title: 'with Nike',
-    caption: 'Branding for Nike’s KD14 exuberantly conveys the energy of both the athlete and his footwear.',
+    caption: 'Branding for Nike’s KD14 captures the energy of both the athlete and his footwear.',
     image: 'NewInformation_NikeKD14_a.jpg',
     imageAlt: 'Alt text goes here.',
     color: '#00FFFF',
@@ -41,7 +41,7 @@ export default [
   },
   {
     title: 'with Cory Arcangel',
-    caption: 'All The Small Things, takes the reader on a dynamic tour of Cory Arcangel’s museum installation, interweaving texts, code, and musical charts along the way.',
+    caption: 'All The Small Things takes the reader on a dynamic tour of Cory Arcangel’s Heart Museum installation.',
     image: 'NewInformation_AllTheSmallThings_a.jpg',
     imageAlt: 'Alt text goes here.',
     color: '#FF00C7',
@@ -56,8 +56,15 @@ export default [
     slug: 'krink'
   },
   {
+    title: 'with Jeremy Liebman',
+    caption: 'Search-based website cataloging the prolific works of Jeremy Liebman.',
+    video: 'NewInformation_JeremyLiebman_a.mp4',
+    color: '#FFFF00',
+    slug: 'jeremy-liebman'
+  },
+  {
     title: 'with Queens Museum',
-    caption: 'Caption goes here.',
+    caption: 'A collaborative digital platform surfacing a year of conversation  and experimentation at the Queens Museum.',
     image: 'NewInformation_YoUWebsite_a.jpg',
     imageAlt: 'Alt text goes here.',
     color: '#B97834',
@@ -65,7 +72,7 @@ export default [
   },
   {
     title: 'with Agency—Agency',
-    caption: 'Caption goes here.',
+    caption: 'A portfolio site for the evolving and unconventional design practice of Tei Carpenter.',
     video: 'NewInformation_AgencyAgency_a.mp4',
     color: '#FF0000',
     slug: 'agency-agency'
@@ -80,16 +87,9 @@ export default [
   },
   {
     title: 'with Sacha Maric',
-    caption: 'Caption goes here.',
+    caption: 'Portfolio site for the elastic fashion photographer Sacha Maric.',
     video: 'NewInformation_Sacha Maric_a.mp4',
     color: '#00FFFF',
     slug: 'sacha-maric'
-  },
-  {
-    title: 'with Jeremy Liebman',
-    caption: 'Caption goes here.',
-    video: 'NewInformation_JeremyLiebman_a.mp4',
-    color: '#FFFF00',
-    slug: 'jeremy-liebman'
   }
 ]
