@@ -1,7 +1,7 @@
 export default [
   {
     date: '9.26.22',
-    text: 'has been listening to music by Cate Le Bon, Quincy Jones, Pavement, and Pharoah Sanders.'
+    text: 'has been listening to music by Cate Le Bon, Quincy Jones, Pavement, and Pharoah Sanders (RIP).'
   },
   {
     date: '9.23.22',
