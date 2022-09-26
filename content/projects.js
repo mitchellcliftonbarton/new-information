@@ -9,11 +9,11 @@ export default [
   },
   {
     title: 'with Queens Museum',
-    caption: 'A new brand identity for the Queens Museum connects past with present.',
-    image: 'NewInformation_QueensMuseum_a.jpg',
-    imageAlt: 'Image of an entrance doorway to the Queens Museum featuring bright green entrance signage in both English and Spanish.',
-    color: '#a8fb00',
-    slug: 'queens-museum'
+    caption: 'A collaborative digital platform surfacing a year of conversation  and experimentation at the Queens Museum.',
+    image: 'NewInformation_YoUWebsite_a.jpg',
+    imageAlt: 'Alt text goes here.',
+    color: '#B97834',
+    slug: 'year-of-uncertainty-website'
   },
   {
     title: 'with Monacelli',
@@ -56,26 +56,19 @@ export default [
     slug: 'krink'
   },
   {
+    title: 'with Queens Museum',
+    caption: 'A new brand identity for the Queens Museum connects past with present.',
+    image: 'NewInformation_QueensMuseum_a.jpg',
+    imageAlt: 'Image of an entrance doorway to the Queens Museum featuring bright green entrance signage in both English and Spanish.',
+    color: '#a8fb00',
+    slug: 'queens-museum'
+  },
+  {
     title: 'with Jeremy Liebman',
     caption: 'Search-based website cataloging the prolific works of Jeremy Liebman.',
     video: 'NewInformation_JeremyLiebman_a.mp4',
     color: '#FFFF00',
     slug: 'jeremy-liebman'
-  },
-  {
-    title: 'with Queens Museum',
-    caption: 'A collaborative digital platform surfacing a year of conversation  and experimentation at the Queens Museum.',
-    image: 'NewInformation_YoUWebsite_a.jpg',
-    imageAlt: 'Alt text goes here.',
-    color: '#B97834',
-    slug: 'year-of-uncertainty-website'
-  },
-  {
-    title: 'with Agency—Agency',
-    caption: 'A portfolio site for the evolving and unconventional design practice of Tei Carpenter.',
-    video: 'NewInformation_AgencyAgency_a.mp4',
-    color: '#FF0000',
-    slug: 'agency-agency'
   },
   {
     title: 'with The Elm',
@@ -84,6 +77,13 @@ export default [
     imageAlt: 'Alt text goes here.',
     color: '#0038FF',
     slug: 'the-elm'
+  },
+  {
+    title: 'with Agency—Agency',
+    caption: 'A portfolio site for the evolving and unconventional design practice of Tei Carpenter.',
+    video: 'NewInformation_AgencyAgency_a.mp4',
+    color: '#FF0000',
+    slug: 'agency-agency'
   },
   {
     title: 'with Sacha Maric',
