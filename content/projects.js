@@ -26,7 +26,7 @@ export default [
   {
     title: 'with Spitzer Architecture',
     caption: 'Website for the Spitzer Unit System surfaces relationships among students, faculty, and their respective courses of study.',
-    image: 'NewInformation_SpitzerUnitSystem_a.mp4',
+    image: 'NewInformation_Spitzer_a.jpg',
     imageAlt: 'Alt text goes here.',
     color: '#FFCE00',
     slug: 'graduate-programs-spitzer-unit-system'
