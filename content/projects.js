@@ -8,6 +8,14 @@ export default [
     slug: 'year-of-uncertainty'
   },
   {
+    title: 'Queens Museum Brand Refresh',
+    caption: 'Caption goes here.',
+    image: 'NewInformation_QueensMuseum_a.jpg',
+    imageAlt: 'Alt text goes here.',
+    color: '#a8fb00',
+    slug: 'queens-museum'
+  },
+  {
     title: 'Listening To Clay',
     caption: 'Listening to Clay investigates the work of sixteen Japanese ceramic artists through a dynamic interview format.',
     image: 'NewInformation_ListeningToClay_a.jpg',
