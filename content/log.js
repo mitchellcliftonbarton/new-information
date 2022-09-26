@@ -1,5 +1,9 @@
 export default [
   {
+    date: '9.26.22',
+    text: 'has been listening to music by Cate Le Bon, Quincy Jones, Pavement, and Pharoah Sanders.'
+  },
+  {
     date: '9.23.22',
     text: 'has been listening to music by Frankie Cosmos, Japanese Breakfast, Mack Browne & The Brothers, and more.'
   },
