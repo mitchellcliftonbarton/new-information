@@ -23,7 +23,7 @@ export default [
     color: '#0038FF',
     slug: 'listening-to-clay'
   },
- {
+  {
     title: 'with Spitzer Architecture',
     caption: 'Website for the Spitzer Unit System surfaces relationships among students, faculty, and their respective courses of study.',
     image: 'NewInformation_SpitzerUnitSystem_a.mp4',
