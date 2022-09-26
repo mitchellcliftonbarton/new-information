@@ -24,20 +24,20 @@ export default [
     slug: 'graduate-programs-spitzer-unit-system'
   },
   {
-    title: 'All The Small Things',
-    caption: 'All The Small Things, takes the reader on a dynamic tour of Cory Arcangel’s museum installation, interweaving texts, code, and musical charts along the way.',
-    image: 'NewInformation_AllTheSmallThings_a.jpg',
-    imageAlt: 'Alt text goes here.',
-    color: '#FF00C7',
-    slug: 'all-the-small-things'
-  },
-  {
     title: 'Nike KD 14',
     caption: 'Branding for Nike’s KD14 exuberantly conveys the energy of both the athlete and his footwear.',
     image: 'NewInformation_NikeKD14_a.jpg',
     imageAlt: 'Alt text goes here.',
     color: '#00FFFF',
     slug: 'nike-kd-14'
+  },
+  {
+    title: 'All The Small Things',
+    caption: 'All The Small Things, takes the reader on a dynamic tour of Cory Arcangel’s museum installation, interweaving texts, code, and musical charts along the way.',
+    image: 'NewInformation_AllTheSmallThings_a.jpg',
+    imageAlt: 'Alt text goes here.',
+    color: '#FF00C7',
+    slug: 'all-the-small-things'
   },
   {
     title: 'Krink',
