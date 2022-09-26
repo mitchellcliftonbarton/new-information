@@ -84,5 +84,12 @@ export default [
     video: 'NewInformation_Sacha Maric_a.mp4',
     color: '#00FFFF',
     slug: 'sacha-maric'
+  },
+  {
+    title: 'Jeremy Liebman',
+    caption: 'Caption goes here.',
+    video: 'NewInformation_JeremyLiebman_a.mp4',
+    color: '#FFFF00',
+    slug: 'jeremy-liebman'
   }
 ]
