@@ -25,7 +25,7 @@ export default [
   },
   {
     title: 'Graduate Programs Spitzer Unit System',
-    caption: 'Our website for the Spitzer Unit System surfaces relationships among students, faculty, and their respective courses of study.<a href="" target="_blank">Visit website</a>',
+    caption: 'Our website for the Spitzer Unit System surfaces relationships among students, faculty, and their respective courses of study.',
     image: 'NewInformation_Spitzer_a.mp4',
     imageAlt: 'Alt text goes here.',
     color: '#FFCE00',
