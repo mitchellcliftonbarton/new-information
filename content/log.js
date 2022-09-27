@@ -1,5 +1,9 @@
 export default [
   {
+    date: '9.27.22',
+    text: 'has been listening to music by MNDSGN, Steve Lacy, Wild Nothing, and more.'
+  },
+  {
     date: '9.26.22',
     text: 'has been listening to music by Cate Le Bon, Quincy Jones, Pavement, and Pharoah Sanders (RIP).'
   },
