@@ -1,7 +1,7 @@
 export default [
   {
     title: 'with Queens Museum',
-    caption: 'Exhibition design surfacing a year of conversation  and experimentation at the Queens Museum.',
+    caption: 'Exhibition design for Year of Uncertainty (YoU), a framework for strengthening connections among the Queens Museum and its communities.',
     image: 'NewInformation_YoUExhibition_a.jpg',
     imageAlt: 'Alt text goes here.',
     color: '#EA9249',
@@ -9,7 +9,7 @@ export default [
   },
   {
     title: 'with Queens Museum',
-    caption: 'A collaborative digital platform surfacing a year of conversation  and experimentation at the Queens Museum.',
+    caption: 'A collaborative digital platform for Year of Uncertainty (YoU), investigating and strengthening connections among the Queens Museum and its communities.',
     image: 'NewInformation_YoUWebsite_a.jpg',
     imageAlt: 'Alt text goes here.',
     color: '#B97834',
