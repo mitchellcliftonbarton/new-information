@@ -21,7 +21,7 @@ export default [
 /*    video: 'NewInformation_ListeningToClay_b.mp4', */
     image: 'NewInformation_ListeningToClay_a.jpg',
     imageAlt: 'Alt text goes here.',
-    color: '#0038FF',
+    color: '#3a53aa',
     slug: 'listening-to-clay'
   },
   {
