@@ -4,7 +4,7 @@ export default [
     caption: 'Exhibition design surfacing a year of conversation  and experimentation at the Queens Museum.',
     image: 'NewInformation_YoUExhibition_a.jpg',
     imageAlt: 'Alt text goes here.',
-    color: '#000000',
+    color: '#e89751',
     slug: 'year-of-uncertainty'
   },
   {
