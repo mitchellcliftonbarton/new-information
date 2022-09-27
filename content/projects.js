@@ -10,6 +10,7 @@ export default [
   {
     title: 'with Queens Museum',
     caption: 'A collaborative digital platform surfacing a year of conversation  and experimentation at the Queens Museum.',
+    video: 'NewInformation_ListeningToClay_b.mp4',
     image: 'NewInformation_YoUWebsite_a.jpg',
     imageAlt: 'Alt text goes here.',
     color: '#B97834',
