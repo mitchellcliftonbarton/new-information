@@ -26,7 +26,7 @@ export default [
   {
     title: 'Spitzer Unit System',
     caption: 'Website for graduate architecture programs surfaces relationships among students, faculty, and their respective courses of study.',
-    image: 'NewInformation_Spitzer_b.mp4',
+    image: 'NewInformation_Spitzer_a.jpg',
     imageAlt: 'Alt text goes here.',
     color: '#FFCE00',
     slug: 'graduate-programs-spitzer-unit-system'
