@@ -58,14 +58,15 @@ export default [
     color: '#3AD42F',
     slug: 'krink'
   },
-  {
-    title: 'with Queens Museum',
-    caption: 'A new brand identity for the Queens Museum connects past with present through a flexible conduit and custom typeface.',
-    image: 'NewInformation_QueensMuseum_a.jpg',
-    imageAlt: 'Image of an entrance doorway to the Queens Museum featuring bright green entrance signage in both English and Spanish.',
-    color: '#a8fb00',
-    slug: 'queens-museum'
+   {
+    title: 'with The Elm',
+    caption: 'Identity for a new restaurant in the Berkshires offering contemporary New England style cuisine.',
+    image: 'NewInformation_TheElm_a.jpg',
+    imageAlt: 'Alt text goes here.',
+    color: '#0038FF',
+    slug: 'the-elm'
   },
+
   {
     title: 'with Jeremy Liebman',
     caption: 'A search-based website cataloging the prolific works of Jeremy Liebman.',
@@ -74,12 +75,12 @@ export default [
     slug: 'jeremy-liebman'
   },
   {
-    title: 'with The Elm',
-    caption: 'Identity for a new restaurant in the Berkshires offering contemporary New England style cuisine.',
-    image: 'NewInformation_TheElm_a.jpg',
-    imageAlt: 'Alt text goes here.',
-    color: '#0038FF',
-    slug: 'the-elm'
+    title: 'with Queens Museum',
+    caption: 'A new brand identity for the Queens Museum connects past with present through a flexible conduit and custom typeface.',
+    image: 'NewInformation_QueensMuseum_a.jpg',
+    imageAlt: 'Image of an entrance doorway to the Queens Museum featuring bright green entrance signage in both English and Spanish.',
+    color: '#a8fb00',
+    slug: 'queens-museum'
   },
   {
     title: 'with Agency—Agency',
