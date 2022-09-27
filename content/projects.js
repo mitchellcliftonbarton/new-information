@@ -26,7 +26,7 @@ export default [
   {
     title: 'Spitzer Unit System',
     caption: 'Website for graduate architecture programs surfaces relationships among students, faculty, and their respective courses of study.',
-    image: 'NewInformation_Spitzer_a.jpg',
+    image: 'NewInformation_Spitzer_b.mp4',
     imageAlt: 'Alt text goes here.',
     color: '#FFCE00',
     slug: 'graduate-programs-spitzer-unit-system'
@@ -42,7 +42,7 @@ export default [
   {
     title: 'All The Small Things',
     caption: 'All The Small Things takes the reader on a dynamic tour of Cory Arcangel’s Heart Museum installation.',
-    image: 'NewInformation_Spitzer_b.mp4',
+    image: 'NewInformation_AllTheSmallThings_a.jpg',
     imageAlt: 'Alt text goes here.',
     color: '#FF00C7',
     slug: 'all-the-small-things'
