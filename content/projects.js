@@ -35,7 +35,7 @@ export default [
   },
   {
     title: 'with Nike',
-    caption: 'Branding for Nike’s KD14 captures the energy of both the athlete and his footwear.',
+    caption: 'Branding for Nike’s KD14 captures the energy of both the athlete and the footwear.',
     image: 'NewInformation_NikeKD14_a.jpg',
     imageAlt: 'Alt text goes here.',
     color: '#00FFFF',
@@ -67,7 +67,7 @@ export default [
   },
   {
     title: 'with Jeremy Liebman',
-    caption: 'Search-based website cataloging the prolific works of Jeremy Liebman.',
+    caption: 'A search-based website cataloging the prolific works of Jeremy Liebman.',
     video: 'NewInformation_JeremyLiebman_a.mp4',
     color: '#FFFF00',
     slug: 'jeremy-liebman'
@@ -82,14 +82,14 @@ export default [
   },
   {
     title: 'with Agency—Agency',
-    caption: 'Portfolio site for the evolving, investigative design practice of Tei Carpenter.',
+    caption: 'A temporary site for the evolving, exuberant, investigative design practice of Tei Carpenter.',
     video: 'NewInformation_AgencyAgency_a.mp4',
     color: '#FF0000',
     slug: 'agency-agency'
   },
   {
     title: 'with Sacha Maric',
-    caption: 'Portfolio site for the elastic fashion photographer Sacha Maric.',
+    caption: 'A portfolio website for Sacha Maric fluidly traverses fashion, personal, and portrait photography.',
     video: 'NewInformation_Sacha Maric_a.mp4',
     color: '#00FFFF',
     slug: 'sacha-maric'
