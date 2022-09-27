@@ -4,7 +4,7 @@ export default [
     caption: 'Exhibition design for Year of Uncertainty (YoU) at the Queens Museum.',
     image: 'NewInformation_YoUExhibition_a.jpg',
     imageAlt: 'Alt text goes here.',
-    color: '#FF00C7',
+    color: '#000000',
     slug: 'year-of-uncertainty'
   },
   {
