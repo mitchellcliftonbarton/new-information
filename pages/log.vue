@@ -38,7 +38,10 @@ export default {
   components: { XIcon },
   beforeRouteEnter(to, from, next) {
     next(vm => {
-      console.log(to, from)
+      if (from.name === 'index' || from.name === 'projects-slug') {
+        vm.$store.dispatch('setBackLink', from.path)
+        console.log(from.path)
+      }
     })
   }
 }

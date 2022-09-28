@@ -11,10 +11,14 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 import SecondaryFooter from '~/components/SecondaryFooter.vue';
 
 export default {
   components: { SecondaryFooter },
+  computed: {
+    ...mapState(['device']),
+  },
   methods: {
     setIsMobile() {
           if (process.client) {

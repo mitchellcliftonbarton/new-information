@@ -93,6 +93,7 @@ export default {
     next(vm => {
       if (from.name === 'index' || from.name === 'projects-slug') {
         vm.$store.dispatch('setBackLink', from.path)
+        console.log(from.path)
       }
     })
   }
