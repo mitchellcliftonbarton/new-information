@@ -1,9 +1,8 @@
 <template>
-  <div>
+  <div :class="`device-${device}`">
     <MainNav />
 
     <main
-      :class="`device-${device}`"
       class="main relative"
     >
       <Nuxt />

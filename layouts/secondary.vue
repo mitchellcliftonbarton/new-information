@@ -1,7 +1,6 @@
 <template>
-  <div>
+  <div :class="`device-${device}`">
     <main
-      :class="`device-${$store.state.device}`"
       class="main"
     >
       <Nuxt />
