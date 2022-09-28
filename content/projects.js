@@ -58,7 +58,15 @@ export default [
     color: '#3AD42F',
     slug: 'krink'
   },
-   {
+  {
+    title: 'Processing Foundation',
+    caption: 'The Processing Community Catalog is a 900 page tome that documents the activities of the Processing Foundation from the last 20 years.',
+    image: 'NewInformation_ProcessingFoundation_a.jpg',
+    imageAlt: 'Alt text goes here.',
+    color: '#e53928',
+    slug: 'processing-foundation'
+  },
+  {
     title: 'The Elm',
     caption: 'Identity for a new restaurant in the Berkshires offering contemporary New England style cuisine.',
     image: 'NewInformation_TheElm_a.jpg',
