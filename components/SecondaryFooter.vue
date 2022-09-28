@@ -31,8 +31,8 @@
                 >
               </div>
               <div id="mce-responses" class="clear absolute">
-                <div class="response" id="mce-error-response" style="display:none"></div>
-                <div class="response" id="mce-success-response" style="display:none"></div>
+                <div class="response h-text" id="mce-error-response" style="display:none"></div>
+                <div class="response h-text" id="mce-success-response" style="display:none"></div>
               </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
               <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_449e3187f98c4ba89d808f08d_7463220291" tabindex="-1" value=""></div>
               <div class="clear h-text flex-0-0">
@@ -42,7 +42,9 @@
                   id="mc-embedded-subscribe" 
                   class="button h-text py-1 px-2" 
                   aria-label="Click to subscribe to New Info's email list"
-                  :style="{ backgroundColor: currentColor }"
+                  :style="{ color: buttonColor }"
+                  @mouseenter="buttonColor = currentColor"
+                  @mouseleave="buttonColor = 'black'"
                 >
                   Subscribe
                 </button>
@@ -61,6 +63,12 @@ import { mapState, mapGetters } from 'vuex'
 
 export default {
   name: 'MainFooter',
+  data() {
+    return {
+      buttonBg: this.currentColor,
+      buttonColor: 'black'
+    }
+  },
   computed: {
     ...mapState(['currentProject', 'backLink', 'isMobile']),
     ...mapGetters(['currentColor'])
@@ -69,7 +77,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  #secondary-footer {
+#secondary-footer {
     z-index: 500;
 
     .left {
@@ -108,16 +116,18 @@ export default {
           }
         }
       }
+      
       button {
         cursor: pointer;
         border: 2px solid black;
         width: auto;
         color: black;
         height: 100%;
+        background-color: transparent;
 
         &:hover {
           background-color: black;
-          color: black;
+          // color: black;
         }
       }
 
@@ -127,6 +137,10 @@ export default {
 
       #mce-error-response {
         white-space: initial;
+      }
+
+      #mce-success-response {
+        transform: translateY(calc(-100% - 10px)) translateX(8px);
       }
     }
   }

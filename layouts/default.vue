@@ -28,7 +28,7 @@
             :style="{
               transform: `translate3d(${leftCursor.x}px, ${leftCursor.y}px, 0px)`
             }"
-            :color="previousProject.color"
+            :color="currentColor"
           />
         </nuxt-link>
 
@@ -44,7 +44,7 @@
             :style="{
               transform: `translate3d(${rightCursor.x}px, ${rightCursor.y}px, 0px)`
             }"
-            :color="nextProject.color"
+            :color="currentColor"
           />
         </nuxt-link>
       </div>
