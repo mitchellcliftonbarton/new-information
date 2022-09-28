@@ -4,18 +4,18 @@
       v-if="previousLinkActive" 
       :to="`/projects/${previousProject.slug}`" 
       class="h-text"
-      :style="{ color: previousProject.color }"
+      :style="{ color: currentColor }"
     >
-      <span class="mr-8">Previous</span>
+      <span class="mr-16">Previous</span>
       <span>{{ previousProject.title }}</span>
     </nuxt-link>
     <nuxt-link 
       v-if="nextLinkActive" 
       :to="`/projects/${nextProject.slug}`" 
       class="h-text"
-      :style="{ color: nextProject.color }"
+      :style="{ color: currentColor }"
     >
-      <span class="mr-8">Next</span>
+      <span class="mr-16">Next</span>
       <span>{{ nextProject.title }}</span>
     </nuxt-link>
   </div>
@@ -27,7 +27,7 @@ import { mapState, mapGetters } from 'vuex'
 export default {
   computed: {
     ...mapState(['nextLinkActive', 'previousLinkActive']),
-    ...mapGetters(['previousProject', 'nextProject']),
+    ...mapGetters(['currentColor', 'previousProject', 'nextProject']),
   }
 }
 </script>

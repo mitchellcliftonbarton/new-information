@@ -8,9 +8,10 @@
 
     <p 
       v-if="currentProject" 
-      class="h-text ml-6 lg:ml-8" 
+      class="h-text ml-6 md:ml-16 rich-text" 
       :style="{ color: currentColor }"
-    >{{ currentProject.caption }}</p>
+      v-html="currentProject.caption"
+    ></p>
   </footer>
 </template>
 

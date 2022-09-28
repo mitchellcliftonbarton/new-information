@@ -7,10 +7,10 @@
       <p 
         v-for="(item, index) in log" 
         :key="index"
-        class="item h-text text-white flex md:block"
+        class="item h-text text-black flex md:block"
       >
-        <span class="date mr-8 hidden lg:inline">On {{ item.date }}</span>
-        <span class="md:mr-7 lg:mr-8 title flex-1">New Information</span>
+        <span class="date mr-16 hidden lg:inline">On {{ item.date }}</span>
+        <span class="md:mr-16 title flex-1">New Information</span>
         <span class="w-1/2 md:w-full text pr-16 md:pr-0 pl-3 md:pl-0">{{ item.text }}</span>
       </p>
     </div>
@@ -80,13 +80,13 @@ export default {
 
   .item {
     @media screen and (min-width: theme('screens.md')) {
-      text-indent: -152px;
-      padding-left: 152px;
+      text-indent: -212px;
+      padding-left: 212px;
     }
 
     @media screen and (min-width: theme('screens.lg')) {
-      text-indent: -192px;
-      padding-left: 192px;
+      text-indent: -212px;
+      padding-left: 212px;
     }
 
     .date {
@@ -131,7 +131,7 @@ export default {
         .title {
           flex: 0 0 auto;
           width: auto;
-          margin-right: 2rem;
+          margin-right: 4rem;
         }
 
         .text {

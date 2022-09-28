@@ -3,15 +3,15 @@
     class="main relative min-h-screen w-full p-4 lg:p-6 flex pb-32 lg:pb-0" 
     :style="{ backgroundColor: currentColor }"
   >
-    <div class="left lg:mr-8">
+    <div class="left lg:mr-16">
       <div class="flex flex-col items-start h-text">
-        <nuxt-link :to="backLink" class="h-text text-white inline-block">New Information</nuxt-link>
+        <nuxt-link :to="backLink" class="h-text text-black inline-block">New Information</nuxt-link>
 
         <br>
         
         <a 
           v-if="information.address && information.addressLink" 
-          class="h-text text-white inline-block lg:hover:underline" 
+          class="h-text text-black inline-block" 
           v-html="information.address"
           :href="information.addressLink"
           target="_blank"
@@ -20,7 +20,7 @@
 
         <div 
           v-else-if="information.address && !information.addressLink" 
-          class="h-text text-white" 
+          class="h-text text-black" 
           v-html="information.address"
         ></div>
 
@@ -31,7 +31,7 @@
             <a 
               v-if="information.email" 
               :href="`mailto:${information.email}`" 
-              class="h-text text-white break-word lg:hover:underline"
+              class="h-text text-black break-word"
               v-html="information.emailString ? information.emailString : information.email"
             ></a>
           </p>
@@ -39,17 +39,17 @@
             <a 
               v-if="information.instagram" 
               :href="information.instagram" 
-              class="h-text text-white lg:hover:underline"
+              class="h-text text-black"
             >Instagram</a>
           </p>
         </div>
       </div>
     </div>
 
-    <div class="w-1/2 lg:w-1/3 lg:mr-8 lg:max-w-3xl pl-3 md:pl-0 pr-16 md:pr-0">
+    <div class="w-1/2 lg:w-1/3 lg:mr-16 lg:max-w-3xl pl-3 md:pl-0 pr-16 md:pr-0">
       <div 
         v-if="information.textColumn1" 
-        class="h-text text-white rich-text lg:mb-0" 
+        class="h-text text-black rich-text lg:mb-0" 
         v-html="information.textColumn1"
       ></div>
 
@@ -57,14 +57,14 @@
 
       <div 
         v-if="information.textColumn2" 
-        class="h-text text-white rich-text lg:hidden" 
+        class="h-text text-black rich-text lg:hidden" 
         v-html="information.textColumn2"
       ></div>
     </div>
 
     <div 
       v-if="information.textColumn2" 
-      class="w-1/3 h-text text-white rich-text hidden lg:block max-w-3xl" 
+      class="w-1/3 h-text text-black rich-text hidden lg:block max-w-3xl" 
       v-html="information.textColumn2"
     ></div>
 
@@ -162,5 +162,9 @@ export default {
 
   a {
     text-decoration-thickness: 2px;
+
+    &:hover {
+      text-decoration-line: underline;
+    }
   }
 </style>

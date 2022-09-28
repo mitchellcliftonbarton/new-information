@@ -1,14 +1,14 @@
 <template>
   <footer id="secondary-footer" class="fixed bottom-0 left-0 p-4 lg:px-6 lg:py-6 lg:pb-4 flex w-full">
-    <div class="left flex justify-start items-center lg:mr-8">
+    <div class="left flex justify-start items-center lg:mr-16">
       <nuxt-link 
         :to="$route.name == 'information' ? '/log' : '/information'"
-        class="h-text text-white" 
+        class="h-text text-black" 
       >?</nuxt-link>
 
       <nuxt-link 
         :to="$route.name == 'information' ? '/log' : '/information'" 
-        class="h-text text-white ml-6 lg:ml-9 inline-block"
+        class="h-text text-black ml-6 lg:ml-16 inline-block"
       >{{ $route.name == 'information' ? 'Log' : 'Information' }}</nuxt-link>
     </div>
 
@@ -76,7 +76,7 @@ export default {
       width: 50%;
 
       @media screen and (min-width: theme('screens.md')) {
-        width: 147px;
+        width: 204px;
         flex: 0 0 auto;
       }
 
@@ -98,25 +98,25 @@ export default {
         border-radius: 0px;
 
         &[type="email"] {
-          border-left: 2px solid white;
-          border-top: 2px solid white;
-          border-bottom: 2px solid white;
-          color: white;
+          border-left: 2px solid black;
+          border-top: 2px solid black;
+          border-bottom: 2px solid black;
+          color: black;
 
           &::placeholder {
-            color: white;
+            color: black;
           }
         }
       }
       button {
         cursor: pointer;
-        border: 2px solid white;
+        border: 2px solid black;
         width: auto;
-        color: white;
+        color: black;
         height: 100%;
 
         &:hover {
-          background-color: white;
+          background-color: black;
           color: black;
         }
       }

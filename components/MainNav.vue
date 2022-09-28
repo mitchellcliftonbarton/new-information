@@ -6,7 +6,7 @@
     <div class="flex md:justify-start items-start">
       <nuxt-link
         to="/information"
-        class="h-text w-1/2 md:w-auto md:mr-8"
+        class="h-text w-1/2 md:w-auto md:mr-16"
         :style="{ color: currentColor }"
         >New Information</nuxt-link
       >
@@ -15,27 +15,27 @@
         class="h-text w-1/2 md:w-auto"
         :style="{ color: currentColor }"
       >
-        {{ currentProject.title }}
+        with {{ currentProject.title }}
       </p>
     </div>
 
-    <div class="lg:hidden">
+    <div class="flex justify-end md:justify-start lg:hidden">
       <nuxt-link 
         v-if="previousLinkActive" 
         :to="`/projects/${previousProject.slug}`" 
-        class="h-text"
-        :style="{ color: previousProject.color }"
+        class="h-text w-1/2 md:w-auto"
+        :style="{ color: currentColor }"
       >
-        <span class="mr-8">Previous</span>
+        <span class="mr-8 md:mr-16">Previous</span>
         <span>{{ previousProject.title }}</span>
       </nuxt-link>
       <nuxt-link 
         v-if="nextLinkActive" 
         :to="`/projects/${nextProject.slug}`" 
-        class="h-text"
-        :style="{ color: nextProject.color }"
+        class="h-text w-1/2 md:w-auto"
+        :style="{ color: currentColor }"
       >
-        <span class="mr-8">Next</span>
+        <span class="mr-8 md:mr-16">Next</span>
         <span>{{ nextProject.title }}</span>
       </nuxt-link>
     </div>
