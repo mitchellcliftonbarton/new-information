@@ -75,7 +75,7 @@ export default [
     caption: 'Identity for a new restaurant in the Berkshires offering contemporary New England style cuisine.',
     image: 'NewInformation_TheElm_a.jpg',
     imageAlt: 'Alt text goes here.',
-    color: '#034300',
+    color: '#0b5714',
     slug: 'the-elm'
   },
 
