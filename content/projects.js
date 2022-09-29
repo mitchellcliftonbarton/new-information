@@ -47,6 +47,7 @@ export default [
     caption: 'All The Small Things takes the reader on a dynamic tour of Cory Arcangel’s Heart Museum installation.',
     image: 'NewInformation_AllTheSmallThings_a.jpg',
     imageAlt: 'Alt text goes here.',
+    mobileImage: 'test_mobile.jpg',
     color: '#e95e86',
     slug: 'all-the-small-things'
   },
