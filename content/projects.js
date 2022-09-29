@@ -105,7 +105,7 @@ export default [
     title: 'Sacha Maric',
     caption: 'A portfolio website for Sacha Maric fluidly traverses fashion, personal, and portrait photography.',
     video: 'NewInformation_SachaMaric_a.mp4',
-    color: '#ffb6c9',
+    color: '#ff99e1',
     slug: 'sacha-maric'
   }
 ]
