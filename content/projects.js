@@ -98,7 +98,7 @@ export default [
     title: 'Agency—Agency',
     caption: 'A temporary site for the evolving, exuberant, investigative design practice of Tei Carpenter.',
     video: 'NewInformation_AgencyAgency_a.mp4',
-    color: '#FF0000',
+    color: '#ff2830',
     slug: 'agency-agency'
   },
   {
