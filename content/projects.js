@@ -27,8 +27,7 @@ export default [
   {
     title: 'Spitzer Architecture',
     caption: 'Website for graduate architecture programs surfaces relationships among students, faculty, and their respective courses of study.',
-    video: 'NewInformation_Spitzer_b.mp4',
-    image: 'NewInformation_Spitzer_a.jpg',
+    video: 'NewInformation_Spitzer_a.mp4',
     imageAlt: 'Alt text goes here.',
 /*    color: '#FFCE00', */
     color: '#e7c03a',  
@@ -101,7 +100,7 @@ export default [
   {
     title: 'Sacha Maric',
     caption: 'A portfolio website for Sacha Maric fluidly traverses fashion, personal, and portrait photography.',
-    video: 'NewInformation_Sacha Maric_a.mp4',
+    video: 'NewInformation_SachaMaric_a.mp4',
     color: '#f2aeae',
     slug: 'sacha-maric'
   }
