@@ -91,7 +91,7 @@ export default [
     caption: 'A new brand identity for the Queens Museum connects past with present through a flexible conduit and custom typeface.',
     image: 'NewInformation_QueensMuseum_a.jpg',
     imageAlt: 'Image of an entrance doorway to the Queens Museum featuring bright green entrance signage in both English and Spanish.',
-    color: '#a8fb00',
+    color: '#acfc00',
     slug: 'queens-museum'
   },
   {
