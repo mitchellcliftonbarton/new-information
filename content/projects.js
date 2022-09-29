@@ -61,7 +61,7 @@ export default [
   {
     title: 'Processing Foundation',
     caption: 'The Processing Community Catalog is a 900 page tome that documents the activities of the Processing Foundation from the last 20 years.',
-    image: 'New-Info-Book.jpg',
+    image: 'NewInformation_ProcessingFoundation_a.jpg',
     imageAlt: 'Alt text goes here.',
     color: '#e53928',
     slug: 'processing-foundation'
