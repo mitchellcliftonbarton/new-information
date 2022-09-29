@@ -32,7 +32,7 @@ export default [
     video: 'NewInformation_Spitzer_a.mp4',
     imageAlt: 'Alt text goes here.',
 /*    color: '#FFCE00', */
-    color: '#e7c03a',  
+    color: '#ffd732',  
     slug: 'graduate-programs-spitzer-unit-system'
   },
   {
