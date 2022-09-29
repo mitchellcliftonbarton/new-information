@@ -40,7 +40,7 @@ export default [
     caption: 'Branding for Nike’s KD14 captures the energy of both the athlete and the footwear.',
     image: 'NewInformation_NikeKD14_a.jpg',
     imageAlt: 'Alt text goes here.',
-    color: '#4fedee',
+    color: '#1bffff',
     slug: 'nike-kd-14'
   },
   {
