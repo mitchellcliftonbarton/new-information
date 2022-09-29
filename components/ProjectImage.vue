@@ -16,8 +16,8 @@
     ></video>
 
     <img 
-      v-else-if="project.image"
-      :src="shouldLoad ? require(`/src/images/${project.image}`) : null" 
+      v-else-if="image"
+      :src="shouldLoad ? require(`/src/images/${image}`) : null" 
       :alt="project.imageAlt"
       class="object-cover object-center w-full h-full"
     >

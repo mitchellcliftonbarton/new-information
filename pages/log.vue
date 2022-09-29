@@ -7,7 +7,7 @@
       <p 
         v-for="(item, index) in log" 
         :key="index"
-        class="item h-text text-black flex md:block"
+        class="item h-text text-black flex"
       >
         <span class="date mr-16 hidden lg:inline">On {{ item.date }}</span>
         <span class="md:mr-16 title flex-1">New Information</span>
@@ -48,7 +48,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .closer {
+.closer {
     position: fixed;
     top: 8px;
     right: 8px;
@@ -83,13 +83,13 @@ export default {
 
   .item {
     @media screen and (min-width: theme('screens.md')) {
-      text-indent: -212px;
-      padding-left: 212px;
+      // text-indent: -212px;
+      // padding-left: 212px;
     }
 
     @media screen and (min-width: theme('screens.lg')) {
-      text-indent: -212px;
-      padding-left: 212px;
+      // text-indent: -212px;
+      // padding-left: 212px;
     }
 
     .date {
@@ -106,22 +106,22 @@ export default {
       width: 50%;
 
       @media screen and (min-width: theme('screens.md')) {
-        width: 155px;
+        width: 173px;
         flex: 0 0 auto;
         flex: none;
       }
 
       @media screen and (min-width: theme('screens.lg')) {
-        width: 173px;
+        // width: 173px;
       }
     }
 
     .text {
       // flex: 1;
-      width: 50%;
+      // width: 50%;
 
       @media screen and (min-width: theme('screens.md')) {
-        flex: none;
+        // flex: none;
       }
     }
 

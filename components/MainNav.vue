@@ -6,9 +6,9 @@
     <div class="flex md:justify-start items-start">
       <nuxt-link
         to="/information"
-        class="h-text w-1/2 md:w-auto md:mr-16"
+        class="home-link h-text w-1/2 md:w-auto md:mr-16"
         :style="{ color: currentColor }"
-        >New Information</nuxt-link
+        ><span>New</span> Information</nuxt-link
       >
       <p
         v-if="currentProject"
@@ -57,5 +57,15 @@ export default {
 <style lang="scss" scoped>
 #nav {
   z-index: 500;
+
+  .home-link {
+    .device-desktop & {
+      &:hover {
+        span {
+          opacity: 0;
+        }
+      }
+    }
+  }
 }
 </style>
