@@ -49,7 +49,7 @@ export default [
     image: 'NewInformation_AllTheSmallThings_a.jpg',
     imageAlt: 'Alt text goes here.',
     mobileImage: 'NewInformation_AllTheSmallThings_Mobile_a.jpg',
-    color: '#e95e86',
+    color: '#ff4382',
     slug: 'all-the-small-things'
   },
   {
