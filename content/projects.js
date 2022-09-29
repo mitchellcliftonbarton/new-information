@@ -67,7 +67,7 @@ export default [
     image: 'NewInformation_ProcessingFoundation_a.jpg',
     imageAlt: 'Alt text goes here.',
     mobileImage: 'NewInformation_ProcessingFoundation_Mobile_a.jpg',
-    color: '#e53928',
+    color: '#ff461b',
     slug: 'processing-foundation'
   },
   {
