@@ -12,6 +12,7 @@ export default [
     caption: 'A collaborative digital platform for Year of Uncertainty (YoU), investigating and strengthening connections among the Queens Museum and its communities. View <a href="https://you.queensmuseum.org/" target="_blank">here.</a>',
     image: 'NewInformation_YoUWebsite_a.jpg',
     imageAlt: 'Alt text goes here.',
+    mobileImage: 'NewInformation_YoUWebsite_Mobile_a.jpg',
     color: '#B97834',
     slug: 'year-of-uncertainty-website'
   },
@@ -21,6 +22,7 @@ export default [
 /*    video: 'NewInformation_ListeningToClay_b.mp4', */
     image: 'NewInformation_ListeningToClay_a.jpg',
     imageAlt: 'Alt text goes here.',
+    mobileImage: 'NewInformation_ListeningToClay_Mobile_a.jpg',
     color: '#3a53aa',
     slug: 'listening-to-clay'
   },
@@ -46,7 +48,7 @@ export default [
     caption: 'All The Small Things takes the reader on a dynamic tour of Cory Arcangel’s Heart Museum installation.',
     image: 'NewInformation_AllTheSmallThings_a.jpg',
     imageAlt: 'Alt text goes here.',
-    mobileImage: 'test_mobile.jpg',
+    mobileImage: 'NewInformation_AllTheSmallThings_Mobile_a.jpg',
     color: '#e95e86',
     slug: 'all-the-small-things'
   },
@@ -55,6 +57,7 @@ export default [
     caption: 'E-commerce site for Krink featuring a specimen-like grid, oversized filtering tools, and a graffiti-based screensaver.',
     image: 'NewInformation_Krink_a.jpg',
     imageAlt: 'Alt text goes here.',
+    mobileImage: 'NewInformation_Krink_Mobile_a.jpg',
     color: '#3AD42F',
     slug: 'krink'
   },
@@ -63,6 +66,7 @@ export default [
     caption: 'The Processing Community Catalog is a 900 page tome that documents the activities of the Processing Foundation from the last 20 years.',
     image: 'NewInformation_ProcessingFoundation_a.jpg',
     imageAlt: 'Alt text goes here.',
+    mobileImage: 'NewInformation_ProcessingFoundation_Mobile_a.jpg',
     color: '#e53928',
     slug: 'processing-foundation'
   },
