@@ -23,7 +23,7 @@ export default [
     image: 'NewInformation_ListeningToClay_a.jpg',
     imageAlt: 'Alt text goes here.',
     mobileImage: 'NewInformation_ListeningToClay_Mobile_a.jpg',
-    color: '#381ef8',
+    color: '#2f33e1',
     slug: 'listening-to-clay'
   },
   {
