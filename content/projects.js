@@ -4,6 +4,7 @@ export default [
     caption: 'Exhibition design for Year of Uncertainty (YoU), a framework that strengthens connections between the Queens Museum and its communities.',
     image: 'NewInformation_YoUExhibition_a.jpg',
     imageAlt: 'Alt text goes here.',
+    mobileImage: 'NewInformation_YoUExhibition_Mobile_a.jpg',
     color: '#fe8c14',
     slug: 'year-of-uncertainty'
   },
@@ -31,8 +32,8 @@ export default [
     caption: 'Website design for Spitzer Architecture’s Unit System, a graduate program that surfaces relationships between students, faculty, and their respective courses of study.',
     video: 'NewInformation_Spitzer_a.mp4',
     imageAlt: 'Alt text goes here.',
-/*    color: '#FFCE00', */
     color: '#ffd732',  
+    mobileImage: 'NewInformation_Spitzer_Mobile_a.jpg',
     slug: 'graduate-programs-spitzer-unit-system'
   },
   {
@@ -40,6 +41,7 @@ export default [
     caption: 'Brand design for Nike’s KD14, a campaign that captures the energy of both the athlete and the footwear.',
     image: 'NewInformation_NikeKD14_a.jpg',
     imageAlt: 'Alt text goes here.',
+    mobileImage: 'NewInformation_NikeKD14_Mobile_a.jpg',
     color: '#00ffff',
     slug: 'nike-kd-14'
   },
@@ -75,6 +77,7 @@ export default [
     caption: 'Identity design for The Elm, a new restaurant in the Berkshires that offers contemporary New England style cuisine.',
     image: 'NewInformation_TheElm_a.jpg',
     imageAlt: 'Alt text goes here.',
+    mobileImage: 'NewInformation_TheElm_Mobile_a.jpg',
     color: '#0b5714',
     slug: 'the-elm'
   },
@@ -83,6 +86,7 @@ export default [
     title: 'Jeremy Liebman',
     caption: 'Search-based website design for Jeremy Liebman that catalogs his prolific work.',
     video: 'NewInformation_JeremyLiebman_a.mp4',
+    mobileImage: 'NewInformation_JeremyLiebman_Mobile_a.jpg',
     color: '#FFFF00',
     slug: 'jeremy-liebman'
   },
@@ -91,6 +95,7 @@ export default [
     caption: 'Brand identity for the Queens Museum, an institution that connects the past with the present through a flexible conduit and custom typeface.',
     image: 'NewInformation_QueensMuseum_a.jpg',
     imageAlt: 'Image of an entrance doorway to the Queens Museum featuring bright green entrance signage in both English and Spanish.',
+    mobileImage: 'NewInformation_QueensMuseum_Mobile_a.jpg',
     color: '#84ff00',
     slug: 'queens-museum'
   },
@@ -98,6 +103,7 @@ export default [
     title: 'Agency—Agency',
     caption: 'Temporary website design for Agency—Agency, an evolving, exuberant, investigative architectural design practice by Tei Carpenter.',
     video: 'NewInformation_AgencyAgency_a.mp4',
+    mobileImage: 'NewInformation_AgencyAgency_Mobile_a.jpg',
     color: '#ff2830',
     slug: 'agency-agency'
   },
@@ -105,6 +111,7 @@ export default [
     title: 'Sacha Maric',
     caption: 'Portfolio website design for Sacha Maric, a photographer who’s work fluidly traverses fashion, personal, and portraiture.',
     video: 'NewInformation_SachaMaric_a.mp4',
+    mobileImage: 'NewInformation_SachaMaric_Mobile_a.jpg',
     color: '#ff99e1',
     slug: 'sacha-maric'
   }
