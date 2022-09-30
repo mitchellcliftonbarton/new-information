@@ -20,7 +20,6 @@ export default [
   {
     title: 'Monacelli Press',
     caption: 'Publication design for Listening to Clay, an investigation of the work of sixteen Japanese ceramic artists through a dynamic interview format.',
-/*    video: 'NewInformation_ListeningToClay_b.mp4', */
     image: 'NewInformation_ListeningToClay_a.jpg',
     imageAlt: 'Alt text goes here.',
     mobileImage: 'NewInformation_ListeningToClay_Mobile_a.jpg',
