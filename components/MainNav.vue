@@ -1,7 +1,8 @@
 <template>
   <header
     id="nav"
-    class="fixed top-0 left-0 p-4 lg:p-6 w-full lg:w-auto"
+    class="fixed top-0 left-0 w-full lg:w-auto"
+    :class="device === 'desktop' ? 'p-6' : 'p-4 lg:p-6'"
   >
     <div class="flex md:justify-start items-start">
       <nuxt-link
@@ -48,7 +49,7 @@ import { mapState, mapGetters } from "vuex";
 export default {
   name: "MainNav",
   computed: {
-    ...mapState(['currentProject', 'nextLinkActive', 'previousLinkActive']),
+    ...mapState(['currentProject', 'nextLinkActive', 'previousLinkActive', 'device']),
     ...mapGetters(['currentColor', 'previousProject', 'nextProject'])
   }
 };

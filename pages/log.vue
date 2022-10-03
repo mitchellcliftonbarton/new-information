@@ -1,6 +1,7 @@
 <template>
   <div 
-    class="main relative min-h-screen w-full p-4 lg:p-6 grid grid-cols-8 lg:grid-cols-6 gap-4 lg:gap-6 pb-32 lg:pb-0" 
+    class="main relative min-h-screen w-full grid grid-cols-8 lg:grid-cols-6 gap-4 lg:gap-6" 
+    :class="device === 'desktop' ? 'px-6 pt-6 pb-0' : 'px-4 pt-4 pb-32'"
     :style="{ backgroundColor: currentColor }"
   >
     <div class="col-span-8 md:col-span-7 lg:col-span-5">
@@ -32,7 +33,7 @@ import XIcon from '~/components/XIcon.vue';
 export default {
   layout: "secondary",
   computed: {
-      ...mapState(["log", "backLink"]),
+      ...mapState(["log", "backLink", "device"]),
       ...mapGetters(["currentColor"])
   },
   components: { XIcon },
@@ -74,10 +75,10 @@ export default {
   }
 
   .closer svg {
-    width: 3.4rem;
-
-    @media screen and (min-width: theme('screens.lg')) {
-      width: 4.8rem;
+    width: 4.8rem;
+    
+    .device-mobile & {
+      width: 3.4rem;
     }
   }
 

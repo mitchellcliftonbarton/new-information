@@ -1,5 +1,5 @@
 <template>
-  <div class="project w-full h-screen relative">
+  <div class="project w-full h-full relative">
     <NextLinks v-if="!isMobile" />
   </div>
 </template>

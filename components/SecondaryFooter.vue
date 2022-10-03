@@ -1,5 +1,9 @@
 <template>
-  <footer id="secondary-footer" class="fixed bottom-0 left-0 p-4 lg:px-6 lg:py-6 lg:pb-4 flex w-full">
+  <footer 
+    id="secondary-footer" 
+    class="fixed bottom-0 left-0 flex w-full"
+    :class="device === 'desktop' ? 'px-6 pt-6 pb-4' : 'p-4'"
+  >
     <div class="left flex justify-start items-center lg:mr-16">
       <nuxt-link 
         :to="$route.name == 'information' ? '/log' : '/information'"
@@ -42,9 +46,9 @@
                   id="mc-embedded-subscribe" 
                   class="button h-text py-1 px-2" 
                   aria-label="Click to subscribe to New Info's email list"
-                  :style="{ color: buttonColor }"
-                  @mouseenter="buttonColor = currentColor"
-                  @mouseleave="buttonColor = 'black'"
+                  :style="{ color: buttonColor, backgroundColor: buttonBg }"
+                  @mouseenter="handleButtonEnter"
+                  @mouseleave="handleButtonLeave"
                 >
                   Subscribe
                 </button>
@@ -70,8 +74,18 @@ export default {
     }
   },
   computed: {
-    ...mapState(['currentProject', 'backLink', 'isMobile']),
+    ...mapState(['currentProject', 'backLink', 'isMobile', 'device']),
     ...mapGetters(['currentColor'])
+  },
+  methods: {
+    handleButtonEnter() {
+      this.buttonColor = this.currentColor
+      this.buttonBg = 'black'
+    },
+    handleButtonLeave() {
+      this.buttonColor = 'black'
+      this.buttonBg = this.currentColor
+    }
   }
 }
 </script>
@@ -125,10 +139,10 @@ export default {
         height: 100%;
         background-color: transparent;
 
-        &:hover {
-          background-color: black;
-          // color: black;
-        }
+        // &:hover {
+        //   background-color: black;
+        //   // color: black;
+        // }
       }
 
       div.mce_inline_error {

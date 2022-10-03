@@ -1,6 +1,7 @@
 <template>
   <div 
-    class="main relative min-h-screen w-full p-4 lg:p-6 flex pb-32 lg:pb-0" 
+    class="main relative min-h-screen w-full flex" 
+    :class="device === 'desktop' ? 'px-6 pt-6 pb-0' : 'px-4 pt-4 pb-32'"
     :style="{ backgroundColor: currentColor }"
   >
     <div class="left lg:mr-16">
@@ -85,7 +86,7 @@ import XIcon from '~/components/XIcon.vue';
 export default {
   layout: "secondary",
   computed: {
-      ...mapState(["information", "backLink"]),
+      ...mapState(["information", "backLink", "device"]),
       ...mapGetters(["currentColor"])
   },
   components: { XIcon },
@@ -101,7 +102,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .closer {
+.closer {
     position: fixed;
     top: 8px;
     right: 8px;
@@ -133,10 +134,10 @@ export default {
   }
 
   .closer svg {
-    width: 3.4rem;
+    width: 4.8rem;
 
-    @media screen and (min-width: theme('screens.lg')) {
-      width: 4.8rem;
+    .device-mobile & {
+      width: 3.4rem;
     }
   }
 
@@ -144,7 +145,7 @@ export default {
     width: 50%;
 
     @media screen and (min-width: theme('screens.md')) {
-      width: 155px;
+      width: 217px;
     }
 
     @media screen and (min-width: theme('screens.lg')) {
@@ -161,11 +162,11 @@ export default {
     }
   }
 
-  a {
-    text-decoration-thickness: 2px;
+  // a {
+  //   text-decoration-thickness: 2px;
 
-    &:hover {
-      text-decoration-line: underline;
-    }
-  }
+  //   &:hover {
+  //     text-decoration-line: underline;
+  //   }
+  // }
 </style>
