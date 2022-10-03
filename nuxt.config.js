@@ -105,5 +105,20 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  
+  generate: {
+    routes() {
+      const { projects } = content
+      const routesToGenerate = []
+
+      projects.forEach(project => {
+        const slug = `/projects/${project.slug}`
+
+        routesToGenerate.push(slug)
+      })
+
+      return routesToGenerate
+    }
   }
 }
