@@ -7,7 +7,7 @@
     >
       <Nuxt />
 
-      <div v-if="currentProject" class="fixed top-0 left-0 w-full h-screen">
+      <div v-if="currentProject" class="fixed top-0 left-0 w-full h-full">
         <ProjectImage 
           v-for="(project, index) in projects" 
           :key="index" 
@@ -15,7 +15,7 @@
         />
       </div>
 
-      <div class="big-links absolute top-0 left-0 w-full h-full flex">
+      <div class="big-links fixed top-0 left-0 w-full h-full flex">
         <nuxt-link 
           :to="`/projects/${previousProject.slug}`" 
           @mouseenter.native="handlePrevEnter" 
