@@ -28,7 +28,7 @@ export default [
   },
   {
     title: 'Spitzer Architecture',
-    caption: 'Website design for Spitzer Architecture’s Unit System, a graduate program that surfaces relationships between students, faculty, and their respective courses of study.',
+    caption: 'Website design for Spitzer Architecture’s Unit System, a graduate program that surfaces relationships between students, faculty, and their respective courses of study. View <a href="https://unitsystem.ssa.ccny.cuny.edu/" target="_blank">here.</a>',
     video: 'NewInformation_Spitzer_a.mp4',
     imageAlt: 'Alt text goes here.',
     color: '#ffd732',  
@@ -55,7 +55,7 @@ export default [
   },
   {
     title: 'Krink',
-    caption: 'E-commerce website design for Krink, an artist materials brand and creative studio that features a specimen-like grid, oversized filtering tools, and a graffiti-based screensaver.',
+    caption: 'E-commerce website design for Krink, an artist materials brand and studio that features a specimen-like grid with oversized filtering tools. View <a href="https://krink.com/" target="_blank">here.</a>',
     image: 'NewInformation_Krink_a.jpg',
     imageAlt: 'Alt text goes here.',
     mobileImage: 'NewInformation_Krink_Mobile_a.jpg',
@@ -72,7 +72,7 @@ export default [
     slug: 'processing-foundation'
   },
   {
-    title: 'The Elm',
+    title: 'the elm',
     caption: 'Identity design for The Elm, a new restaurant in the Berkshires that offers contemporary New England style cuisine.',
     image: 'NewInformation_TheElm_a.jpg',
     imageAlt: 'Alt text goes here.',
@@ -83,7 +83,7 @@ export default [
 
   {
     title: 'Jeremy Liebman',
-    caption: 'Search-based website design for Jeremy Liebman that catalogs his prolific work.',
+    caption: 'Search-based website design for Jeremy Liebman that catalogs his prolific work. View <a href="http://jeremyliebman.com/" target="_blank">here.</a>',
     video: 'NewInformation_JeremyLiebman_a.mp4',
     mobileImage: 'NewInformation_JeremyLiebman_Mobile_a.jpg',
     color: '#FFFF00',
@@ -100,7 +100,7 @@ export default [
   },
   {
     title: 'Agency—Agency',
-    caption: 'Temporary website design for Agency—Agency, an evolving, exuberant, investigative architectural design practice by Tei Carpenter.',
+    caption: 'Temporary website design for Agency—Agency, an evolving, exuberant, investigative architectural design practice by Tei Carpenter. View <a href="http://agency-agency.us/" target="_blank">here.</a>',
     video: 'NewInformation_AgencyAgency_a.mp4',
     mobileImage: 'NewInformation_AgencyAgency_Mobile_a.jpg',
     color: '#ff2830',
@@ -108,7 +108,7 @@ export default [
   },
   {
     title: 'Sacha Maric',
-    caption: 'Portfolio website design for Sacha Maric, a photographer who’s work fluidly traverses fashion, personal, and portraiture.',
+    caption: 'Portfolio website design for Sacha Maric, a photographer who’s work fluidly traverses fashion, personal, and portraiture. View <a href="https://www.sachamaric.com/" target="_blank">here.</a>',
     video: 'NewInformation_SachaMaric_a.mp4',
     mobileImage: 'NewInformation_SachaMaric_Mobile_a.jpg',
     color: '#ff99e1',
