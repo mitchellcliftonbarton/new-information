@@ -5,13 +5,13 @@ export default [
     image: 'NewInformation_YoUExhibition_a.jpg',
     imageAlt: 'Alt text goes here.',
     mobileImage: 'NewInformation_YoUExhibition_Mobile_a.jpg',
-    color: '#4ca4dc',
+    color: '#089af7',
  /*   color: '#fe8c14', */
     slug: 'year-of-uncertainty'
   },
   {
     title: 'Queens Museum',
-    caption: 'Website design of Year of Uncertainty (YoU) digital platform, chronicling a year of conversation, experimentation, and reflection the Queens Museum. <a href="https://you.queensmuseum.org/" target="_blank">⭢ View here</a>',
+    caption: 'Website design of Year of Uncertainty (YoU) digital platform, chronicling a year of conversation, experimentation, and reflection at the Queens Museum. <a href="https://you.queensmuseum.org/" target="_blank">⭢ View here</a>',
     image: 'NewInformation_YoUWebsite_a.jpg',
     imageAlt: 'Alt text goes here.',
     mobileImage: 'NewInformation_YoUWebsite_Mobile_a.jpg',
@@ -20,7 +20,7 @@ export default [
   },
   {
     title: 'Monacelli Press',
-    caption: 'Publication design of Listening to Clay, an investigation of work by sixteen Japanese ceramic artists through a dynamic interview format.',
+    caption: 'Publication design of Listening to Clay, featuring conversations with sixteen Japanese ceramic artists in a dynamic interview format.',
     image: 'NewInformation_ListeningToClay_a.jpg',
     imageAlt: 'Alt text goes here.',
     mobileImage: 'NewInformation_ListeningToClay_Mobile_a.jpg',
@@ -29,7 +29,7 @@ export default [
   },
   {
     title: 'Spitzer Architecture',
-    caption: 'Website design for Spitzer Architecture’s Unit System, surfacing relationships between students, faculty, and their respective courses of study. <a href="https://unitsystem.ssa.ccny.cuny.edu/" target="_blank">⭢ View here</a>',
+    caption: 'Website design for Spitzer Architecture’s Unit System, surfacing relationships among students, faculty, and their respective courses of study. <a href="https://unitsystem.ssa.ccny.cuny.edu/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_Spitzer_a.mp4',
     imageAlt: 'Alt text goes here.',
     color: '#ffd732',  
@@ -47,7 +47,7 @@ export default [
   },
   {
     title: 'Cory Arcangel',
-    caption: 'Publication design for All The Small Things, a dynamic tour of Cory Arcangel’s Heart Museum installation.',
+    caption: 'Publication design of All The Small Things, a dynamic tour of Cory Arcangel’s Heart Museum installation.',
     image: 'NewInformation_AllTheSmallThings_a.jpg',
     imageAlt: 'Alt text goes here.',
     mobileImage: 'NewInformation_AllTheSmallThings_Mobile_a.jpg',
@@ -65,7 +65,7 @@ export default [
   },
   {
     title: 'Processing Foundation',
-    caption: 'Publication design for the Processing Community Catalog, a 900 page tome documenting the activities of the Processing Foundation from the last 20 years.',
+    caption: 'Publication design of the Processing Community Catalog, a 900 page tome documenting the activities of the Processing Foundation from the last 20 years.',
     image: 'NewInformation_ProcessingFoundation_a.jpg',
     imageAlt: 'Alt text goes here.',
     mobileImage: 'NewInformation_ProcessingFoundation_Mobile_a.jpg',
@@ -84,7 +84,7 @@ export default [
 
   {
     title: 'Jeremy Liebman',
-    caption: 'Search-based website design for the prolific photographer Jeremy Liebman. <a href="http://jeremyliebman.com/" target="_blank">⭢ View here</a>',
+    caption: 'Search-based website design cataloging the prolific works of photographer Jeremy Liebman. <a href="http://jeremyliebman.com/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_JeremyLiebman_a.mp4',
     mobileImage: 'NewInformation_JeremyLiebman_Mobile_a.jpg',
     color: '#FFFF00',
