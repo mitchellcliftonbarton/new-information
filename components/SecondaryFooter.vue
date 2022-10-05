@@ -2,7 +2,7 @@
   <footer 
     id="secondary-footer" 
     class="fixed bottom-0 left-0 flex w-full"
-    :class="device === 'desktop' ? 'px-6 pt-6 pb-4' : 'pt-4 px-4 pb-2'"
+    :class="device === 'desktop' ? 'px-6 pt-6 pb-4' : 'pt-4 pl-4 pr-2 pb-2'"
   >
     <div class="left flex justify-start items-center lg:mr-16">
       <nuxt-link 
