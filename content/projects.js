@@ -72,7 +72,7 @@ export default [
     slug: 'processing-foundation'
   },
   {
-    title: 'the elm',
+    title: 'The Elm',
     caption: 'Identity design for The Elm, a new restaurant in the Berkshires that offers contemporary New England style cuisine.',
     image: 'NewInformation_TheElm_a.jpg',
     imageAlt: 'Alt text goes here.',
@@ -95,7 +95,7 @@ export default [
     image: 'NewInformation_QueensMuseum_a.jpg',
     imageAlt: 'Image of an entrance doorway to the Queens Museum featuring bright green entrance signage in both English and Spanish.',
     mobileImage: 'NewInformation_QueensMuseum_Mobile_a.jpg',
-    color: '#84D908',
+    color: '#9680f9',
     slug: 'queens-museum'
   },
   {
