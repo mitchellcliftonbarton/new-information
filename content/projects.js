@@ -3,7 +3,7 @@ export default [
     title: 'Queens Museum',
     caption: 'Exhibition design for Year of Uncertainty (YoU), a framework for strengthening connections among the Queens Museum and its communities.',
     image: 'NewInformation_YoUExhibition_a.jpg',
-    imageAlt: 'Alt text goes here.',
+    imageAlt: 'A photograph of a wall in the Queens Museum featuring big, bold text that says YEAR OF UNCERTAINTY, along with small exhibition text and timeline phases.',
     mobileImage: 'NewInformation_YoUExhibition_Mobile_a.jpg',
     color: '#089af7',
  /*   color: '#fe8c14', */
@@ -13,7 +13,7 @@ export default [
     title: 'Queens Museum',
     caption: 'Website design of Year of Uncertainty (YoU) digital platform, chronicling a year of conversation, experimentation, and reflection at the Queens Museum. <a href="https://you.queensmuseum.org/" target="_blank">⭢ View here</a>',
     image: 'NewInformation_YoUWebsite_a.jpg',
-    imageAlt: 'Alt text goes here.',
+    imageAlt: 'Graphic rendering of the website you.queensmuseum.org, that features big bold text that says YEAR OF UNCERTAINTY, followed by images of Queens Museum installations and exhibitions.',
     mobileImage: 'NewInformation_YoUWebsite_Mobile_a.jpg',
     color: '#B97834',
     slug: 'year-of-uncertainty-website'
@@ -22,7 +22,7 @@ export default [
     title: 'Monacelli Press',
     caption: 'Publication design of Listening to Clay, featuring conversations with sixteen Japanese ceramic artists in a dynamic interview format.',
     image: 'NewInformation_ListeningToClay_a.jpg',
-    imageAlt: 'Alt text goes here.',
+    imageAlt: 'Scans of the front and back cover of Listening to Clay, a blue hardcover book with light blue sans serif typography. The cover features two silhouettes of Japanese ceramics, and the back cover features the names of 16 artists.',
     mobileImage: 'NewInformation_ListeningToClay_Mobile_a.jpg',
     color: '#3438e0',
     slug: 'listening-to-clay'
@@ -31,7 +31,7 @@ export default [
     title: 'Spitzer Architecture',
     caption: 'Website design for Spitzer Architecture’s Unit System, surfacing relationships among students, faculty, and their respective courses of study. <a href="https://unitsystem.ssa.ccny.cuny.edu/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_Spitzer_a.mp4',
-    imageAlt: 'Alt text goes here.',
+    imageAlt: 'Still image of a web page featuring a listing of courses of study at Spitzer School of Architecture. The web page features black helvetica type with a grey background, and horizontal rules.',
     color: '#ffd732',  
     mobileImage: 'NewInformation_Spitzer_Mobile_a.jpg',
     slug: 'graduate-programs-spitzer-unit-system'
@@ -40,7 +40,7 @@ export default [
     title: 'Nike',
     caption: 'Brand design for Nike’s KD14 release, a campaign capturing the energy of both the athlete and the footwear.',
     image: 'NewInformation_NikeKD14_a.jpg',
-    imageAlt: 'Alt text goes here.',
+    imageAlt: 'Rendering of a poster campaign promoting KD14 shoes. The posters have big bold repeated type that says TAKE YOUR GAME FURTHER, and oscillates between type and photos of shoes and Kevin Durant.',
     mobileImage: 'NewInformation_NikeKD14_Mobile_a.jpg',
     color: '#00ffff',
     slug: 'nike-kd-14'
@@ -49,7 +49,7 @@ export default [
     title: 'Cory Arcangel',
     caption: 'Publication design of All The Small Things, a dynamic tour of Cory Arcangel’s Heart Museum installation.',
     image: 'NewInformation_AllTheSmallThings_a.jpg',
-    imageAlt: 'Alt text goes here.',
+    imageAlt: 'Scan of front and back cover of exhibition catalog for All The Small Things. The cover is white with black type, featuring bright colored dots in yellow, magenta and green.',
     mobileImage: 'NewInformation_AllTheSmallThings_Mobile_a.jpg',
     color: '#ff4382',
     slug: 'all-the-small-things'
@@ -58,7 +58,7 @@ export default [
     title: 'Krink',
     caption: 'E-commerce website design for Krink, featuring a specimen-like grid, oversized filtering tools, and a screensaver. <a href="https://krink.com/" target="_blank">⭢ View here</a>',
     image: 'NewInformation_Krink_a.jpg',
-    imageAlt: 'Alt text goes here.',
+    imageAlt: 'Still rendering of shop web page for krink.com, featuring a grid of paint pens in different colors.',
     mobileImage: 'NewInformation_Krink_Mobile_a.jpg',
     color: '#3AD42F',
     slug: 'krink'
@@ -67,7 +67,7 @@ export default [
     title: 'Processing Foundation',
     caption: 'Publication design of the Processing Community Catalog, a 900 page tome documenting the activities of the Processing Foundation from the last 20 years.',
     image: 'NewInformation_ProcessingFoundation_a.jpg',
-    imageAlt: 'Alt text goes here.',
+    imageAlt: 'Scan of front and back covers of Processing Community Catalog. The cover is made of orange vinyl, and features small white foil stamped type listing the contents of the book.',
     mobileImage: 'NewInformation_ProcessingFoundation_Mobile_a.jpg',
     color: '#ff461b',
     slug: 'processing-foundation'
@@ -76,7 +76,7 @@ export default [
     title: 'The Elm',
     caption: 'Identity design for The Elm, a new restaurant in the Berkshires offering contemporary New England style cuisine.',
     image: 'NewInformation_TheElm_a.jpg',
-    imageAlt: 'Alt text goes here.',
+    imageAlt: 'Rendering of The Elm logo, featuring upright serif type and an illustration of an elm leaf, embossed into fine cotton paper.',
     mobileImage: 'NewInformation_TheElm_Mobile_a.jpg',
     color: '#0b5714',
     slug: 'the-elm'
@@ -87,6 +87,7 @@ export default [
     caption: 'Search-based website design cataloging the prolific works of photographer Jeremy Liebman. <a href="http://jeremyliebman.com/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_JeremyLiebman_a.mp4',
     mobileImage: 'NewInformation_JeremyLiebman_Mobile_a.jpg',
+    imageAlt: 'Video or still of photography portfolio site for Jeremy Liebman, featuring groups of photographs arranged in card-based stacks.',
     color: '#FFFF00',
     slug: 'jeremy-liebman'
   },
@@ -104,6 +105,7 @@ export default [
     caption: 'Temporary website design for Agency—Agency, an evolving, exuberant, investigative architectural design practice by Tei Carpenter. <a href="http://agency-agency.us/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_AgencyAgency_a.mp4',
     mobileImage: 'NewInformation_AgencyAgency_Mobile_a.jpg',
+    imageAlt: 'Video or still of website with black background and white serif typography, featuring animated squiggle illustrations in bright neon colors.',
     color: '#ff2830',
     slug: 'agency-agency'
   },
@@ -112,6 +114,7 @@ export default [
     caption: 'Portfolio website design for Sacha Maric, fluidly traversing fashion, personal, and portraiture photography. <a href="https://www.sachamaric.com/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_SachaMaric_a.mp4',
     mobileImage: 'NewInformation_SachaMaric_Mobile_a.jpg',
+    imageAlt: 'Image or video of web page of portfolio website for Sacha Maric, featuring big bold fashion imagery.',
     color: '#ff99e1',
     slug: 'sacha-maric'
   }
