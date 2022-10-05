@@ -1,18 +1,10 @@
 export default [
   {
-    date: '9.27.22',
-    text: 'has been listening to music by MNDSGN, Steve Lacy, Wild Nothing, and more.'
+    date: '10.05.22',
+    text: 'has been listening to music by Shin Joong Hyun 신중현, Thundercat, Jenevieve, and more.'
   },
   {
-    date: '9.26.22',
-    text: 'has been listening to music by Cate Le Bon, Quincy Jones, Pavement, and Pharoah Sanders (RIP).'
-  },
-  {
-    date: '9.23.22',
-    text: 'has been listening to music by Frankie Cosmos, Japanese Breakfast, Mack Browne & The Brothers, and more.'
-  },
-  {
-    date: '9.22.22',
-    text: 'has updated their website.'
+    date: '10.05.22',
+    text: 'is launching www.newinfo.studio.'
   }
 ]
