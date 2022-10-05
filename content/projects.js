@@ -95,7 +95,7 @@ export default [
     image: 'NewInformation_QueensMuseum_a.jpg',
     imageAlt: 'Image of an entrance doorway to the Queens Museum featuring bright green entrance signage in both English and Spanish.',
     mobileImage: 'NewInformation_QueensMuseum_Mobile_a.jpg',
-    color: '#9680f9',
+    color: '#2fb56a',
     slug: 'queens-museum'
   },
   {
