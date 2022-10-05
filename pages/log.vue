@@ -11,8 +11,8 @@
         class="item h-text text-black flex"
       >
         <span class="date mr-16 hidden lg:inline">On {{ item.date }}</span>
-        <span class="md:mr-16 title flex-1">New Information</span>
-        <span class="w-1/2 md:w-full text pr-16 md:pr-0 pl-3 md:pl-0">{{ item.text }}</span>
+        <span class="md:mr-16 title flex-1">{{ device === 'desktop' ? 'New Information' : `On ${item.date}` }}</span>
+        <span class="w-1/2 md:w-full text pr-16 md:pr-0 pl-3 md:pl-0">{{ device === 'desktop' ? item.text : `New Information ${item.text}` }}</span>
       </p>
     </div>
 

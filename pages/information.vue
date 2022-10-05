@@ -145,7 +145,7 @@ export default {
     width: 50%;
 
     @media screen and (min-width: theme('screens.md')) {
-      width: 217px;
+      width: 213px;
     }
 
     @media screen and (min-width: theme('screens.lg')) {

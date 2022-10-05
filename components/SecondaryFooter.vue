@@ -2,7 +2,7 @@
   <footer 
     id="secondary-footer" 
     class="fixed bottom-0 left-0 flex w-full"
-    :class="device === 'desktop' ? 'px-6 pt-6 pb-4' : 'p-4'"
+    :class="device === 'desktop' ? 'px-6 pt-6 pb-4' : 'pt-4 px-4 pb-2'"
   >
     <div class="left flex justify-start items-center lg:mr-16">
       <nuxt-link 
@@ -12,7 +12,8 @@
 
       <nuxt-link 
         :to="$route.name == 'information' ? '/log' : '/information'" 
-        class="h-text text-black ml-6 lg:ml-16 inline-block"
+        class="h-text text-black inline-block"
+        :class="device === 'desktop' ? 'ml-16' : 'ml-6'"
       >{{ $route.name == 'information' ? 'Log' : 'Information' }}</nuxt-link>
     </div>
 
@@ -86,6 +87,9 @@ export default {
       this.buttonColor = 'black'
       this.buttonBg = this.currentColor
     }
+  },
+  created() {
+    this.buttonBg = this.currentColor
   }
 }
 </script>
@@ -98,7 +102,7 @@ export default {
       width: 50%;
 
       @media screen and (min-width: theme('screens.md')) {
-        width: 204px;
+        width: 207px;
         flex: 0 0 auto;
       }
 
@@ -138,6 +142,7 @@ export default {
         color: black;
         height: 100%;
         background-color: transparent;
+        font-weight: normal;
 
         // &:hover {
         //   background-color: black;
