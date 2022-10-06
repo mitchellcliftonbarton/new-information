@@ -1,4 +1,4 @@
-import content from './content/content.js'
+import content from './content/index'
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -80,12 +80,17 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxtjs/tailwindcss',
-    'nuxt-gsap-module',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/pwa',
+    ['nuxt-lazy-load', {
+      observerConfig: {
+        rootMargin: '0px 0px 50% 0px',
+        threshold: 0
+      }
+    }]
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -98,11 +103,22 @@ export default {
     }
   },
 
-  gsap: {
-    /* module options */
-  },
-
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  
+  generate: {
+    routes() {
+      const { projects } = content
+      const routesToGenerate = []
+
+      projects.forEach(project => {
+        const slug = `/projects/${project.slug}`
+
+        routesToGenerate.push(slug)
+      })
+
+      return routesToGenerate
+    }
   }
 }

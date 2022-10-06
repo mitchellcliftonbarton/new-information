@@ -20,8 +20,9 @@ html {
 
 body {
   height: 100%;
-  cursor: auto;
-  overflow: hidden;
+  // cursor: auto;
+  // overflow: hidden;
+  background-color: white;
 
   p,
   span,
@@ -63,43 +64,19 @@ body {
   border: 0;
 }
 
-.upside-down {
-  transform: rotate(180deg) translateY(-5px);
-  display: inline-block;
+img,
+video {
+  &.lazyLoad {
+    opacity: 0;
+    transition: opacity .7s;
+    transition-delay: 100ms;
 
-  .device-mobile & {
-    transform: rotate(180deg) translateY(-4px);
-  }
-}
-
-.overline {
-  position: relative;
-
-  &:before {
-    content: '';
-    position: absolute;
-    top: 7px;
-    left: 0px;
-    height: 2px;
-    background-color: black;
-    width: 100%;
-
-    .device-mobile & {
-      top: 5px;
-    }
-  }
-
-  .text-blue & {
-    &:before {
-      background-color: blue;
+    &.isLoaded {
+      opacity: 1;
     }
   }
 }
 
-main.main {
-  @apply p-8;
-
-  .device-mobile & {
-    @apply p-6;
-  }
+div.mce_inline_error {
+  display: none !important;
 }

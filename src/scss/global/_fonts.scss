@@ -1,19 +1,26 @@
-@layer base {
-  @font-face {
-    font-family: 'Helvetica Narrow';
-    src: url('./../fonts/h-narrow.woff2') format('woff2'),
-      url('./../fonts/h-narrow.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: auto;
+@font-face {
+  font-family: 'Helvetica Narrow';
+  src: url('./../fonts/h-narrow.woff2') format('woff2'),
+    url('./../fonts/h-narrow.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+.h-text {
+  @apply text-h-text font-h-narrow;
+  -webkit-font-smoothing: antialiased;
+
+  .device-mobile & {
+    @apply text-h-text-mobile;
   }
 
-  .h-text {
-    @apply text-h-text font-h-narrow;
-    -webkit-font-smoothing: antialiased;
-
-    .device-mobile & {
-      @apply text-h-text-mobile font-h-narrow;
-    }
+  &.rich-text {
+    // a {
+    //   &:hover {
+    //     text-decoration-line: underline;
+    //     text-decoration-thickness: 2px;
+    //   }
+    // }
   }
 }
