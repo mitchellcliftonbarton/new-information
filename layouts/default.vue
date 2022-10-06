@@ -23,6 +23,7 @@
           @mousemove.native="handleMouseMove($event, leftCursor)"
           class="prev h-full w-1/2 relative"
           :class="{ 'active': leftCursor.show }"
+          :aria-label="`View ${previousProject.title}`"
         >
           <PreviousArrow 
             :style="{
@@ -39,6 +40,7 @@
           @mousemove.native="handleMouseMove($event, rightCursor)"
           class="next h-full w-1/2 relative"
           :class="{ 'active': rightCursor.show }"
+          :aria-label="`View ${nextProject.title}`"
         >
           <NextArrow 
             :style="{
