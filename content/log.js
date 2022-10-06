@@ -1,10 +1,10 @@
 export default [
   {
-    date: '10.05.22',
+    date: '10.06.22',
     text: 'is listening to music by Jenevieve, Shin Joong Hyun 신중현, Thundercat, and more.'
   },
   {
-    date: '10.05.22',
+    date: '10.06.22',
     text: 'is launching www.newinfo.studio.'
   }
 ]
