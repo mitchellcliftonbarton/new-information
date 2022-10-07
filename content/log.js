@@ -1,5 +1,9 @@
 export default [
   {
+    date: '10.07.22',
+    text: 'is listening to music by Frank Ocean, MNDSGN, and more.'
+  },
+  {
     date: '10.06.22',
     text: 'is listening to music by Jenevieve, Shin Joong Hyun 신중현, Thundercat, and more.'
   },
