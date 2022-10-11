@@ -1,5 +1,9 @@
 export default [
   {
+    date: '10.11.22',
+    text: 'is listening to music by Big Thief, Frankie Cosmos, Stereolab, Swamp Dogg, and more.'
+  },
+  {
     date: '10.07.22',
     text: 'is listening to music by Frank Ocean, MNDSGN, and more.'
   },
