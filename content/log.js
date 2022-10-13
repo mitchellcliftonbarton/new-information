@@ -4,6 +4,10 @@ export default [
     text: 'is listening to music by Beach House, Devendra Banhart, and more.'
   },
   {
+    date: '10.12.22',
+    text: 'is reading Stories of Your Life and Others by Ted Chiang.'
+  },
+  {
     date: '10.11.22',
     text: 'is listening to music by Big Thief, Frankie Cosmos, Stereolab, Swamp Dogg, and more.'
   },
