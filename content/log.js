@@ -1,11 +1,11 @@
 export default [
   {
     date: '10.14.22',
-    text: 'is listening to Beyonce, The Daily, Talking Heads, and more.'
+    text: 'is traveling to Korea and the NYABF.'
   },
   {
     date: '10.14.22',
-    text: 'is traveling to Korea and the NYABF.'
+    text: 'is listening to Beyonce, The Daily, Talking Heads, and more.'
   },
   {
     date: '10.13.22',
