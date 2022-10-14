@@ -1,5 +1,9 @@
 export default [
   {
+    date: '10.14.22',
+    text: 'is traveling to Korea and the NYABF.'
+  },
+  {
     date: '10.13.22',
     text: 'is listening to music by Beach House, Devendra Banhart, and more.'
   },
