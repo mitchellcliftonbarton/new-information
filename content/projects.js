@@ -117,7 +117,7 @@ export default [
     imageAlt: 'Image or video of web page of portfolio website for Sacha Maric, featuring big bold fashion imagery.',
     color: '#ff99e1',
     slug: 'sacha-maric'
-  }
+  },
   {
     title: 'The Amp',
     caption: 'Website design for The Amp, an online magazine from the Asian American Arts Alliance (A4) that celebrates the vibrant, multifaceted, and rich AAPI cultural community in NYC and beyond. <a href="https://www.aaartsalliance.org/magazine" target="_blank">⭢ View here</a>',
@@ -126,7 +126,7 @@ export default [
     imageAlt: 'Image of web page for The Amp, the new magazine site for A4, featuring bold graphic in red color.',
     color: '#ff3a20',
     slug: 'the-amp'
-  }
+  },
   {
     title: 'Queens Museum Website',
     caption: 'Website design for Queens Museum. <a href="https://queensmuseum.org/" target="_blank">⭢ View here</a>',
