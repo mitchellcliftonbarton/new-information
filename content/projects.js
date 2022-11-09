@@ -119,7 +119,7 @@ export default [
     slug: 'sacha-maric'
   },
   {
-    title: 'The Amp',
+    title: 'A4',
     caption: 'Website design for The Amp, an online magazine from the Asian American Arts Alliance (A4) that celebrates the vibrant, multifaceted, and rich AAPI cultural community in NYC and beyond. <a href="https://www.aaartsalliance.org/magazine" target="_blank">⭢ View here</a>',
     image: 'NewInformation_TheAmp_a.jpg',
     mobileImage: 'NewInformation_TheAmp_moble_a.jpg',
@@ -128,7 +128,7 @@ export default [
     slug: 'the-amp'
   },
   {
-    title: 'Queens Museum Website',
+    title: 'Queens Museum',
     caption: 'Website design for Queens Museum. <a href="https://queensmuseum.org/" target="_blank">⭢ View here</a>',
     image: 'NewInformation_QueensMuseumWebsite_a.jpg',
     mobileImage: 'NewInformation_QueensMuseumWebsite_Mobile_a.jpg',
