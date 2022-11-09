@@ -118,4 +118,13 @@ export default [
     color: '#ff99e1',
     slug: 'sacha-maric'
   }
+  {
+   title: 'The Amp',
+   caption: 'Website design for The Amp, an online magazine from the Asian American Arts Alliance (A4) that celebrates the vibrant, multifaceted, and rich AAPI cultural community in NYC and beyond. <a href="https://www.sachamaric.com/" target="_blank">⭢ View here</a>',
+   video: 'NewInformation_TheAmp_a.jpg',
+   mobileImage: 'NewInformation_TheAmp_moble_a.jpg',
+   imageAlt: 'Image of web page for The Amp, the new magazine site for A4, featuring bold graphic in red color.',
+   color: '#ff99e1',
+   slug: 'sacha-maric'
+  }
 ]
