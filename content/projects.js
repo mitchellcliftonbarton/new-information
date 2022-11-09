@@ -121,10 +121,19 @@ export default [
   {
    title: 'The Amp',
    caption: 'Website design for The Amp, an online magazine from the Asian American Arts Alliance (A4) that celebrates the vibrant, multifaceted, and rich AAPI cultural community in NYC and beyond. <a href="https://www.sachamaric.com/" target="_blank">⭢ View here</a>',
-   video: 'NewInformation_TheAmp_a.jpg',
+   image: 'NewInformation_TheAmp_a.jpg',
    mobileImage: 'NewInformation_TheAmp_moble_a.jpg',
    imageAlt: 'Image of web page for The Amp, the new magazine site for A4, featuring bold graphic in red color.',
-   color: '#ff99e1',
-   slug: 'sacha-maric'
+   color: '#ff3a20',
+   slug: 'the-amp'
   }
+  {
+    title: 'Queens Museum Website',
+    caption: 'Website design for Queens Museum. <a href="https://www.sachamaric.com/" target="_blank">⭢ View here</a>',
+    image: 'NewInformation_QueensMuseumWebsite_a.jpg',
+    mobileImage: 'NewInformation_QueensMuseumWebsite_Mobile_a.jpg',
+    imageAlt: 'Image of web page for Queens Museum, featuring clock with graphic in bright neon green color.',
+    color: '#b8fa04',
+    slug: 'queens-museum-website'
+  }  
 ]
