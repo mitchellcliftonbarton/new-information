@@ -135,5 +135,14 @@ export default [
     imageAlt: 'Image of web page for Queens Museum, featuring clock with graphic in bright neon green color.',
     color: '#b8fa04',
     slug: 'queens-museum-website'
-  }  
+  },
+  {
+    title: 'Carmen Winant and Calista Lyon',
+    caption: 'Folded down poster design for the exhibition, Breaking Water.',
+    image: 'NewInformation_BreakingWater_a.jpg',
+    mobileImage: 'NewInformation_BreakingWater_Mobile_a.jpg',
+    imageAlt: 'Image of poster for Breaking Water, featuring floating image blocks with poetry.',
+    color: '#c1c1c1',
+    slug: 'breaking-water'
+  }
 ]
