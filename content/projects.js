@@ -129,7 +129,7 @@ export default [
   },
   {
     title: 'Queens Museum',
-    caption: 'Website design for the Queens Museum, dynamically sharing and archiving exhibitions, events, and programs and surfacing the history integral to the Museum. <a href="https://queensmuseum.org/" target="_blank">⭢ View here</a>',
+    caption: 'Website design for the Queens Museum, situates the museum in its specific location, time, and history. <a href="https://queensmuseum.org/" target="_blank">⭢ View here</a>',
     image: 'NewInformation_QueensMuseumWebsite_a.jpg',
     mobileImage: 'NewInformation_QueensMuseumWebsite_Mobile_a.jpg',
     imageAlt: 'Image of web page for Queens Museum, featuring clock with graphic in bright neon green color.',
