@@ -129,7 +129,7 @@ export default [
   },
   {
     title: 'Queens Museum',
-    caption: 'Website design for the Queens Museum, situates the museum in its specific location, time, and history. <a href="https://queensmuseum.org/" target="_blank">⭢ View here</a>',
+    caption: 'Website design for the Queens Museum, dynamically serves events, exhibitions and program information through an accessible and lively interface.<a href="https://queensmuseum.org/" target="_blank">⭢ View here</a>',
     image: 'NewInformation_QueensMuseumWebsite_a.jpg',
     mobileImage: 'NewInformation_QueensMuseumWebsite_Mobile_a.jpg',
     imageAlt: 'Image of web page for Queens Museum, featuring clock with graphic in bright neon green color.',
@@ -137,8 +137,8 @@ export default [
     slug: 'queens-museum-website'
   },
   {
-    title: 'Carmen Winant and Calista Lyon',
-    caption: 'Folded down poster design for the exhibition, Breaking Water.',
+    title: 'Carmen Winant & Calista Lyon',
+    caption: 'Silkscreen poster design on newsprint, for the exhibition "Breaking Water" by Carmen Winant and Calista Lyon.',
     image: 'NewInformation_BreakingWater_a.jpg',
     mobileImage: 'NewInformation_BreakingWater_Mobile_a.jpg',
     imageAlt: 'Image of poster for Breaking Water, featuring floating image blocks with poetry.',
