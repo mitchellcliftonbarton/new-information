@@ -1,5 +1,13 @@
 export default [
   {
+    date: '12.15.22',
+    text: 'is visitng to Queens Museum.'
+  },
+  {
+    date: '12.14.22',
+    text: 'is looking at artwork by Jaqueline Humphreys and Sterling Ruby.'
+  },
+  {
     date: '10.19.22',
     text: 'is listening to music by Archy Marshall, Yves Tumor, and more.'
   },
