@@ -1,7 +1,7 @@
 export default [
   {
     date: '12.15.22',
-    text: 'is visitng to Queens Museum.'
+    text: 'is visiting Queens Museum.'
   },
   {
     date: '12.14.22',
