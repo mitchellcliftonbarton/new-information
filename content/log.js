@@ -1,11 +1,11 @@
 export default [
   {
     date: '12.15.22',
-    text: 'is traveling to Queens Museum.'
+    text: 'is viewing exhibitions at the Queens Museum.'
   },
   {
     date: '12.14.22',
-    text: 'is looking at artwork by Jaqueline Humphreys and Sterling Ruby.'
+    text: 'is viewing artwork by Jaqueline Humphreys and Sterling Ruby.'
   },
   {
     date: '10.19.22',
