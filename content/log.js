@@ -12,6 +12,10 @@ export default [
     text: 'is viewing artwork by Jaqueline Humphreys and Sterling Ruby.'
   },
   {
+    date: '11.14.22',
+    text: 'is reading Braiding Sweetgrass by Robin Wall Kimmerer.'
+  },
+  {
     date: '10.19.22',
     text: 'is listening to music by Archy Marshall, Yves Tumor, and more.'
   },
