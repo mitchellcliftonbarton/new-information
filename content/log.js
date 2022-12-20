@@ -1,5 +1,9 @@
 export default [
   {
+    date: '12.20.22',
+    text: 'is listening to Joe Maneri, Frank Ocean, and Jorja Smith.'
+  },
+  {
     date: '12.15.22',
     text: 'is viewing exhibitions at the Queens Museum.'
   },
