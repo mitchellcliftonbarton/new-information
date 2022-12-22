@@ -1,5 +1,9 @@
 export default [
   {
+    date: '12.21.22',
+    text: 'is viewing artwork by Theaster Gates at the New Museum.'
+  },
+  {
     date: '12.20.22',
     text: 'is listening to Joe Maneri, Frank Ocean, and Jorja Smith.'
   },
