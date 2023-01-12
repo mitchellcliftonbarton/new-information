@@ -144,5 +144,14 @@ export default [
     imageAlt: 'Image of poster for Breaking Water, featuring floating image blocks with poetry.',
     color: '#c1c1c1',
     slug: 'breaking-water'
+  },
+  {
+    title: 'Queens Museum',
+    caption: 'Poster design for Year of Uncertainty (YoU), a framework for strengthening connections among the Queens Museum and its communities.',
+    image: 'NewInformation_YoUPoster_a.jpg',
+    imageAlt: 'A scans of YoU poster featuring big, bold text that says YEAR OF UNCERTAINTY and YoU Dispatch, along with small texts and conduit on front and back.',
+    mobileImage: 'NewInformation_YoUPoster_Mobile_a.jpg',
+    color: '#bbe0ff',
+    slug: 'year-of-uncertainty-poster'
   }
 ]
