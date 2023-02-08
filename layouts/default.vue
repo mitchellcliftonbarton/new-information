@@ -144,6 +144,10 @@ export default {
     this.setIsMobile()
   },
   mounted() {
+    console.log('projects = ')
+    console.log(this.projects)
+    console.log('state =')
+    console.log(this.$store.state, this)
     console.log(this.currentProject)
     this.$store.dispatch('setDevice', this.getDeviceType())
     
