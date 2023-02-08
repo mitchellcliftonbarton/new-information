@@ -13,7 +13,8 @@ export default {
   computed: {
       ...mapState(["projects"]),
       firstProject() {
-        return this.projects.at(Math.random() * this.projects.length);
+        // return this.projects.at(Math.random() * this.projects.length);
+        return this.projects[Math.floor(Math.random() * this.projects.length)]
       }
   },
   mounted() {
