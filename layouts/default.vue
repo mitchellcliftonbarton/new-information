@@ -144,6 +144,7 @@ export default {
     this.setIsMobile()
   },
   mounted() {
+    console.log(this.currentProject)
     this.$store.dispatch('setDevice', this.getDeviceType())
     
     console.log('%c \nDevelopment by Cold Rice \n \ncold-rice.info \n \n', 'color: grey')

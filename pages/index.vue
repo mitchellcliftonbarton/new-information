@@ -17,7 +17,8 @@ export default {
       }
   },
   mounted() {
-      this.$store.dispatch("setCurrentProject", this.firstProject);
+    console.log(this.firstProject, this.projects)
+    this.$store.dispatch("setCurrentProject", this.firstProject);
   },
   beforeRouteEnter(to, from, next) {
     next(vm => {
