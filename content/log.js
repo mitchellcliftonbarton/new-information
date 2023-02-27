@@ -1,5 +1,9 @@
 export default [
   {
+    date: '02.27.23',
+    text: 'is reading Interpreter of Maladies by Jhumpa Lahiri and All About Love: New Visions by Bell Hooks.'
+  },
+  {
     date: '12.21.22',
     text: 'is viewing artwork by Theaster Gates at the New Museum.'
   },
