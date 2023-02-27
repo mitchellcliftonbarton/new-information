@@ -161,5 +161,13 @@ export default [
     mobileImage: 'NewInformation_KrinkAD_mobile_a.jpg',
     color: '#a3733f',
     slug: 'krink-art-direction'
+  },
+  {
+    title: 'Year of the Rabbit',
+    caption: 'Poster design for Year of the Rabbit featuring 40 rabbit images from Met Museum's open acess collection',
+    image: 'NewInformation_YearofRabbit_a.jpg',
+    mobileImage: 'NewInformation_YearofRabbit_mobile_a.jpg',
+    color: '#a3733f',
+    slug: 'krink-art-direction'
   }
 ]
