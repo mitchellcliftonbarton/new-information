@@ -153,5 +153,13 @@ export default [
     mobileImage: 'NewInformation_YoUPoster_Mobile_a.jpg',
     color: '#bbe0ff',
     slug: 'year-of-uncertainty-poster'
+  },
+  {
+    title: 'Krink',
+    caption: 'Art direction for Krink, an artist materials brand and creative studio based in New York City.',
+    image: 'NewInformation_KrinkAD_a.jpg',
+    mobileImage: 'Krink_Sets.jpg',
+    color: '#000000',
+    slug: 'krink-art-direction'
   }
 ]
