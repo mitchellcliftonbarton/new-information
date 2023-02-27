@@ -168,6 +168,6 @@ export default [
     image: 'NewInformation_YearofRabbit_a.jpg',
     mobileImage: 'NewInformation_YearofRabbit_mobile_a.jpg',
     color: '#a3733f',
-    slug: 'krink-art-direction'
+    slug: 'year-of-the-rabbit'
   }
 ]
