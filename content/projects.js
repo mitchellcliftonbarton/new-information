@@ -159,7 +159,7 @@ export default [
     caption: 'Art direction for Krink, an artist materials brand and creative studio based in New York City.',
     image: 'NewInformation_KrinkAD_a.jpg',
     mobileImage: 'Krink_Sets.jpg',
-    color: '#000000',
+    color: '#a3733f',
     slug: 'krink-art-direction'
   }
 ]
