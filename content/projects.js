@@ -173,7 +173,7 @@ export default [
   {
     title: 'Honest Labor',
     caption: 'Website design for Honest Labor featuring videos that all numbered and color-coded.<a href="https://honestlabor.com/" target="_blank">⭢ View here</a>',
-    image: 'NewInformation_HonestLabor_a.mp4',
+    video: 'NewInformation_HonestLabor_a.mp4',
     mobileImage: 'NewInformation_HonestLabor_mobile_a.jpg',
     color: '#3981eb',
     slug: 'honest-labor'
