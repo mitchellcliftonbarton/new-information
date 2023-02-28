@@ -158,13 +158,13 @@ export default [
     title: 'Krink',
     caption: 'Art direction for Krink, an artist materials brand and creative studio based in New York City.',
     image: 'NewInformation_KrinkAD_a.jpg',
-    mobileImage: 'NewInformation_KrinkAD_mobile_a.jpg',
+    mobileImage: 'Krink_Sets.jpg',
     color: '#ffb718',
     slug: 'krink-art-direction'
   },
   {
     title: 'Year of the Rabbit',
-    caption: 'Poster design for celebrating Year of the Rabbit featuring 40 rabbit images from Met Museum's open acess collection',
+    caption: 'Poster design for celebrating Year of the Rabbit featuring 40 rabbit images from Met Museum’s open access collection.',
     image: 'NewInformation_YearofRabbit_a.jpg',
     mobileImage: 'NewInformation_YearofRabbit_mobile_a.jpg',
     color: '#a3733f',
