@@ -169,5 +169,13 @@ export default [
     mobileImage: 'NewInformation_YearofRabbit_mobile_a.jpg',
     color: '#a3733f',
     slug: 'year-of-the-rabbit'
+  },
+  {
+    title: 'Honest Labor',
+    caption: 'Website design for Honest Labor featuring videos that all numbered and color-coded.<a href="https://queensmuseum.org/" target="_blank">⭢ View here</a>',
+    image: 'NewInformation_HonestLabor_a.mp4',
+    mobileImage: 'NewInformation_HonestLabor_mobile_a.jpg',
+    color: '#3981eb',
+    slug: 'honest-labor'
   }
 ]
