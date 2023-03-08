@@ -1,5 +1,9 @@
 export default [
   {
+    date: '03.08.23',
+    text: 'is listening to Helado Negro, Steve Lacy, and Thundercat.'
+  },
+  {
     date: '02.27.23',
     text: 'is reading Interpreter of Maladies by Jhumpa Lahiri and All About Love: New Visions by Bell Hooks.'
   },
