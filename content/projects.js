@@ -180,7 +180,7 @@ export default [
   },
   {
     title: 'Desi Santiago',
-    caption: 'Website design for Desi Santiago.<a href="https://desisantiago.com//" target="_blank">⭢ View here</a>',
+    caption: 'Website design for legendary artist and creative director Desi Santiago.<a href="https://desisantiago.com//" target="_blank">⭢ View here</a>',
     video: 'NewInformation_Desisantiago_a.mp4',
     mobileImage: 'NewInformation_Desisantiago_Mobile_a.jpg',
     color: '#FF0000',
