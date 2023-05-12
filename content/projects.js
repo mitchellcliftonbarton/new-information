@@ -185,5 +185,13 @@ export default [
     mobileImage: 'NewInformation_Desisantiago_Mobile_a.jpg',
     color: '#FF0000',
     slug: 'desi-santiago'
+  },
+  {
+    title: 'Mastic Beach Conservancy',
+    caption: 'Website design for Mastic Beach Conservancy.<a href="https://masticbeachconservancy.org/" target="_blank">⭢ View here</a>',
+    image: 'NewInformation_MBCWebsite_a.jpg',
+    mobileImage: 'NewInformation_MBCWeb_mobile_a.jpg',
+    color: '#3f8e4d',
+    slug: 'mastic-beach-conservancy'
   }
 ]
