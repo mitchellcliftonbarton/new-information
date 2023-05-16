@@ -1,7 +1,7 @@
 export default [
   {
     date: '05.16.23',
-    text: 'is listening to Tortoise and Haruomi Hosono Negro.'
+    text: 'is listening to Tortoise and Interior.'
   },
   {
     date: '03.08.23',
