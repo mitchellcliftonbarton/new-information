@@ -19,15 +19,15 @@ export default [
     slug: 'year-of-uncertainty-website'
   },
   {
-    title: 'Monacelli Press',
-    caption: 'Publication design of Listening to Clay, featuring conversations with sixteen Japanese ceramic artists in a dynamic interview format.',
-    image: 'NewInformation_ListeningToClay_a.jpg',
-    imageAlt: 'Scans of the front and back cover of Listening to Clay, a blue hardcover book with light blue sans serif typography. The cover features two silhouettes of Japanese ceramics, and the back cover features the names of 16 artists.',
-    mobileImage: 'NewInformation_ListeningToClay_Mobile_a.jpg',
-    color: '#3438e0',
-    slug: 'listening-to-clay'
+    title: 'Queens Museum',
+    caption: 'Poster design for Year of Uncertainty (YoU), a framework for strengthening connections among the Queens Museum and its communities.',
+    image: 'NewInformation_YoUPoster_a.jpg',
+    imageAlt: 'A scans of YoU poster featuring big, bold text that says YEAR OF UNCERTAINTY and YoU Dispatch, along with small texts and conduit on front and back.',
+    mobileImage: 'NewInformation_YoUPoster_Mobile_a.jpg',
+    color: '#bbe0ff',
+    slug: 'year-of-uncertainty-poster'
   },
-  {
+ {
     title: 'Spitzer Architecture',
     caption: 'Website design for Spitzer Architecture’s Unit System, surfacing relationships among students, faculty, and their respective courses of study. <a href="https://unitsystem.ssa.ccny.cuny.edu/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_Spitzer_a.mp4',
@@ -35,6 +35,15 @@ export default [
     color: '#ffd732',  
     mobileImage: 'NewInformation_Spitzer_Mobile_a.jpg',
     slug: 'graduate-programs-spitzer-unit-system'
+  },
+  {
+    title: 'Monacelli Press',
+    caption: 'Publication design of Listening to Clay, featuring conversations with sixteen Japanese ceramic artists in a dynamic interview format.',
+    image: 'NewInformation_ListeningToClay_a.jpg',
+    imageAlt: 'Scans of the front and back cover of Listening to Clay, a blue hardcover book with light blue sans serif typography. The cover features two silhouettes of Japanese ceramics, and the back cover features the names of 16 artists.',
+    mobileImage: 'NewInformation_ListeningToClay_Mobile_a.jpg',
+    color: '#3438e0',
+    slug: 'listening-to-clay'
   },
   {
     title: 'Nike',
@@ -101,6 +110,15 @@ export default [
     slug: 'queens-museum'
   },
   {
+    title: 'Queens Museum',
+    caption: 'Website design for the Queens Museum, dynamically serves events, exhibitions and program information through an accessible and lively interface.<a href="https://queensmuseum.org/" target="_blank">⭢ View here</a>',
+    image: 'NewInformation_QueensMuseumWebsite_a.jpg',
+    mobileImage: 'NewInformation_QueensMuseumWebsite_Mobile_a.jpg',
+    imageAlt: 'Image of web page for Queens Museum, featuring clock with graphic in bright neon green color.',
+    color: '#b8fa04',
+    slug: 'queens-museum-website'
+  },
+  {
     title: 'Agency—Agency',
     caption: 'Temporary website design for Agency—Agency, an evolving, exuberant, investigative architectural design practice by Tei Carpenter. <a href="http://agency-agency.us/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_AgencyAgency_a.mp4',
@@ -108,6 +126,15 @@ export default [
     imageAlt: 'Video or still of website with black background and white serif typography, featuring animated squiggle illustrations in bright neon colors.',
     color: '#ff2830',
     slug: 'agency-agency'
+  },
+  {
+    title: 'Carmen Winant & Calista Lyon',
+    caption: 'Silkscreen poster design on newsprint, for the exhibition "Breaking Water" by Carmen Winant and Calista Lyon.',
+    image: 'NewInformation_BreakingWater_a.jpg',
+    mobileImage: 'NewInformation_BreakingWater_Mobile_a.jpg',
+    imageAlt: 'Image of poster for Breaking Water, featuring floating image blocks with poetry.',
+    color: '#c1c1c1',
+    slug: 'breaking-water'
   },
   {
     title: 'Sacha Maric',
@@ -128,33 +155,6 @@ export default [
     slug: 'the-amp'
   },
   {
-    title: 'Queens Museum',
-    caption: 'Website design for the Queens Museum, dynamically serves events, exhibitions and program information through an accessible and lively interface.<a href="https://queensmuseum.org/" target="_blank">⭢ View here</a>',
-    image: 'NewInformation_QueensMuseumWebsite_a.jpg',
-    mobileImage: 'NewInformation_QueensMuseumWebsite_Mobile_a.jpg',
-    imageAlt: 'Image of web page for Queens Museum, featuring clock with graphic in bright neon green color.',
-    color: '#b8fa04',
-    slug: 'queens-museum-website'
-  },
-  {
-    title: 'Carmen Winant & Calista Lyon',
-    caption: 'Silkscreen poster design on newsprint, for the exhibition "Breaking Water" by Carmen Winant and Calista Lyon.',
-    image: 'NewInformation_BreakingWater_a.jpg',
-    mobileImage: 'NewInformation_BreakingWater_Mobile_a.jpg',
-    imageAlt: 'Image of poster for Breaking Water, featuring floating image blocks with poetry.',
-    color: '#c1c1c1',
-    slug: 'breaking-water'
-  },
-  {
-    title: 'Queens Museum',
-    caption: 'Poster design for Year of Uncertainty (YoU), a framework for strengthening connections among the Queens Museum and its communities.',
-    image: 'NewInformation_YoUPoster_a.jpg',
-    imageAlt: 'A scans of YoU poster featuring big, bold text that says YEAR OF UNCERTAINTY and YoU Dispatch, along with small texts and conduit on front and back.',
-    mobileImage: 'NewInformation_YoUPoster_Mobile_a.jpg',
-    color: '#bbe0ff',
-    slug: 'year-of-uncertainty-poster'
-  },
-  {
     title: 'Krink',
     caption: 'Art direction for Krink, an artist materials brand and creative studio based in New York City.',
     image: 'NewInformation_KrinkAD_a.jpg',
@@ -163,20 +163,20 @@ export default [
     slug: 'krink-art-direction'
   },
   {
-    title: 'Year of the Rabbit',
-    caption: 'Poster design for celebrating Year of the Rabbit featuring 40 rabbit images from Met Museum’s open access collection.',
-    image: 'NewInformation_YearofRabbit_a.jpg',
-    mobileImage: 'NewInformation_YearofRabbit_mobile_a.jpg',
-    color: '#a3733f',
-    slug: 'year-of-the-rabbit'
-  },
-  {
     title: 'Honest Labor',
     caption: 'Website design for Honest Labor featuring videos that all numbered and color-coded.<a href="https://honestlabor.com/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_HonestLabor_a.mp4',
     mobileImage: 'NewInformation_HonestLabor_mobile_a.jpg',
     color: '#3981eb',
     slug: 'honest-labor'
+  },
+  {
+    title: 'Year of the Rabbit',
+    caption: 'Poster design for celebrating Year of the Rabbit featuring 40 rabbit images from Met Museum’s open access collection.',
+    image: 'NewInformation_YearofRabbit_a.jpg',
+    mobileImage: 'NewInformation_YearofRabbit_mobile_a.jpg',
+    color: '#a3733f',
+    slug: 'year-of-the-rabbit'
   },
   {
     title: 'Desi Santiago',
