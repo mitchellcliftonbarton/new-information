@@ -1,5 +1,9 @@
 export default [
   {
+    date: '05.16.23',
+    text: 'is listening to Tortoise and Haruomi Hosono Negro.'
+  },
+  {
     date: '03.08.23',
     text: 'is listening to Helado Negro, Steve Lacy, and Thundercat.'
   },
