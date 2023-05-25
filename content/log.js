@@ -1,5 +1,9 @@
 export default [
   {
+    date: '05.25.23',
+    text: 'is listening to Ice Cube and learning about native plantings.'
+  },
+  {
     date: '05.16.23',
     text: 'is listening to Tortoise and Interior.'
   },
