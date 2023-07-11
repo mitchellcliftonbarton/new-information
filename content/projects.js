@@ -202,5 +202,13 @@ export default [
     mobileImage: 'NewInformation_MBCWeb_mobile_a.jpg',
     color: '#3f8e4d',
     slug: 'mastic-beach-conservancy'
+  },
+  {
+    title: 'Three Weathers',
+    caption: 'New collaboration with artist and friend Leah Beeferman in which we document a moment in time each week through a printed poster.<a href="https://threeweathers.xyz/" target="_blank">⭢ View here</a>',
+    video: 'NewInformation_ThreeWeathers.mp4',
+    mobileImage: 'NewInformation_ThreeWeathers_Mobile_a.jpg',
+    color: '#00ff88',
+    slug: 'three-weathers'
   }
 ]
