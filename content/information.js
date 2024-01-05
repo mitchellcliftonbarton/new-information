@@ -1,5 +1,5 @@
 export default {
-  address: '67 West St<br>Unit 406<br>Brooklyn, NY<br>11222',
+  address: '42 West St<br>Suite 339<br>Brooklyn, NY<br>11222',
   email: 'hello@newinfo.studio',
   emailString: 'hello@<wbr>newinfo.studio',
   instagram: 'https://www.instagram.com/newinfo.studio/',
