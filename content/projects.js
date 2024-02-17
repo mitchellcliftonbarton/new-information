@@ -210,13 +210,5 @@ export default [
     mobileImage: 'NewInformation_ThreeWeathers_Mobile_a.jpg',
     color: '#00ff88',
     slug: 'three-weathers'
-  },
-  {
-    title: 'HIJK',
-    caption: 'New collaboration with artist and friend Leah Beeferman in which we document a moment in time each week through a printed poster.<a href="https://threeweathers.xyz/" target="_blank">⭢ View here</a>',
-    image: 'NewInformation_HIJK_a.jpg',
-    mobileImage: 'NewInformation_HIJK_mobile_a.jpg',
-    color: '#00ff88',
-    slug: 'hijk'
   }
 ]
