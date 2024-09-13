@@ -1,6 +1,6 @@
 export default [
   {
-    title: 'Queens Museum',
+    title: 'Queens Museum 2',
     caption: 'Exhibition design for Year of Uncertainty (YoU), a framework for strengthening connections among the Queens Museum and its communities.',
     image: 'NewInformation_YoUExhibition_a.jpg',
     imageAlt: 'A photograph of a wall in the Queens Museum featuring big, bold text that says YEAR OF UNCERTAINTY, along with small exhibition text and timeline phases.',
