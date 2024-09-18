@@ -1,5 +1,15 @@
 export default [
   {
+    title: 'vowels',
+    caption: 'Website for startup menswear brand based on exploring deep archival references',
+    video: 'NewInformation_vowels_website_small.mp4',
+    imageAlt: '',
+    mobileImage: 'NewInformation_YoUExhibition_Mobile_a.jpg',
+    color: '#000',
+ /*   color: '#fe8c14', */
+    slug: 'year-of-uncertainty'
+  },
+  {
     title: 'Queens Museum',
     caption: 'Exhibition design for Year of Uncertainty (YoU), a framework for strengthening connections among the Queens Museum and its communities.',
     image: 'NewInformation_YoUExhibition_a.jpg',
