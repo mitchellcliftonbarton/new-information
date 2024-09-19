@@ -7,7 +7,7 @@ export default [
     mobileImage: 'NewInformation_YoUExhibition_Mobile_a.jpg',
     color: '#000',
  /*   color: '#fe8c14', */
-    slug: 'year-of-uncertainty'
+    slug: 'vowels-website'
   },
   {
     title: 'Queens Museum',
