@@ -3,10 +3,9 @@ export default [
     title: 'vowels',
     caption: 'Website for startup menswear brand based on exploring deep archival references',
     video: 'NewInformation_vowels_website_small.mp4',
-    imageAlt: '',
+    imageAlt: 'A video of a menswear fashion website',
     mobileImage: 'NewInformation_YoUExhibition_Mobile_a.jpg',
     color: '#000',
- /*   color: '#fe8c14', */
     slug: 'vowels-website'
   },
   {
