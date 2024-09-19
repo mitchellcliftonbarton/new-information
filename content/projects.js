@@ -1,11 +1,11 @@
 export default [
   {
     title: 'vowels',
-    caption: 'Website for startup menswear brand based on exploring deep archival references',
+    caption: 'Ecomm platform for a startup menswear brand blending a deep archive of design references with highly crafted garments.',
     video: 'NewInformation_vowels_Website_small.mp4',
     imageAlt: 'A video of a menswear fashion website',
     mobileImage: 'NewInformation_YoUExhibition_Mobile_a.jpg',
-    color: '#000',
+    color: '#ffffff',
     slug: 'vowels-website'
   },
   {
