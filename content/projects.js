@@ -9,6 +9,16 @@ export default [
     color: '#ffffff',
     slug: 'vowels-website'
   },
+    {
+    title: 'vowels',
+    caption: 'Ecomm platform for a startup menswear brand blending a deep archive of design references with highly crafted garments.',
+    video: 'NewInformation_vowelsWebsitePLP_b_smaller.mp4',
+    image: 'NewInformation_vowelsWebsiteHP_a.jpg',
+    imageAlt: 'An image or video of a menswear fashion website called Vowels',
+    mobileImage: 'NewInformation_vowelsWebsiteHP_Mobile_a.jpg',
+    color: '#ffffff',
+    slug: 'vowels-ecomm'
+  },
   {
     title: 'Queens Museum',
     caption: 'Exhibition design for Year of Uncertainty (YoU), a framework for strengthening connections among the Queens Museum and its communities.',
