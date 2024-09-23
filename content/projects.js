@@ -2,7 +2,7 @@ export default [
   {
     title: 'vowels',
     caption: 'Ecomm platform for a startup menswear brand blending a deep archive of design references with highly crafted garments.',
-    video: 'NewInformation_vowels_Website_small.mp4',
+    video: 'NewInformation_vowelsWebsiteHP_a_smaller.mp4',
     imageAlt: 'A video of a menswear fashion website',
     mobileImage: 'NewInformation_YoUExhibition_Mobile_a.jpg',
     color: '#ffffff',
