@@ -6,7 +6,7 @@ export default [
     image: 'NewInformation_vowelsWebsiteHP_a.jpg',
     imageAlt: 'An image or video of a menswear fashion website called Vowels',
     mobileImage: 'NewInformation_vowelsWebsiteHP_Mobile_a.jpg',
-    color: '#ffffff',
+    color: '#FCFBF4',
     slug: 'vowels-website'
   },
     {
@@ -16,7 +16,7 @@ export default [
     image: 'NewInformation_vowelsWebsiteHP_a.jpg',
     imageAlt: 'An image or video of a menswear fashion website called Vowels',
     mobileImage: 'NewInformation_vowelsWebsiteHP_Mobile_a.jpg',
-    color: '#ffffff',
+    color: '#FCFBF4',
     slug: 'vowels-ecomm'
   },
   {
