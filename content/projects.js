@@ -149,7 +149,7 @@ export default [
   },
   {
     title: 'Agency—Agency',
-    caption: 'Temporary website design for Agency—Agency, an evolving, exuberant, investigative architectural design practice by Tei Carpenter. <a href="http://agency-agency.us/" target="_blank">⭢ View here</a>',
+    caption: 'Website design for Agency—Agency, an evolving, exuberant, investigative architectural design practice by Tei Carpenter. <a href="http://agency-agency.us/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_AgencyAgency_a.mp4',
     mobileImage: 'NewInformation_AgencyAgency_Mobile_a.jpg',
     imageAlt: 'Video or still of website with black background and white serif typography, featuring animated squiggle illustrations in bright neon colors.',
