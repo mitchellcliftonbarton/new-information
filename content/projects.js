@@ -1,5 +1,23 @@
 export default [
   {
+    title: 'Columbia',
+    caption: 'Book design for Into the Quiet Light, by Virginia Hanusik, published by Columbia Books on Architecture and the City.',
+    image: 'NewInformation_Columbia_IQLTOC.jpg',
+    imageAlt: 'A photo of a book printed in bronze in, open to the table of contents page',
+    mobileImage: 'NewInformation_Columbia_MOBILE_IQLTOC.jpg',
+    color: '#FCFBF4',
+    slug: 'iql'
+  },
+  {
+    title: 'Columbia',
+    caption: 'Book design for Into the Quiet Light, by Virginia Hanusik, published by Columbia Books on Architecture and the City.',
+    image: 'NewInformation_Columbia_IQLstack.jpg',
+    imageAlt: 'A photo of a stack of books with black and white covers with an inset black and white photo of a tree',
+    mobileImage: 'NewInformation_Columbia_MOBILE_IQLstack.jpg',
+    color: '#FCFBF4',
+    slug: 'iql'
+  },
+  {
     title: 'vowels',
     caption: 'Ecomm platform for a startup menswear brand blending a deep archive of design references with highly crafted garments.',
     video: 'NewInformation_vowelsWebsiteHP_a_smaller.mp4',
