@@ -5,7 +5,7 @@ export default [
     image: 'NewInformation_Columbia_IQLTOC.jpg',
     imageAlt: 'A photo of a book printed in bronze in, open to the table of contents page',
     mobileImage: 'NewInformation_Columbia_MOBILE_IQLTOC.jpg',
-    color: '#FCFBF4',
+    color: '#fdcba4',
     slug: 'iql-toc'
   },
   {
@@ -14,7 +14,7 @@ export default [
     image: 'NewInformation_Columbia_IQLstack.jpg',
     imageAlt: 'A photo of a stack of books with black and white covers with an inset black and white photo of a tree',
     mobileImage: 'NewInformation_Columbia_MOBILE_IQLstack.jpg',
-    color: '#FCFBF4',
+    color: '#fdcba4',
     slug: 'iql-stack'
   },
   {
