@@ -1,45 +1,30 @@
 <template>
   <header
     id="nav"
-    class="fixed top-0 left-0 w-full lg:w-auto"
+    class="fixed top-0 left-0 w-full flex justify-between items-start"
     :class="device === 'desktop' ? 'p-6' : 'p-4 lg:p-6'"
   >
-    <div class="flex md:justify-start items-start">
+    <div
+      class="main-link flex flex-col md:flex-row md:justify-start items-start"
+    >
       <nuxt-link
         to="/information"
-        class="home-link h-text w-1/2 md:w-auto md:mr-16"
+        class="home-link h-text w-3/4 md:w-auto md:mr-16"
         :style="{ color: currentColor }"
         ><span>New</span> Information</nuxt-link
       >
       <p
         v-if="currentProject"
-        class="h-text w-1/2 md:w-auto"
+        class="h-text w-3/4 md:w-auto"
         :style="{ color: currentColor }"
       >
         with {{ currentProject.title }}
       </p>
     </div>
 
-    <div class="flex justify-end md:justify-start lg:hidden">
-      <nuxt-link 
-        v-if="previousLinkActive" 
-        :to="`/projects/${previousProject.slug}`" 
-        class="h-text w-1/2 md:w-auto"
-        :style="{ color: currentColor }"
-      >
-        <span class="mr-8 md:mr-16">Previous</span>
-        <span>{{ previousProject.title }}</span>
-      </nuxt-link>
-      <nuxt-link 
-        v-if="nextLinkActive" 
-        :to="`/projects/${nextProject.slug}`" 
-        class="h-text w-1/2 md:w-auto"
-        :style="{ color: currentColor }"
-      >
-        <span class="mr-8 md:mr-16">Next</span>
-        <span>{{ nextProject.title }}</span>
-      </nuxt-link>
-    </div>
+    <nuxt-link to="/about" class="h-text" :style="{ color: currentColor }">
+      About
+    </nuxt-link>
   </header>
 </template>
 
@@ -49,8 +34,13 @@ import { mapState, mapGetters } from "vuex";
 export default {
   name: "MainNav",
   computed: {
-    ...mapState(['currentProject', 'nextLinkActive', 'previousLinkActive', 'device']),
-    ...mapGetters(['currentColor', 'previousProject', 'nextProject'])
+    ...mapState([
+      "currentProject",
+      "nextLinkActive",
+      "previousLinkActive",
+      "device"
+    ]),
+    ...mapGetters(["currentColor", "previousProject", "nextProject"])
   }
 };
 </script>
@@ -58,6 +48,10 @@ export default {
 <style lang="scss" scoped>
 #nav {
   z-index: 500;
+
+  .main-link {
+    flex: 1;
+  }
 
   .home-link {
     .device-desktop & {
