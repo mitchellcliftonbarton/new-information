@@ -8,7 +8,7 @@
       class="main-link flex flex-col md:flex-row md:justify-start items-start"
     >
       <nuxt-link
-        to="/information"
+        to="/about"
         class="home-link h-text w-3/4 md:w-auto md:mr-16"
         :style="{ color: currentColor }"
         ><span>New</span> Information</nuxt-link
