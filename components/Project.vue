@@ -1,19 +1,15 @@
 <template>
-  <div class="project w-full h-full relative">
-    <NextLinks v-if="!isMobile" />
-  </div>
+  <div class="project w-full h-full relative"></div>
 </template>
 
 <script>
-import { mapState, mapGetters } from 'vuex'
-import NextLinks from '~/components/NextLinks.vue'
+import { mapState, mapGetters } from "vuex";
 
 export default {
-  name: 'Project',
-  components: { NextLinks },
+  name: "Project",
   computed: {
-    ...mapState(['currentProject', 'isMobile']),
-    ...mapGetters(['previousProject', 'nextProject', 'currentColor']),
+    ...mapState(["currentProject", "isMobile"]),
+    ...mapGetters(["previousProject", "nextProject", "currentColor"])
   }
-}
+};
 </script>
