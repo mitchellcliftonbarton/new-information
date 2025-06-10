@@ -1,7 +1,7 @@
 export default [
   {
     title: 'Columbia',
-    caption: 'Photo book design for <i>Into the Quiet and the Light</i>, by Virginia Hanusik, published by Columbia Books on Architecture and the City.',
+    caption: 'Book design for <i>Into the Quiet and the Light</i>, by Virginia Hanusik, published by Columbia Books on Architecture and the City.',
     image: 'NewInformation_Columbia_IQLTOC.jpg',
     imageAlt: 'A photo of a book printed in bronze in, open to the table of contents page',
     mobileImage: 'NewInformation_Columbia_MOBILE_IQLTOC.jpg',
