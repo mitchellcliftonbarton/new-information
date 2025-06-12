@@ -100,7 +100,7 @@ export default [
   },
    {
     title: 'Columbia',
-    caption: 'Book design for <i>Into the Quiet and the Light</i>, by Virginia Hanusik, published by Columbia Books on Architecture and the City.',
+    caption: '<i>Into the Quiet and the Light</i>, by Virginia Hanusik, published by Columbia Books on Architecture and the City.',
     image: 'NewInformation_Columbia_IQLTOC.jpg',
     imageAlt: 'A photo of a book printed in bronze in, open to the table of contents page',
     mobileImage: 'NewInformation_Columbia_MOBILE_IQLTOC.jpg',
@@ -109,7 +109,7 @@ export default [
   },
   {
     title: 'Columbia',
-    caption: 'Book design for  <i>Into the Quiet and the Light</i>, by Virginia Hanusik, published by Columbia Books on Architecture and the City.',
+    caption: '<i>Into the Quiet and the Light</i>, by Virginia Hanusik, published by Columbia Books on Architecture and the City.',
     image: 'NewInformation_Columbia_IQLstack.jpg',
     imageAlt: 'A photo of a stack of books with black and white covers with an inset black and white photo of a tree',
     mobileImage: 'NewInformation_Columbia_MOBILE_IQLstack.jpg',
@@ -138,7 +138,7 @@ export default [
   },
   {
     title: 'Queens Museum',
-    caption: 'Exhibition design for Year of Uncertainty (YoU), a framework for strengthening connections among the Queens Museum and its communities.',
+    caption: 'Year of Uncertainty (YoU) exhibition design, chronicling a year of conversation and reflection at the Queens Museum.',
     image: 'NewInformation_YoUExhibition_a.jpg',
     imageAlt: 'A photograph of a wall in the Queens Museum featuring big, bold text that says YEAR OF UNCERTAINTY, along with small exhibition text and timeline phases.',
     mobileImage: 'NewInformation_YoUExhibition_Mobile_a.jpg',
@@ -148,7 +148,7 @@ export default [
   },
   {
     title: 'Queens Museum',
-    caption: 'Website design of Year of Uncertainty (YoU) digital platform, chronicling a year of conversation, experimentation, and reflection at the Queens Museum. <a href="https://you.queensmuseum.org/" target="_blank">⭢ View here</a>',
+    caption: 'Year of Uncertainty (YoU) digital platform, chronicling a year of conversation and reflection at the Queens Museum. <a href="https://you.queensmuseum.org/" target="_blank">⭢ View here</a>',
     image: 'NewInformation_YoUWebsite_a.jpg',
     imageAlt: 'Graphic rendering of the website you.queensmuseum.org, that features big bold text that says YEAR OF UNCERTAINTY, followed by images of Queens Museum installations and exhibitions.',
     mobileImage: 'NewInformation_YoUWebsite_Mobile_a.jpg',
@@ -157,7 +157,7 @@ export default [
   },
   {
     title: 'Queens Museum',
-    caption: 'Poster design for Year of Uncertainty (YoU), a framework for strengthening connections among the Queens Museum and its communities.',
+    caption: 'Year of Uncertainty (YoU) publication, chronicling a year of conversation and reflection at the Queens Museum.',
     image: 'NewInformation_YoUPoster_a.jpg',
     imageAlt: 'A scans of YoU poster featuring big, bold text that says YEAR OF UNCERTAINTY and YoU Dispatch, along with small texts and conduit on front and back.',
     mobileImage: 'NewInformation_YoUPoster_Mobile_a.jpg',
@@ -166,7 +166,7 @@ export default [
   },
  {
     title: 'Spitzer Architecture',
-    caption: 'Website design for Spitzer Architecture’s Unit System, surfacing relationships among students, faculty, and their respective courses of study. <a href="https://unitsystem.ssa.ccny.cuny.edu/" target="_blank">⭢ View here</a>',
+    caption: 'Spitzer Architecture’s Unit System website, connecting students, faculty, and their respective courses of study. <a href="https://unitsystem.ssa.ccny.cuny.edu/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_Spitzer_a.mp4',
     imageAlt: 'Still image of a web page featuring a listing of courses of study at Spitzer School of Architecture. The web page features black helvetica type with a grey background, and horizontal rules.',
     color: '#ffd732',  
@@ -175,7 +175,7 @@ export default [
   },
   {
     title: 'Monacelli Press',
-    caption: 'Publication design of Listening to Clay, featuring conversations with sixteen Japanese ceramic artists in a dynamic interview format.',
+    caption: '<i>Listening to Clay</i>, publication design, featuring conversations with sixteen Japanese ceramic artists.',
     image: 'NewInformation_ListeningToClay_a.jpg',
     imageAlt: 'Scans of the front and back cover of Listening to Clay, a blue hardcover book with light blue sans serif typography. The cover features two silhouettes of Japanese ceramics, and the back cover features the names of 16 artists.',
     mobileImage: 'NewInformation_ListeningToClay_Mobile_a.jpg',
@@ -193,7 +193,7 @@ export default [
   },
   {
     title: 'Cory Arcangel',
-    caption: 'Publication design of All The Small Things, a dynamic tour of Cory Arcangel’s Heart Museum installation.',
+    caption: 'Publication design of <i>All The Small Things</i>, a dynamic tour of Cory Arcangel’s Heart Museum installation.',
     image: 'NewInformation_AllTheSmallThings_a.jpg',
     imageAlt: 'Scan of front and back cover of exhibition catalog for All The Small Things. The cover is white with black type, featuring bright colored dots in yellow, magenta and green.',
     mobileImage: 'NewInformation_AllTheSmallThings_Mobile_a.jpg',
@@ -202,7 +202,7 @@ export default [
   },
   {
     title: 'Krink',
-    caption: 'E-commerce website design for Krink, featuring a specimen-like grid, oversized filtering tools, and a screensaver. <a href="https://krink.com/" target="_blank">⭢ View here</a>',
+    caption: 'E-commerce website design for KRINK, an artist materials brand and creative studio based in New York City. <a href="https://krink.com/" target="_blank">⭢ View here</a>',
     image: 'NewInformation_Krink_a.jpg',
     imageAlt: 'Still rendering of shop web page for krink.com, featuring a grid of paint pens in different colors.',
     mobileImage: 'NewInformation_Krink_Mobile_a.jpg',
@@ -211,7 +211,7 @@ export default [
   },
   {
     title: 'Processing Foundation',
-    caption: 'Publication design of the Processing Community Catalog, a 900 page tome documenting the activities of the Processing Foundation from the last 20 years.',
+    caption: 'Processing Community Catalog, a 900 page tome documenting their generative activities of last 20 years.',
     image: 'NewInformation_ProcessingFoundation_a.jpg',
     imageAlt: 'Scan of front and back covers of Processing Community Catalog. The cover is made of orange vinyl, and features small white foil stamped type listing the contents of the book.',
     mobileImage: 'NewInformation_ProcessingFoundation_Mobile_a.jpg',
@@ -248,7 +248,7 @@ export default [
   },
   {
     title: 'Queens Museum',
-    caption: 'Brand identity for the Queens Museum, connecting the past with the present through a flexible conduit and custom typeface.',
+    caption: 'Brand identity for the Queens Museum, connecting the past with the present through a flexible system and custom typeface.',
     image: 'NewInformation_QueensMuseum_a.jpg',
     imageAlt: 'Image of an entrance doorway to the Queens Museum featuring bright green entrance signage in both English and Spanish.',
     mobileImage: 'NewInformation_QueensMuseum_Mobile_a.jpg',
@@ -257,7 +257,7 @@ export default [
   },
   {
     title: 'Queens Museum',
-    caption: 'Website design for the Queens Museum, dynamically serves events, exhibitions and program information through an accessible and lively interface.<a href="https://queensmuseum.org/" target="_blank">⭢ View here</a>',
+    caption: 'Website design for the Queens Museum, dynamically serving events, history, exhibitions and program information. <a href="https://queensmuseum.org/" target="_blank">⭢ View here</a>',
     image: 'NewInformation_QueensMuseumWebsite_a.jpg',
     mobileImage: 'NewInformation_QueensMuseumWebsite_Mobile_a.jpg',
     imageAlt: 'Image of web page for Queens Museum, featuring clock with graphic in bright neon green color.',
@@ -284,7 +284,7 @@ export default [
   },
   {
     title: 'A4',
-    caption: 'Website design for The Amp, an online magazine from the Asian American Arts Alliance (A4) that celebrates the vibrant, multifaceted, and rich AAPI cultural community in NYC and beyond. <a href="https://www.aaartsalliance.org/magazine" target="_blank">⭢ View here</a>',
+    caption: 'Design for an online magazine celebrating the vibrant, multifaceted, and rich AAPI cultural community in NYC and beyond. <a href="https://www.aaartsalliance.org/magazine" target="_blank">⭢ View here</a>',
     image: 'NewInformation_TheAmp_a.jpg',
     mobileImage: 'NewInformation_TheAmp_moble_a.jpg',
     imageAlt: 'Image of web page for The Amp, the new magazine site for A4, featuring bold graphic in red color.',
