@@ -6,7 +6,7 @@ export default [
     image: 'NewInformation_Alta_logo.jpg',
     imageAlt: 'A photo of the ALTA logo',
     mobileImage: 'NewInformation_Alta_Mobile_logo.jpg',
-    color: '#E1A61F',
+    color: '#BB3E33',
     slug: 'alta-animation',
   },
    {
@@ -15,7 +15,7 @@ export default [
     image: 'NewInformation_Alta_tote.jpg',
     imageAlt: 'A photo of a blue tote bag with the ALTA logo',
     mobileImage: 'NewInformation_Alta_Mobile_tote.jpg',
-    color: '#E1A61F',
+    color: '#BB3E33',
     slug: 'alta-tote',
   },
    {
@@ -24,7 +24,7 @@ export default [
     image: 'NewInformation_Homecoming_combo.jpg',
     imageAlt: 'A photo of four blind debossed boxes with different colors',
     mobileImage: 'NewInformation_Homecoming_Mobile_combo.jpg',
-    color: '#DFCEE5',
+    color: '#EED6B7',
     slug: 'hc-combo',
   },
    {
@@ -33,7 +33,7 @@ export default [
     image: 'NewInformation_Homecoming_purple.jpg',
     imageAlt: 'A photo of a blind debossed box in purple',
     mobileImage: 'NewInformation_Homecoming_Mobile_purple.jpg',
-    color: '#DFCEE5',
+    color: '#EED6B7',
     slug: 'hc-purple',
   },
    {
@@ -61,7 +61,7 @@ export default [
     image: 'NewInformation_vowels_booklet.jpg',
     mobileImage:'NewInformation_vowels_booklet_mobile.jpg',
     imageAlt: 'A photo of a a boolet on a wooden table',
-    color: '#904154',
+    color: '#AB516E',
     slug: 'vowels-booklet',
   },
    {
@@ -69,7 +69,7 @@ export default [
     caption: 'Experience design for vowels, shaping how visitors move fluidly through a library and retail space.',
     video: 'NewInformation_Vowels_Showroom_smaller.mp4',
     mobileVideo:'NewInformation_Vowels_mobile_Showroom_smaller.mp4',
-    color: '#904154',
+    color: '#AB516E',
     slug: 'vowels-video',
   },
    {
@@ -86,7 +86,7 @@ export default [
     caption: 'Exhibition design for the Vera List Center, celebrating the legacy and influence of Romare Bearden.',
     video: 'NewInformation_vlc_video.mp4',
     mobileVideo:'NewInformation_vlc_mobile_video.mp4',
-    color: '#100E0F',
+    color: '#F6EBE3',
     slug: 'vlc-video',
   },
    {
