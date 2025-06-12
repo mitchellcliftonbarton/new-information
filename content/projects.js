@@ -5,7 +5,7 @@ export default [
     video: 'NewInformation_Alta_logo.mp4',
     image: 'NewInformation_Alta_logo.jpg',
     imageAlt: 'A photo of the ALTA logo',
-    mobileImage: 'NewInformation_Alta_Mobile_logo.jpg',
+    mobileVideo: 'NewInformation_Alta_mobile_logo.mp4',
     color: '#D3493C',
     slug: 'alta-animation',
   },
