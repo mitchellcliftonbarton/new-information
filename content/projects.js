@@ -48,7 +48,7 @@ export default [
    {
     title: 'Storefront for Art & Architecture',
     caption: 'Website designed to reflect Storefront’s experimental spirit and archival depth.',
-    video:'NewInformation_StorefrontWebsite_smaller.mp4',
+    video:'NewInformation_Storefront_smaller.mp4',
     image: 'NewInformation_Storefront.jpg',
     mobileVideo:'NewInformation_Storefront_Mobile_smaller.mp4',
     imageAlt: 'A video of a website',
