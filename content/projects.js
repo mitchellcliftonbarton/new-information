@@ -220,7 +220,7 @@ export default [
   },
   {
     title: 'Processing Foundation',
-    caption: 'Publication design of the Processing Community Catalog, a 900 page tome documenting the activities of the Processing Foundation from the last 20 years.',
+    caption: 'Processing Community Catalog, a 900 page tome documenting their generative activities of last 20 years.',
     video: 'NewInformation_ProcessingFoundation_a.mp4',
     imageAlt: 'Scan of front and back covers of Processing Community Catalog. The cover is made of orange vinyl, and features small white foil stamped type listing the contents of the book.',
     mobileImage: 'NewInformation_ProcessingFoundation_Mobile_b.jpg',
