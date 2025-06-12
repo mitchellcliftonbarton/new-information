@@ -43,7 +43,7 @@ export default [
     image: 'NewInformation_RRF100.jpg',
     imageAlt: 'A photo of a website with sprialing images',
     color: '#FF6737',
-    slug: 'hc-purple',
+    slug: 'rrf-100',
   },
    {
     title: 'Storefront for Art & Architecture',
