@@ -6,7 +6,7 @@ export default [
     image: 'NewInformation_Alta_logo.jpg',
     imageAlt: 'A photo of the ALTA logo',
     mobileImage: 'NewInformation_Alta_Mobile_logo.jpg',
-    color: '#A6984D',
+    color: '#E1A61F',
     slug: 'alta-animation',
   },
    {
@@ -15,7 +15,7 @@ export default [
     image: 'NewInformation_Alta_tote.jpg',
     imageAlt: 'A photo of a blue tote bag with the ALTA logo',
     mobileImage: 'NewInformation_Alta_Mobile_tote.jpg',
-    color: '#A6984D',
+    color: '#E1A61F',
     slug: 'alta-animation',
   },
    {
@@ -42,7 +42,7 @@ export default [
     video:'NewInformation_RRF100_a_smaller.mp4',
     image: 'NewInformation_RRF100.jpg',
     imageAlt: 'A photo of a website with sprialing images',
-    color: '#DF5823',
+    color: '#FF6737',
     slug: 'hc-purple',
   },
    {
@@ -69,7 +69,7 @@ export default [
     caption: 'Experience design for vowels, shaping how visitors move fluidly through a library and retail space.',
     video: 'NewInformation_Vowels_Showroom_smaller.mp4',
     mobileVideo:'NewInformation_Vowels_mobile_Showroom_smaller.mp4',
-    color: '#D8EE44',
+    color: '#904154',
     slug: 'vowels-video',
   },
    {
