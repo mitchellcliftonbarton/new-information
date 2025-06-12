@@ -16,7 +16,7 @@ export default [
     imageAlt: 'A photo of a blue tote bag with the ALTA logo',
     mobileImage: 'NewInformation_Alta_Mobile_tote.jpg',
     color: '#E1A61F',
-    slug: 'alta-animation',
+    slug: 'alta-tote',
   },
    {
     title: 'Homecoming',
