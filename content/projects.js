@@ -95,7 +95,7 @@ export default [
     image: 'NewInformation_vlc_photo.jpg',
     mobileImage:'NewInformation_vlc_mobile_photo.jpg',
     imageAlt: 'A photo of a person walking in front of a museum wall',
-    color: '#100E0F',
+    color: '#F6EBE3',
     slug: 'vlc-photo',
   },
    {
