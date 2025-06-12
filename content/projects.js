@@ -6,7 +6,7 @@ export default [
     image: 'NewInformation_Alta_logo.jpg',
     imageAlt: 'A photo of the ALTA logo',
     mobileImage: 'NewInformation_Alta_Mobile_logo.jpg',
-    color: '#BB3E33',
+    color: '#D3493C',
     slug: 'alta-animation',
   },
    {
@@ -15,7 +15,7 @@ export default [
     image: 'NewInformation_Alta_tote.jpg',
     imageAlt: 'A photo of a blue tote bag with the ALTA logo',
     mobileImage: 'NewInformation_Alta_Mobile_tote.jpg',
-    color: '#BB3E33',
+    color: '#D3493C',
     slug: 'alta-tote',
   },
    {
