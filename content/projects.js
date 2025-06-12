@@ -42,7 +42,7 @@ export default [
     video:'NewInformation_RRF100_a_smaller.mp4',
     image: 'NewInformation_RRF100.jpg',
     imageAlt: 'A photo of a website with sprialing images',
-    color: '#FF6737',
+    color: '#FE5917',
     slug: 'rrf-100',
   },
    {
