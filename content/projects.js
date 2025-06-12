@@ -51,7 +51,7 @@ export default [
     caption: 'Website designed to reflect Storefront’s experimental spirit and archival depth.',
     video:'NewInformation_Storefront_smaller.mp4',
     image: 'NewInformation_Storefront.jpg',
-    mobileVideo:'NewInformation_Storefront_Mobile_smaller.mp4',
+    mobileImage:'NewInformation_Storefront_mobile.jpg',
     imageAlt: 'A video of a website',
     color: '#D8EE44',
     slug: 'sf-web',
