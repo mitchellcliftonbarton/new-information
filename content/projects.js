@@ -78,7 +78,7 @@ export default [
     image: 'NewInformation_ChristaanFelber_Desktop.jpg',
     mobileImage:'NewInformation_ChristaanFelber_mobile_1.jpg',
     imageAlt: 'A photo of a poster with images on one side and text on the other',
-    color: '#578563',
+    color: '#06AEC3',
     slug: 'cf-poster',
   },
    {
