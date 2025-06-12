@@ -41,6 +41,7 @@ export default [
     caption: 'Centennial website celebrating Rauschenberg’s legacy through an interactive collage of works and programs.',
     video:'NewInformation_RRF100_a_smaller.mp4',
     image: 'NewInformation_RRF100.jpg',
+    mobileImage: 'NewInformation_mobile_RRF100.jpg',
     imageAlt: 'A photo of a website with sprialing images',
     color: '#FE5917',
     slug: 'rrf-100',
