@@ -24,7 +24,7 @@ export default [
     image: 'NewInformation_Homecoming_combo.jpg',
     imageAlt: 'A photo of four blind debossed boxes with different colors',
     mobileImage: 'NewInformation_Homecoming_Mobile_combo.jpg',
-    color: '#EED6B7',
+    color: '#EFD0B4',
     slug: 'hc-combo',
   },
    {
@@ -33,7 +33,7 @@ export default [
     image: 'NewInformation_Homecoming_purple.jpg',
     imageAlt: 'A photo of a blind debossed box in purple',
     mobileImage: 'NewInformation_Homecoming_Mobile_purple.jpg',
-    color: '#EED6B7',
+    color: '#EFD0B4',
     slug: 'hc-purple',
   },
    {
