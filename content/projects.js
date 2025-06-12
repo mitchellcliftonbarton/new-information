@@ -1,5 +1,104 @@
 export default [
-  {
+   {
+    title: 'ALTA',
+    caption: 'Dynamic identity system for ALTA, reflecting a diverse community of literary translators.',
+    video: 'NewInformation_Alta_logo.mp4',
+    image: 'NewInformation_Alta_logo.jpg',
+    imageAlt: 'A photo of the ALTA logo',
+    mobileImage: 'NewInformation_Alta_Mobile_logo.jpg',
+    color: '#A6984D',
+    slug: 'alta-animation',
+  },
+   {
+    title: 'ALTA',
+    caption: 'Dynamic identity system for ALTA, reflecting a diverse community of literary translators.',
+    image: 'NewInformation_Alta_tote.jpg',
+    imageAlt: 'A photo of a blue tote bag with the ALTA logo',
+    mobileImage: 'NewInformation_Alta_Mobile_tote.jpg',
+    color: '#A6984D',
+    slug: 'alta-animation',
+  },
+   {
+    title: 'Homecoming',
+    caption: 'Packaging for Homecoming, capturing the craft, curation, and generosity of their coffee line.',
+    image: 'NewInformation_Homecoming_combo.jpg',
+    imageAlt: 'A photo of four blind debossed boxes with different colors',
+    mobileImage: 'NewInformation_Homecoming_Mobile_combo.jpg',
+    color: '#DFCEE5',
+    slug: 'hc-combo',
+  },
+   {
+    title: 'Homecoming',
+    caption: 'Packaging for Homecoming, capturing the craft, curation, and generosity of their coffee line.',
+    image: 'NewInformation_Homecoming_purple.jpg',
+    imageAlt: 'A photo of a blind debossed box in purple',
+    mobileImage: 'NewInformation_Homecoming_Mobile_purple.jpg',
+    color: '#DFCEE5',
+    slug: 'hc-purple',
+  },
+   {
+    title: 'Robert Rauschenberg Foundation',
+    caption: 'Centennial website celebrating Rauschenberg’s legacy through an interactive collage of works and programs.',
+    video:'NewInformation_RRF100_a_smaller.mp4',
+    image: 'NewInformation_RRF100.jpg',
+    imageAlt: 'A photo of a website with sprialing images',
+    color: '#DF5823',
+    slug: 'hc-purple',
+  },
+   {
+    title: 'Storefront for Art & Architecture',
+    caption: 'Website designed to reflect Storefront’s experimental spirit and archival depth.',
+    video:'NewInformation_StorefrontWebsite_smaller.mp4',
+    image: 'NewInformation_Storefront.jpg',
+    mobileVideo:'NewInformation_Storefront_Mobile_smaller.mp4',
+    imageAlt: 'A video of a website',
+    color: '#D8EE44',
+    slug: 'sf-web',
+  },
+   {
+    title: 'vowels',
+    caption: 'Lookbooks for vowels, presenting collections with photography by Nigel Shafran.',
+    image: 'NewInformation_vowels_booklet.jpg',
+    mobileImage:'NewInformation_vowels_booklet_mobile.jpg',
+    imageAlt: 'A photo of a a boolet on a wooden table',
+    color: '#904154',
+    slug: 'vowels-booklet',
+  },
+   {
+    title: 'vowels',
+    caption: 'Experience design for vowels, shaping how visitors move fluidly through a library and retail space.',
+    video: 'NewInformation_Vowels_Showroom_smaller.mp4',
+    mobileVideo:'NewInformation_Vowels_mobile_Showroom_smaller.mp4',
+    color: '#D8EE44',
+    slug: 'vowels-video',
+  },
+   {
+    title: 'Christaan Felber',
+    caption: 'Poster for Christaan Felber, featuring work across commercial, editorial, and personal photography.',
+    image: 'NewInformation_ChristaanFelber_Desktop.jpg',
+    mobileImage:'NewInformation_ChristaanFelber_mobile_1.jpg',
+    imageAlt: 'A photo of a poster with images on one side and text on the other',
+    color: '#578563',
+    slug: 'cf-poster',
+  },
+   {
+    title: 'Vera List Center',
+    caption: 'Exhibition design for the Vera List Center, celebrating the legacy and influence of Romare Bearden.',
+    video: 'NewInformation_vlc_video.mp4',
+    mobileVideo:'NewInformation_vlc_mobile_video.mp4',
+    color: '#100E0F',
+    slug: 'vlc-video',
+  },
+   {
+    title: 'Vera List Center',
+    caption: 'Exhibition design for the Vera List Center, celebrating the legacy and influence of Romare Bearden.',
+    image: 'NewInformation_vlc_photo.jpg',
+    mobileImage:'NewInformation_vlc_mobile_photo.jpg',
+    imageAlt: 'A photo of a person walking in front of a museum wall',
+    color: '#100E0F',
+    slug: 'vlc-photo',
+  },
+   {
     title: 'Columbia',
     caption: 'Book design for <i>Into the Quiet and the Light</i>, by Virginia Hanusik, published by Columbia Books on Architecture and the City.',
     image: 'NewInformation_Columbia_IQLTOC.jpg',
@@ -175,15 +274,6 @@ export default [
     slug: 'agency-agency'
   },
   {
-    title: 'Carmen Winant & Calista Lyon',
-    caption: 'Silkscreen poster design on newsprint, for the exhibition "Breaking Water" by Carmen Winant and Calista Lyon.',
-    image: 'NewInformation_BreakingWater_a.jpg',
-    mobileImage: 'NewInformation_BreakingWater_Mobile_a.jpg',
-    imageAlt: 'Image of poster for Breaking Water, featuring floating image blocks with poetry.',
-    color: '#c1c1c1',
-    slug: 'breaking-water'
-  },
-  {
     title: 'Sacha Maric',
     caption: 'Portfolio website design for Sacha Maric, fluidly traversing fashion, personal, and portraiture photography. <a href="https://www.sachamaric.com/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_SachaMaric_a.mp4',
@@ -218,14 +308,6 @@ export default [
     slug: 'honest-labor'
   },
   {
-    title: 'Year of the Rabbit',
-    caption: 'Poster design for celebrating Year of the Rabbit featuring 40 rabbit images from Met Museum’s open access collection.',
-    image: 'NewInformation_YearofRabbit_a.jpg',
-    mobileImage: 'NewInformation_YearofRabbit_mobile_a.jpg',
-    color: '#a3733f',
-    slug: 'year-of-the-rabbit'
-  },
-  {
     title: 'Desi Santiago',
     caption: 'Website design for legendary artist and creative director Desi Santiago.<a href="https://desisantiago.com//" target="_blank">⭢ View here</a>',
     video: 'NewInformation_Desisantiago_a.mp4',
@@ -240,13 +322,5 @@ export default [
     mobileImage: 'NewInformation_MBCWeb_mobile_a.jpg',
     color: '#3f8e4d',
     slug: 'mastic-beach-conservancy'
-  },
-  {
-    title: 'Three Weathers',
-    caption: 'New collaboration with artist and friend Leah Beeferman in which we document a moment in time each week through a printed poster.<a href="https://threeweathers.xyz/" target="_blank">⭢ View here</a>',
-    video: 'NewInformation_ThreeWeathers.mp4',
-    mobileImage: 'NewInformation_ThreeWeathers_Mobile_a.jpg',
-    color: '#00ff88',
-    slug: 'three-weathers'
   }
 ]
