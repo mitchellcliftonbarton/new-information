@@ -216,7 +216,7 @@ export default [
     image: 'NewInformation_ProcessingFoundation_a.jpg',
     imageAlt: 'Scan of front and back covers of Processing Community Catalog. The cover is made of orange vinyl, and features small white foil stamped type listing the contents of the book.',
     mobileImage: 'NewInformation_ProcessingFoundation_Mobile_a.jpg',
-    color: '#ff461b',
+    color: '#ce5443',
     slug: 'processing-foundation-cover'
   },
   {
@@ -225,7 +225,7 @@ export default [
     video: 'NewInformation_ProcessingFoundation_a.mp4',
     imageAlt: 'Scan of front and back covers of Processing Community Catalog. The cover is made of orange vinyl, and features small white foil stamped type listing the contents of the book.',
     mobileImage: 'NewInformation_ProcessingFoundation_Mobile_b.jpg',
-    color: '#ff461b',
+    color: '#ce5443',
     slug: 'processing-foundation-interior'
   },
   {
