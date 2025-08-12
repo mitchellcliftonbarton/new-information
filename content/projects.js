@@ -62,7 +62,7 @@ export default [
     image: 'NewInformation_vowels_booklet.jpg',
     mobileImage:'NewInformation_vowels_booklet_mobile.jpg',
     imageAlt: 'A photo of a a boolet on a wooden table',
-    color: '#987e74',
+    color: '#BA6E90',
     slug: 'vowels-booklet',
   },
    {
@@ -70,7 +70,7 @@ export default [
     caption: 'Experience design for vowels, shaping how visitors move fluidly through a library and retail space.',
     video: 'NewInformation_Vowels_Showroom_smaller.mp4',
     mobileVideo:'NewInformation_Vowels_mobile_Showroom_smaller.mp4',
-    color: '#987e74',
+    color: '#BA6E90',
     slug: 'vowels-video',
   },
    {
@@ -180,7 +180,7 @@ export default [
     image: 'NewInformation_ListeningToClay_a.jpg',
     imageAlt: 'Scans of the front and back cover of Listening to Clay, a blue hardcover book with light blue sans serif typography. The cover features two silhouettes of Japanese ceramics, and the back cover features the names of 16 artists.',
     mobileImage: 'NewInformation_ListeningToClay_Mobile_a.jpg',
-    color: '#3f5399',
+    color: '#3D59A4',
     slug: 'listening-to-clay'
   },
   {
@@ -216,7 +216,7 @@ export default [
     image: 'NewInformation_ProcessingFoundation_a.jpg',
     imageAlt: 'Scan of front and back covers of Processing Community Catalog. The cover is made of orange vinyl, and features small white foil stamped type listing the contents of the book.',
     mobileImage: 'NewInformation_ProcessingFoundation_Mobile_a.jpg',
-    color: '#cd5343',
+    color: '#DD4838',
     slug: 'processing-foundation-cover'
   },
   {
@@ -225,7 +225,7 @@ export default [
     video: 'NewInformation_ProcessingFoundation_a.mp4',
     imageAlt: 'Scan of front and back covers of Processing Community Catalog. The cover is made of orange vinyl, and features small white foil stamped type listing the contents of the book.',
     mobileImage: 'NewInformation_ProcessingFoundation_Mobile_b.jpg',
-    color: '#cd5343',
+    color: '#DD4838',
     slug: 'processing-foundation-interior'
   },
   {
@@ -253,7 +253,7 @@ export default [
     image: 'NewInformation_QueensMuseum_a.jpg',
     imageAlt: 'Image of an entrance doorway to the Queens Museum featuring bright green entrance signage in both English and Spanish.',
     mobileImage: 'NewInformation_QueensMuseum_Mobile_a.jpg',
-    color: '#e75d75',
+    color: '#5bb271',
     slug: 'queens-museum'
   },
   {
