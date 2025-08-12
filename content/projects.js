@@ -38,7 +38,7 @@ export default [
   },
    {
     title: 'Robert Rauschenberg Foundation',
-    caption: 'Centennial website celebrating Rauschenberg’s legacy through an interactive collage of works and programs.',
+    caption: 'Centennial website celebrating Rauschenberg’s legacy through an interactive collage of works and programs.' <a href="https://rauschenberg100.org/" target="_blank">⭢ View here</a>',
     video:'NewInformation_RRF100_a_smaller.mp4',
     image: 'NewInformation_RRF100.jpg',
     mobileImage: 'NewInformation_mobile_RRF100.jpg',
@@ -48,7 +48,7 @@ export default [
   },
    {
     title: 'Storefront for Art & Architecture',
-    caption: 'Website designed to reflect Storefront’s experimental spirit and archival depth.',
+    caption: 'Website designed to reflect Storefront’s experimental spirit and archival depth.' <a href="https://storefront.nyc/" target="_blank">⭢ View here</a>',
     video:'NewInformation_Storefront_smaller.mp4',
     image: 'NewInformation_Storefront.jpg',
     mobileImage:'NewInformation_Storefront_mobile.jpg',
@@ -119,7 +119,7 @@ export default [
   },
   {
     title: 'vowels',
-    caption: 'Ecomm platform for a startup menswear brand blending a deep archive of design references with highly crafted garments.',
+    caption: 'Ecomm platform for a startup menswear brand blending a deep archive of design references with highly crafted garments.' <a href="https://vowels.net/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_vowelsWebsiteHP_a_smaller.mp4',
     image: 'NewInformation_vowelsWebsiteHP_a.jpg',
     imageAlt: 'An image or video of a menswear fashion website called Vowels',
@@ -129,7 +129,7 @@ export default [
   },
     {
     title: 'vowels',
-    caption: 'Ecomm platform for a startup menswear brand blending a deep archive of design references with highly crafted garments.',
+    caption: 'Ecomm platform for a startup menswear brand blending a deep archive of design references with highly crafted garments.' <a href="https://vowels.net/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_vowelsWebsitePLP_b_smaller.mp4',
     image: 'NewInformation_vowelsWebsitePLP_b.jpg',
     imageAlt: 'An image or video of a menswear fashion website called Vowels',
@@ -167,7 +167,7 @@ export default [
   },
  {
     title: 'Spitzer Architecture',
-    caption: 'Spitzer Architecture’s Unit System website, connecting students, faculty, and their respective courses of study. <a href="https://unitsystem.ssa.ccny.cuny.edu/" target="_blank">⭢ View here</a>',
+    caption: 'Spitzer Architecture’s Unit System website, connecting students, faculty, and their respective courses of study.',
     video: 'NewInformation_Spitzer_a.mp4',
     imageAlt: 'Still image of a web page featuring a listing of courses of study at Spitzer School of Architecture. The web page features black helvetica type with a grey background, and horizontal rules.',
     color: '#ffd732',  
