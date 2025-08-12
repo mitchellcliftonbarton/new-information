@@ -24,7 +24,7 @@ export default [
     image: 'NewInformation_Homecoming_combo.jpg',
     imageAlt: 'A photo of four blind debossed boxes with different colors',
     mobileImage: 'NewInformation_Homecoming_Mobile_combo.jpg',
-    color: '#EFD0B4',
+    color: '#8d9469',
     slug: 'hc-combo',
   },
    {
@@ -62,7 +62,7 @@ export default [
     image: 'NewInformation_vowels_booklet.jpg',
     mobileImage:'NewInformation_vowels_booklet_mobile.jpg',
     imageAlt: 'A photo of a a boolet on a wooden table',
-    color: '#D77192',
+    color: '#a9a181',
     slug: 'vowels-booklet',
   },
    {
@@ -70,7 +70,7 @@ export default [
     caption: 'Experience design for vowels, shaping how visitors move fluidly through a library and retail space.',
     video: 'NewInformation_Vowels_Showroom_smaller.mp4',
     mobileVideo:'NewInformation_Vowels_mobile_Showroom_smaller.mp4',
-    color: '#D77192',
+    color: '#a9a181',
     slug: 'vowels-video',
   },
    {
@@ -253,7 +253,7 @@ export default [
     image: 'NewInformation_QueensMuseum_a.jpg',
     imageAlt: 'Image of an entrance doorway to the Queens Museum featuring bright green entrance signage in both English and Spanish.',
     mobileImage: 'NewInformation_QueensMuseum_Mobile_a.jpg',
-    color: '#2fb56a',
+    color: '#b8fa04',
     slug: 'queens-museum'
   },
   {
