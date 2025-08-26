@@ -4,7 +4,7 @@ export default [
     caption: 'Exhibition design featuring immersive perspectives into six new architecture practices.',
     image: 'NewInformation_AIANY_1.jpg',
     imageAlt: 'A photo of the exhibition space',
-    color: '#0000F9',
+    color: '#3A3AFF',
     slug: 'aiany-1',
   },    
    {
@@ -12,7 +12,7 @@ export default [
     caption: 'Exhibition design featuring immersive perspectives into six new architecture practices.',
     image: 'NewInformation_AIANY_2.jpg',
     imageAlt: 'A photo of the exhibition space',
-    color: '#0000F9',
+    color: '#3A3AFF',
     slug: 'aiany-2',
   },   
    {
@@ -20,7 +20,7 @@ export default [
     caption: 'Exhibition design featuring immersive perspectives into six new architecture practices.',
     image: 'NewInformation_AIANY_3.jpg',
     imageAlt: 'A photo of the exhibition space',
-    color: '#0000F9',
+    color: '#3A3AFF',
     slug: 'aiany-3',
   },
    {
