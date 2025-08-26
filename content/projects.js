@@ -4,7 +4,7 @@ export default [
     caption: 'Exhibition design featuring immersive perspectives into six new architecture practices.',
     image: 'NewInformation_AIANY_1.jpg',
     imageAlt: 'A photo of the exhibition space',
-    color: '#3A3AFF',
+    color: '#32FC47',
     slug: 'aiany-1',
   },    
    {
@@ -12,7 +12,7 @@ export default [
     caption: 'Exhibition design featuring immersive perspectives into six new architecture practices.',
     image: 'NewInformation_AIANY_2.jpg',
     imageAlt: 'A photo of the exhibition space',
-    color: '#3A3AFF',
+    color: '#32FC47',
     slug: 'aiany-2',
   },   
    {
@@ -25,7 +25,7 @@ export default [
   },
    {
     title: 'Ford Foundation',
-    caption: 'Exhibition design for "What Models Make Worlds: Critical Imaginaries of AI" at the Ford Foundation Gallery',
+    caption: 'Exhibition design for “What Models Make Worlds: Critical Imaginaries of AI” at the Ford Foundation Gallery',
     image: 'NewInformation_Ford_Wall.jpg',
     mobileImage: 'NewInformation_Ford_Wall_Mobile.jpg',
     imageAlt: 'A photo of the exhibition space',
@@ -34,7 +34,7 @@ export default [
   },
    {
     title: 'Ford Foundation',
-    caption: 'Exhibition design for "What Models Make Worlds: Critical Imaginaries of AI" at the Ford Foundation Gallery',
+    caption: 'Exhibition design for “What Models Make Worlds: Critical Imaginaries of AI” at the Ford Foundation Gallery',
     image: 'NewInformation_Ford_Sign.jpg',
     mobileImage: 'NewInformation_Ford_Sign_Mobile.jpg',
     imageAlt: 'A photo of the exhibition poster',
