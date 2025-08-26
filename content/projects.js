@@ -30,7 +30,7 @@ export default [
     mobileImage: 'NewInformation_Ford_Wall_Mobile.jpg',
     imageAlt: 'A photo of the exhibition space',
     color: '#F6DA4B',
-    slug: 'aiany-2',
+    slug: 'FF-1',
   },
    {
     title: 'Ford Foundation',
@@ -39,7 +39,7 @@ export default [
     mobileImage: 'NewInformation_Ford_Sign_Mobile.jpg',
     imageAlt: 'A photo of the exhibition poster',
     color: '#F6DA4B',
-    slug: 'aiany-2',
+    slug: 'FF-2',
   },
    {
     title: 'ALTA',
