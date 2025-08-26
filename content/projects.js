@@ -20,7 +20,7 @@ export default [
     caption: 'Exhibition design featuring immersive perspectives into six new architecture practices.',
     image: 'NewInformation_AIANY_3.jpg',
     imageAlt: 'A photo of the exhibition space',
-    color: '#3A3AFF',
+    color: '#32FC47',
     slug: 'aiany-3',
   },
    {
