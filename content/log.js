@@ -4,16 +4,16 @@ export default [
     text: 'is listening to Brian Eno and watching Linda Linda Linda.'
   },
   {
-    date: '09.29.25',
-    text: 'is exploring Southern France.'
+    date: '09.19.25',
+    text: 'is playing pickleball.'
   },
   {
-    date: '09.19.25',
+    date: '09.09.25',
     text: 'is reading Christiane Paul and Hito Steyerl.'
   },
   {
-    date: '09.01.25',
-    text: 'is playing pickleball.'
+    date: '08.29.25',
+    text: 'is exploring Southern France.'
   },
   {
     date: '06.12.25',
