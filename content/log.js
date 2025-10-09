@@ -1,5 +1,21 @@
 export default [
   {
+    date: '10.03.25',
+    text: 'is listening to Brian Eno and watching Linda Linda Linda.'
+  },
+  {
+    date: '09.29.25',
+    text: 'is exploring Southern France.'
+  },
+  {
+    date: '09.19.25',
+    text: 'is reading Digital Art by Christiane Paul and The Wretched of the Screen by Hito Steyerl.'
+  },
+  {
+    date: '09.01.25',
+    text: 'is playing pickleball.'
+  },
+  {
     date: '06.12.25',
     text: 'is reading Demon Copperhead, and listening to SML.'
   },
