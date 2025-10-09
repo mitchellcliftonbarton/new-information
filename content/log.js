@@ -4,6 +4,10 @@ export default [
     text: 'is listening to Brian Eno and watching Linda Linda Linda.'
   },
   {
+    date: '09.26.25',
+    text: 'is listening to Jeff Tweedy and Sam Prekop.'
+  },
+  {
     date: '09.19.25',
     text: 'is playing pickleball.'
   },
