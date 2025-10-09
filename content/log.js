@@ -9,7 +9,7 @@ export default [
   },
   {
     date: '09.19.25',
-    text: 'is reading Digital Art by Christiane Paul and The Wretched of the Screen by Hito Steyerl.'
+    text: 'is reading Christiane Paul and Hito Steyerl.'
   },
   {
     date: '09.01.25',
