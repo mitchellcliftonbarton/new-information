@@ -3,7 +3,6 @@ export default {
   email: "hello@newinfo.studio",
   emailString: "hello@<wbr>newinfo.studio",
   instagram: "https://www.instagram.com/newinfo.studio/",
-  linkedin: "https://www.linkedin.com/company/new-information-studio/",
   textColumn1:
     "New Information is an award-winning design studio partnering with culturally-forward institutions and brands.<br><br>Services<br>Brand Strategy<br>Brand Identity Design<br>Web Design<br>Art Direction<br>Creative Direction<br>Motion Design<br>Exhibition Design<br>Signage Design<br>Publication Design<br><br> Current & Past Clients<br>Agency—Agency<br>AIA New York<br>American Literary Translators Association<br>Arper<br>Artsy<br>Asian American Arts Alliance<br>Atrbute<br>Columbia Books on Architecture and the City<br>Cory Arcangel<br>Emerson Collective<br>Ford Foundation<br>Gap<br>Google<br>Homecoming<br>Krink<br>Levis<br>Mastic Beach Conservancy<br>Mexican Summer<br>Moda Operandi<br>MoMA<br>Monacelli Press<br>Nike<br>Patagonia<br>PennDesign<br>Peterson Rich Office<br>Processing Foundation<br>Queens Museum<br>Robert Rauschenberg Foundation<br>Rubin Museum of Art<br>Spitzer School of Architecture<br>Skowhegan School of Painting & Sculpture<br>Storefront for Art & Architecture<br>Teva<br>Two Palms<br>Urban Outfitters<br>Van Alen Institute<br>Vera List Center for Art and Politics<br>vowels<br>Walker Art Center<br>Whitney Museum of American Art<br><br><br>",
   textColumn2:
