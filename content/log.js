@@ -1,5 +1,9 @@
 export default [
   {
+    date: '10.10.25',
+    text: 'is watching Black Rabbit.'
+  },
+  {
     date: '10.09.25',
     text: 'is listening to Panchiko and Super Cat.'
   },
