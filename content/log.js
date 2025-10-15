@@ -113,6 +113,8 @@ export default [
   },
   {
     date: '10.06.22',
-    text: 'is launching www.newinfo.studio.<br> <br> <br> <br>'
+    text: 'is launching www.newinfo.studio.'
+
+    
   }
 ]
