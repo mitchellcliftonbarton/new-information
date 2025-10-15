@@ -1,11 +1,11 @@
 export default [
   {
     date: '10.14.25',
-    text: 'listening to D\'Angelo and Geese.'
+    text: 'is listening to D\'Angelo and Geese.'
   },
   {
     date: '10.13.25',
-    text: 'eating <a href="https://www.moma.org/collection/works/146903" target="_blank">Pot of Mussels</a>.'
+    text: 'is eating <a"https://www.moma.org/collection/works/146903" target="_blank">Pot of Mussels</a>.'
   },
   {
     date: '10.10.25',
