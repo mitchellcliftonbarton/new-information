@@ -23,6 +23,7 @@
         </nuxt-link>
       </div>
     </div>
+  <br><br>
   </div>
 </template>
 
