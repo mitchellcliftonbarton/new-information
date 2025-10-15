@@ -5,7 +5,7 @@ export default [
   },
   {
     date: '10.13.25',
-    text: 'is eating a <a "https://www.moma.org/collection/works/146903" target="_blank">Pot of Mussels</a>.'
+    text: 'is eating a Pot of Mussels.'
   },
   {
     date: '10.10.25',
