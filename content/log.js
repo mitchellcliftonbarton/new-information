@@ -116,15 +116,9 @@ export default [
     text: 'is launching www.newinfo.studio.'
   },
   {
-    date: ' .',
-    text: ' .'
+  <br>
   },
   {
-    date: ' .',
-    text: ' .'
-  },
-  {
-    date: ' .',
-    text: '. '
+  <br>
   },
 ]
