@@ -1,5 +1,13 @@
 export default [
   {
+    date: '10.20.25',
+    text: 'is listening to Lamp.'
+  },
+  {
+    date: '10.18.25',
+    text: 'is surfing.'
+  },
+  {
     date: '10.14.25',
     text: 'is listening to D\'Angelo and Geese.'
   },
