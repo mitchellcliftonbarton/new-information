@@ -1,5 +1,13 @@
 export default [
   {
+    date: '10.30.25',
+    text: 'is listening to Racing Mount Pleasant and Jack DeJohnette.'
+  },
+  {
+    date: '10.28.25',
+    text: 'is listening to Kim Jung Mi and Ssing Ssing.'
+  },
+  {
     date: '10.20.25',
     text: 'is listening to Lamp.'
   },
