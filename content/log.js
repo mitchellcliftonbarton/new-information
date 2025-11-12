@@ -9,7 +9,7 @@ export default [
   }, 
   {
     date: '11.03.25',
-    text: 'is eating at Olle.'
+    text: 'is eating at Olle and visiting MoMA.'
   },
   {
     date: '10.30.25',
