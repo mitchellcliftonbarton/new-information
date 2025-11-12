@@ -1,5 +1,13 @@
 export default [
   {
+    date: '11.12.25',
+    text: 'is listening to Fishmans and Oneohtrix Point Never.'
+  },
+  {
+    date: '11.03.25',
+    text: 'is eating at Olle.'
+  },
+  {
     date: '10.30.25',
     text: 'is listening to Racing Mount Pleasant and Jack DeJohnette.'
   },
