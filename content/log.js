@@ -4,6 +4,9 @@ export default [
     text: 'is listening to Fishmans and Oneohtrix Point Never.'
   },
   {
+    date: '11.10.25',
+    text: 'is listening to Rosalía.'
+  }, {
     date: '11.03.25',
     text: 'is eating at Olle.'
   },
