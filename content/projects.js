@@ -10,19 +10,19 @@ export default [
    {
     title: 'Center for Architecture',
     caption: 'Exhibition design featuring immersive perspectives into six new architecture practices.',
-    image: 'NewInformation_AIANY_2.jpg',
-    imageAlt: 'A photo of the exhibition space',
-    color: '#32FC47',
-    slug: 'aiany-2',
-  },   
-   {
-    title: 'Center for Architecture',
-    caption: 'Exhibition design featuring immersive perspectives into six new architecture practices.',
     image: 'NewInformation_AIANY_3.jpg',
     imageAlt: 'A photo of the exhibition space',
     color: '#32FC47',
     slug: 'aiany-3',
   },
+   {
+    title: 'Center for Architecture',
+    caption: 'Exhibition design featuring immersive perspectives into six new architecture practices.',
+    image: 'NewInformation_AIANY_2.jpg',
+    imageAlt: 'A photo of the exhibition space',
+    color: '#32FC47',
+    slug: 'aiany-2',
+  },   
    {
     title: 'Ford Foundation',
     caption: 'Exhibition design for “What Models Make Worlds: Critical Imaginaries of AI” at the Ford Foundation Gallery',
