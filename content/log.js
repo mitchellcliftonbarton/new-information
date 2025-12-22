@@ -1,4 +1,52 @@
 export default [
+{
+  date: '12.22.25',
+  text: 'is visiting The Sultan Room.'
+},
+{
+  date: '12.21.25',
+  text: 'is listening to Audrey Hobert.'
+},
+{
+  date: '12.20.25',
+  text: 'is visiting Creative Time HQ.'
+},
+{
+  date: '12.18.25',
+  text: 'is eating at Naks.'
+},
+{
+  date: '12.15.25',
+  text: 'is listening to betcover!!'
+},
+{
+  date: '12.14.25',
+  text: 'is watching Uncle Buck.'
+},
+{
+  date: '12.13.25',
+  text: 'is listening to ESG.'
+},
+{
+  date: '12.10.25',
+  text: 'is visiting Dia: Beacon.'
+},
+{
+  date: '12.08.25',
+  text: 'is eating at NONONO.'
+},
+{
+  date: '11.30.25',
+  text: 'is listening to Karen Dalton.'
+},
+{
+  date: '11.25.25',
+  text: 'is watching the Nutcracker.'
+},
+{
+  date: '11.22.25',
+  text: 'is watching Hamnet.'
+},
   {
     date: '11.12.25',
     text: 'is listening to Fishmans and Oneohtrix Point Never.'
