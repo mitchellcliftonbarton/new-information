@@ -1,5 +1,25 @@
 export default [
 {
+  date: '02.03.26',
+  text: 'is reading The Map That Changed the World.'
+},
+{
+  date: '01.28.26',
+  text: 'is listening to Ugly.'
+},
+{
+  date: '01.21.26',
+  text: 'is visiting the Russian & Turkish baths.'
+},
+{
+  date: '01.10.26',
+  text: 'is listening to Terry Riley and Don Cherry.'
+},
+{
+  date: '01.06.26',
+  text: 'is eating a kale curry lentil soup.'
+},
+{
   date: '12.22.25',
   text: 'is visiting The Sultan Room.'
 },
