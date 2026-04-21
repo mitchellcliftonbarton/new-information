@@ -73,7 +73,7 @@ export default [
 },
 {
   date: '12.15.25',
-  text: 'is listening to betcover!!'
+  text: 'is listening to betcover!!.'
 },
 {
   date: '12.14.25',
