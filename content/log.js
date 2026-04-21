@@ -33,7 +33,7 @@ export default [
 },
 {
   date: '02.05.26',
-  text: 'is eating kare rice.'
+  text: 'is making kare rice.'
 },
 {
   date: '02.03.26',
