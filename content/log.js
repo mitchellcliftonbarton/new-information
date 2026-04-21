@@ -1,5 +1,33 @@
 export default [
 {
+  date: '04.02.26',
+  text: 'making plans for Earth Day.'
+},
+{
+  date: '03.21.26',
+  text: 'staring up a Anicka Yi’s aerobes at the New Museum.'
+},
+{
+  date: '03.12.26',
+  text: 'listening to My New Band Believe.'
+},
+{
+  date: '03.10.26',
+  text: 'ready for Daffodils.'
+},
+{
+  date: '02.27.26',
+  text: 'making kimbap.'
+},
+  {
+  date: '02.21.26',
+  text: 'listening to The Specials.'
+},
+{
+  date: '02.12.26',
+  text: 'watching Irma Vep (again).'
+},
+{
   date: '02.05.26',
   text: 'is eating kare rice.'
 },
