@@ -1,7 +1,7 @@
 export default [
 {
   date: '04.02.26',
-  text: 'is listening to 22º Halo.'
+  text: 'is listening to ear.'
 },
 {
   date: '04.02.26',
