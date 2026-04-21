@@ -1,6 +1,10 @@
 export default [
 {
   date: '04.02.26',
+  text: 'listening to 22º Halo.'
+},
+{
+  date: '04.02.26',
   text: 'making plans for Earth Day.'
 },
 {
