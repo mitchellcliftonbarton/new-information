@@ -17,7 +17,7 @@ export default [
 },
 {
   date: '03.10.26',
-  text: 'is ready for Daffodils.'
+  text: 'is ready for daffodils.'
 },
 {
   date: '02.27.26',
