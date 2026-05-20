@@ -1,5 +1,33 @@
 export default [
 {
+  date: '05.19.26',
+  text: 'is listening to By Storm.'
+},
+{
+  date: '05.08.26',
+  text: 'is making plans for Mother’s Day.'
+},
+{
+  date: '05.03.26',
+  text: 'is surfing Troy Elmore’s “Uncle Al”.'
+},
+{
+  date: '04.30.26',
+  text: 'is listening to Happy Today by Jeff Parker.'
+},
+{
+  date: '04.21.26',
+  text: 'is listening to Oz Kiezos.'
+},
+{
+  date: '04.15.26',
+  text: 'is craving Win Son Bakery’s Ban Cai.'
+},
+{
+  date: '04.07.26',
+  text: 'is watching the sun glitter across waves.'
+},
+{
   date: '04.02.26',
   text: 'is listening to ear.'
 },
