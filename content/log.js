@@ -28,7 +28,7 @@ export default [
   text: 'is watching the sun glitter across waves.'
 },
 {
-  date: '04.02.26',
+  date: '04.06.26',
   text: 'is listening to ear.'
 },
 {
