@@ -32,12 +32,28 @@ export default [
   text: 'is listening to My Bloody Valentine.'
 },
 {
+  date: '07.07.26',
+  text: 'Is reading Pool House.'
+},
+{
   date: '07.06.26',
   text: 'is listening to Horsegirl.'
 },
 {
+  date: '06.28.26',
+  text: 'is watching Blossoms Shanghai.'
+},
+{
+  date: '06.22.26',
+  text: 'is floating in a pool.'
+},
+{
   date: '06.13.26',
   text: 'is listening to Elliot Smith.'
+},
+{
+  date: '06.10.26',
+  text: 'is listening to Cocteau Twins.'
 },
 {
   date: '05.30.26',
