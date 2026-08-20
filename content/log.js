@@ -1,5 +1,49 @@
 export default [
 {
+  date: '08.22.26',
+  text: 'is visiting the Metropolitan Museum of Art.'
+},
+{
+  date: '08.18.26',
+  text: 'is watching Tony.'
+},
+{
+  date: '08.14.26',
+  text: 'is listening to Joe Hisaishi.'
+},
+{
+  date: '08.13.26',
+  text: 'is eating lobster rolls.'
+},
+{
+  date: '08.08.26',
+  text: 'is riding the Cyclone in Coney Island.'
+},
+{
+  date: '07.28.26',
+  text: 'is watching After Life.'
+},
+{
+  date: '07.13.26',
+  text: 'is listening to My Bloody Valentine.'
+},
+{
+  date: '07.06.26',
+  text: 'is listening to Horsegirl.'
+},
+{
+  date: '06.24.26',
+  text: 'is listening to Elliot Smith.'
+},
+{
+  date: '06.05.26',
+  text: 'is watching My Neighbor Totoro.'
+},
+{
+  date: '05.30.26',
+  text: 'is listening to Beach Fossils.'
+},
+{
   date: '05.19.26',
   text: 'is listening to By Storm.'
 },
