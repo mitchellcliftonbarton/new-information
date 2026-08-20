@@ -4,6 +4,10 @@ export default [
   text: 'is visiting the Metropolitan Museum of Art.'
 },
 {
+  date: '08.21.26',
+  text: 'is watching My Neighbor Totoro.'
+},
+{
   date: '08.18.26',
   text: 'is watching Tony.'
 },
@@ -32,12 +36,8 @@ export default [
   text: 'is listening to Horsegirl.'
 },
 {
-  date: '06.24.26',
+  date: '06.13.26',
   text: 'is listening to Elliot Smith.'
-},
-{
-  date: '06.05.26',
-  text: 'is watching My Neighbor Totoro.'
 },
 {
   date: '05.30.26',
