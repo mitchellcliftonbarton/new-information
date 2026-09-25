@@ -1,7 +1,19 @@
 export default [
 {
+  date: '09.19.26',
+  text: 'is listening to Oren Ambarchi.'
+},
+{
+  date: '09.14.26',
+  text: 'is listening to Better Oblivion Community Center.'
+},
+{
+  date: '09.13.26',
+  text: 'is reading <i>Switzy<i> by Emma Cline.'
+},
+{
   date: '09.10.26',
-  text: 'is reading the <i>New York Review of Books</i>.'
+  text: 'is reading the <i>New York Review of Books<i>.'
 },
 {
   date: '09.09.26',
