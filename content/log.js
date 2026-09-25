@@ -1,5 +1,29 @@
 export default [
 {
+  date: '09.10.26',
+  text: 'is reading the <i>New York Review of Books</i>.'
+},
+{
+  date: '09.09.26',
+  text: 'is listening to Racecourse.'
+},
+{
+  date: '09.06.26',
+  text: 'is reading <i>The Typographic Medium</i>.'
+},
+{
+  date: '09.02.26',
+  text: 'is visiting the Russel Wright Design Center.'
+},
+{
+  date: '08.30.26',
+  text: 'is visiting Grace Farms.'
+},
+{
+  date: '08.28.26',
+  text: 'is harvesting fall vegetables at an orchard in upstate NY.'
+},
+{
   date: '08.22.26',
   text: 'is visiting the Metropolitan Museum of Art.'
 },
