@@ -9,11 +9,11 @@ export default [
 },
 {
   date: '09.13.26',
-  text: 'is reading <i>Switzy<i> by Emma Cline.'
+  text: 'is reading *Switzy* by Emma Cline.'
 },
 {
   date: '09.10.26',
-  text: 'is reading the <i>New York Review of Books<i>.'
+  text: 'is reading the *New York Review of Books*.'
 },
 {
   date: '09.09.26',
@@ -21,7 +21,7 @@ export default [
 },
 {
   date: '09.06.26',
-  text: 'is reading <i>The Typographic Medium</i>.'
+  text: 'is reading *The Typographic Medium*.'
 },
 {
   date: '09.02.26',
@@ -41,11 +41,11 @@ export default [
 },
 {
   date: '08.21.26',
-  text: 'is watching My Neighbor Totoro.'
+  text: 'is watching *My Neighbor Totoro*.'
 },
 {
   date: '08.18.26',
-  text: 'is watching Tony.'
+  text: 'is watching *Tony*.'
 },
 {
   date: '08.14.26',
