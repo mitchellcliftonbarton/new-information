@@ -1,5 +1,5 @@
 export default [
-    {
+  {
     title: 'Cory Arcangel',
     caption: 'Publication design of <i>All The Small Things</i>, a dynamic tour of Cory Arcangel’s Heart Museum installation.',
     image: 'NewInformation_AllTheSmallThings_a.jpg',
@@ -7,6 +7,15 @@ export default [
     mobileImage: 'NewInformation_AllTheSmallThings_Mobile_a.jpg',
     color: '#ff4382',
     slug: 'all-the-small-things'
+  },
+  {
+    title: 'Jeremy Liebman',
+    caption: 'Search-based website design cataloging the prolific works of photographer Jeremy Liebman. <a href="http://jeremyliebman.com/" target="_blank">⭢ View here</a>',
+    video: 'NewInformation_JeremyLiebman_a.mp4',
+    mobileImage: 'NewInformation_JeremyLiebman_Mobile_a.jpg',
+    imageAlt: 'Video or still of photography portfolio site for Jeremy Liebman, featuring groups of photographs arranged in card-based stacks.',
+    color: '#FFFF00',
+    slug: 'jeremy-liebman'
   },
   {
     title: 'Agency—Agency',
@@ -166,15 +175,6 @@ export default [
     mobileImage: 'NewInformation_Desisantiago_Mobile_a.jpg',
     color: '#FF0000',
     slug: 'desi-santiago'
-  },
-  {
-    title: 'Jeremy Liebman',
-    caption: 'Search-based website design cataloging the prolific works of photographer Jeremy Liebman. <a href="http://jeremyliebman.com/" target="_blank">⭢ View here</a>',
-    video: 'NewInformation_JeremyLiebman_a.mp4',
-    mobileImage: 'NewInformation_JeremyLiebman_Mobile_a.jpg',
-    imageAlt: 'Video or still of photography portfolio site for Jeremy Liebman, featuring groups of photographs arranged in card-based stacks.',
-    color: '#FFFF00',
-    slug: 'jeremy-liebman'
   },
   {
     title: 'Sacha Maric',
