@@ -1,7 +1,7 @@
 export default [
 {
   date: '10.09.26',
-  text: 's listening to Sheila Hicks on Time Sensitive.'
+  text: 's listening to Sheila Hicks on <i>Time Sensitive</i>.'
 },
 {
   date: '10.08.26',
