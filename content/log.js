@@ -1,5 +1,57 @@
 export default [
 {
+  date: '10.09.26',
+  text: 's listening to Sheila Hicks on Time Sensitive.'
+},
+{
+  date: '10.08.26',
+  text: 'is watching Horse Lords at Pioneer Works.'
+},
+{
+  date: '10.07.26',
+  text: 'is watching Sarah Michelson: nowhere at MoMA.'
+},
+{
+  date: '10.06.26',
+  text: 'is listening to Dear Eloise.'
+},
+{
+  date: '10.05.26',
+  text: 'is watching Coyote vs. Acme.'
+},
+{
+  date: '10.04.26',
+  text: 'is dancing to Ninajirachi.'
+},
+{
+  date: '10.03.26',
+  text: 'is looking at the STOOLS exhibition at A83.'
+},
+{
+  date: '10.02.26',
+  text: 'is visiting Arthur Jafa: I Am Tony at the New Museum.'
+},
+{
+  date: '10.01.26',
+  text: 'is visiting New York City Children’s Theater.'
+},
+{
+  date: '09.29.26',
+  text: 'is reading LowQ Magazine by Chinatown Basketball Club and Neutral Colors.'
+},
+{
+  date: '09.28.26',
+  text: 'is looking at Lynda Benglis at Pace Gallery.'
+},
+{
+  date: '09.26.26',
+  text: 'is listening to 22° Halo.'
+},
+{
+  date: '09.25.26',
+  text: 'is visiting the Russel Wright Design Center.'
+},
+{
   date: '09.19.26',
   text: 'is listening to Oren Ambarchi.'
 },
