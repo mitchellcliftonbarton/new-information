@@ -307,7 +307,7 @@ export default [
   },
   {
     title: 'vowels',
-    caption: 'Ecomm platform for a startup menswear brand blending a deep archive of design references with crafted garments. <a href="https://vowels.net/" target="_blank">⭢ View here</a>',
+    caption: 'Ecomm platform for a menswear brand blending a deep archive of design references with crafted garments. <a href="https://vowels.net/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_vowelsWebsiteHP_a_smaller.mp4',
     image: 'NewInformation_vowelsWebsiteHP_a.jpg',
     imageAlt: 'An image or video of a menswear fashion website called Vowels',
@@ -317,7 +317,7 @@ export default [
   },
   {
     title: 'vowels',
-    caption: 'Ecomm platform for a startup menswear brand blending a deep archive of design references with crafted garments. <a href="https://vowels.net/" target="_blank">⭢ View here</a>',
+    caption: 'Ecomm platform for a menswear brand blending a deep archive of design references with crafted garments. <a href="https://vowels.net/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_vowelsWebsitePLP_b_smaller.mp4',
     image: 'NewInformation_vowelsWebsitePLP_b.jpg',
     imageAlt: 'An image or video of a menswear fashion website called Vowels',
