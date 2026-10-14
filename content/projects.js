@@ -442,7 +442,7 @@ export default [
     caption: 'Brand identity for Skowhegan School of Painting & Sculpture.',
     image: 'NewInformation_Skowhegan_b.jpg',
     mobileImage: 'NewInformation_Skowhegan_Mobile_b.jpg',
-    color: '#CCEBB2',
+    color: '#FFFFFF',
     slug: 'skowhegan-brand',
   },
   {
