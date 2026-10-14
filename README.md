@@ -29,7 +29,7 @@ This is an array of objects. Each object can have 2 values:
 
 ### Projects (projects.js)
 
-This is an array of objects. Each object can have 8 values:
+This is an array of objects. Each object can have 9 values:
 
 | Property      | Description |
 | -----------   | ----------- |
@@ -39,6 +39,7 @@ This is an array of objects. Each object can have 8 values:
 | imageAlt        | Alt text for 'img'       |
 | mobileImage     | Image for the project that will only appear on mobile. Should be something like 'test.jpg', and file should exist in `/src/images`. If it exists, it will replace the 'image' on mobile. If it doesnt exist, 'image' will show up on mobile and desktop       |
 | video           | A video for the project. Should be an .mp4 file and should exist in `/src/images`. Will override the 'image' field if it exists       |
+| mobileVideo     | A video for the project that will only appear on mobile. Should be an .mp4 file and should exist in `/src/images`. If it exists, it will replace the 'video' on mobile. If it doesnt exist, 'video' will show up on mobile and desktop       |
 | color           | A hex code for that projects color |
 | slug            | A slug for this project. Must be a unique all lowercase string. e.g. 'year-of-uncertainty' |
 

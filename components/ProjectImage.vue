@@ -11,9 +11,9 @@
     >
 
     <video 
-      v-else-if="project.video" 
+      v-else-if="video" 
       ref="video"
-      :src="shouldLoad ? require(`/src/images/${project.video}`) : null"
+      :src="shouldLoad ? require(`/src/images/${video}`) : null"
       class="object-cover object-center w-full h-full"
       autoplay
       muted
@@ -54,6 +54,13 @@ export default {
     shouldLoad() {
       return this.isPrevious || this.isNext || this.isCurrent
     },
+    video() {
+      if (this.device === 'desktop') {
+        return this.project.video
+      } else {
+        return this.project.mobileVideo || this.project.video
+      }
+    },
     image() {
       if (this.device === 'desktop') {
         return this.project.image
@@ -69,7 +76,7 @@ export default {
   watch: {
     currentProject(newVal) {
       if (newVal.slug === this.project.slug) {
-        if (this.project.video) {
+        if (this.video) {
           this.$refs.video.currentTime = 0
         }
       }
