@@ -330,7 +330,7 @@ export default [
     caption: 'Lookbooks for vowels, presenting collections with photography by Nigel Shafran.',
     image: 'NewInformation_vowels_booklet.jpg',
     mobileImage:'NewInformation_vowels_booklet_mobile.jpg',
-    imageAlt: 'A photo of a a boolet on a wooden table',
+    imageAlt: 'A photo of a booklet on a wooden table',
     color: '#B47390',
     slug: 'vowels-booklet',
   },
@@ -339,7 +339,7 @@ export default [
     caption: 'Experience design for vowels, shaping how visitors move fluidly through a library and retail space.',
     video: 'NewInformation_Vowels_Showroom_smaller.mp4',
     mobileVideo:'NewInformation_Vowels_mobile_Showroom_smaller.mp4',
-    color: '#B47390',
+    color: '#E6D0C4',
     slug: 'vowels-video',
   },
   {
