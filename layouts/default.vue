@@ -16,11 +16,15 @@
       </div>
 
       <div class="big-links fixed top-0 left-0 w-full h-full flex">
-        <nuxt-link 
-          :to="`/projects/${previousProject.slug}`" 
-          @mouseenter.native="handlePrevEnter" 
-          @mouseleave.native="handlePrevLeave"
-          @mousemove.native="handleMouseMove($event, leftCursor)"
+        <div
+          role="link"
+          tabindex="0"
+          @click="goToProject(previousProject)"
+          @mousedown.prevent
+          @keydown.enter="goToProject(previousProject)"
+          @mouseenter="handlePrevEnter"
+          @mouseleave="handlePrevLeave"
+          @mousemove="handleMouseMove($event, leftCursor)"
           class="prev h-full w-1/2 relative"
           :class="{ 'active': leftCursor.show }"
           :aria-label="`View ${previousProject.title}`"
@@ -31,13 +35,17 @@
             }"
             :color="currentColor"
           />
-        </nuxt-link>
+        </div>
 
-        <nuxt-link 
-          :to="`/projects/${nextProject.slug}`" 
-          @mouseenter.native="handleNextEnter"
-          @mouseleave.native="handleNextLeave" 
-          @mousemove.native="handleMouseMove($event, rightCursor)"
+        <div
+          role="link"
+          tabindex="0"
+          @click="goToProject(nextProject)"
+          @mousedown.prevent
+          @keydown.enter="goToProject(nextProject)"
+          @mouseenter="handleNextEnter"
+          @mouseleave="handleNextLeave"
+          @mousemove="handleMouseMove($event, rightCursor)"
           class="next h-full w-1/2 relative"
           :class="{ 'active': rightCursor.show }"
           :aria-label="`View ${nextProject.title}`"
@@ -48,7 +56,7 @@
             }"
             :color="currentColor"
           />
-        </nuxt-link>
+        </div>
       </div>
     </main>
 
@@ -127,6 +135,9 @@ export default {
         side.y = e.clientY - e.target.getBoundingClientRect().top - 15
       }
     },
+    goToProject(project) {
+      this.$router.push(`/projects/${project.slug}`)
+    },
     getDeviceType () {
       if (process.client) {
         const ua = navigator.userAgent
@@ -172,6 +183,7 @@ export default {
   .prev,
   .next {
     cursor: none;
+    user-select: none;
     -webkit-tap-highlight-color: transparent;
 
     svg {
