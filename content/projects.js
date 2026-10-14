@@ -37,7 +37,7 @@ export default [
   },  
   {
     title: 'Mastic Beach Conservancy',
-    caption: 'Website design for Mastic Beach Conservancy.<a href="https://masticbeachconservancy.org/" target="_blank"> ⭢ View here</a>',
+    caption: 'Website design for Mastic Beach Conservancy. <a href="https://masticbeachconservancy.org/" target="_blank"> ⭢ View here</a>',
     image: 'NewInformation_MBCWebsite_a.jpg',
     mobileImage: 'NewInformation_MBCWeb_mobile_a.jpg',
     color: '#2090E6',
@@ -178,7 +178,7 @@ export default [
   },
   {
     title: 'Honest Labor',
-    caption: 'Website design for Honest Labor featuring videos that all numbered and color-coded.<a href="https://honestlabor.com/" target="_blank">⭢ View here</a>',
+    caption: 'Website design for Honest Labor featuring videos that all numbered and color-coded. <a href="https://honestlabor.com/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_HonestLabor_a.mp4',
     mobileImage: 'NewInformation_HonestLabor_mobile_a.jpg',
     color: '#3981eb',
@@ -186,7 +186,7 @@ export default [
   },
   {
     title: 'Desi Santiago',
-    caption: 'Website design for legendary artist and creative director Desi Santiago.<a href="https://desisantiago.com//" target="_blank">⭢ View here</a>',
+    caption: 'Website design for legendary artist and creative director Desi Santiago. <a href="https://desisantiago.com//" target="_blank">⭢ View here</a>',
     video: 'NewInformation_Desisantiago_a.mp4',
     mobileImage: 'NewInformation_Desisantiago_Mobile_a.jpg',
     color: '#FF0000',
