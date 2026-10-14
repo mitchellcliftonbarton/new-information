@@ -152,7 +152,7 @@ export default [
   },
   {
     title: 'Krink',
-    caption: 'E-commerce website design for KRINK, an artist materials brand and creative studio based in New York City. <a href="https://krink.com/" target="_blank">⭢ View here</a>',
+    caption: 'E-commerce website design for Krink, an artist materials brand and creative studio based in New York City. <a href="https://krink.com/" target="_blank">⭢ View here</a>',
     image: 'NewInformation_Krink_a.jpg',
     imageAlt: 'Still rendering of shop web page for krink.com, featuring a grid of paint pens in different colors.',
     mobileImage: 'NewInformation_Krink_Mobile_a.jpg',
@@ -194,7 +194,7 @@ export default [
   },
     {
     title: 'Leah Beeferman',
-    caption: 'Three Weathers, a year-long weekly poster series documenting weather conditions with <a href="https://www.leahbeeferman.com/" target="_blank">Lean Beeferman</a>.',
+    caption: 'Three Weathers, a year-long weekly poster series documenting weather conditions with <a href="https://www.leahbeeferman.com/" target="_blank">Leah Beeferman</a>.',
     video: 'NewInformation_ThreeWeathers.mp4',
     mobileVideo: 'NewInformation_ThreeWeathers_Mobile.mp4',
     color: '#FFFFFF',
@@ -210,7 +210,7 @@ export default [
     slug: 'sacha-maric'
   },
   {
-    title: 'ATRBUTE',
+    title: 'Atrbute',
     caption: 'Editorial concept and design for <i>Atrbute Curated, Issue 1</i>.',
     image: 'NewInformation_ATRBUTE1.jpg',
     mobileImage: 'NewInformation_ATRBUTE1_Mobile.jpg',
@@ -218,7 +218,7 @@ export default [
     slug: 'atrbute1'
   },
   {
-    title: 'ATRBUTE',
+    title: 'Atrbute',
     caption: 'Editorial concept and design for <i>Atrbute Curated, Issue 2</i>.',
     image: 'NewInformation_ATRBUTE2.jpg',
     mobileImage: 'NewInformation_ATRBUTE2_Mobile.jpg',
