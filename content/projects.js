@@ -372,7 +372,7 @@ export default [
     image: 'NewInformation_Homecoming_combo.jpg',
     imageAlt: 'A photo of four blind debossed boxes with different colors',
     mobileImage: 'NewInformation_Homecoming_Mobile_combo.jpg',
-    color: '#8A916B',
+    color: '#E3CDAE',
     slug: 'hc-combo',
   },
   {
