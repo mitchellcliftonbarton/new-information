@@ -211,7 +211,7 @@ export default [
   },
   {
     title: 'ATRBUTE',
-    caption: 'Editorial concept and design for Atrbute Curated, Issue 1.',
+    caption: 'Editorial concept and design for <i>Atrbute Curated, Issue 1</i>.',
     image: 'NewInformation_ATRBUTE1.jpg',
     mobileImage: 'NewInformation_ATRBUTE1_Mobile.jpg',
     color: '#CCD6E2',
@@ -219,7 +219,7 @@ export default [
   },
   {
     title: 'ATRBUTE',
-    caption: 'Editorial concept and design for Atrbute Curated, Issue 2.',
+    caption: 'Editorial concept and design for <i>Atrbute Curated, Issue 2</i>.',
     image: 'NewInformation_ATRBUTE2.jpg',
     mobileImage: 'NewInformation_ATRBUTE2_Mobile.jpg',
     color: '#CCD6E2',
