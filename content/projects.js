@@ -334,13 +334,37 @@ export default [
     color: '#B47390',
     slug: 'vowels-booklet',
   },
-   {
+  {
     title: 'vowels',
     caption: 'Experience design for vowels, shaping how visitors move fluidly through a library and retail space.',
     video: 'NewInformation_Vowels_Showroom_smaller.mp4',
     mobileVideo:'NewInformation_Vowels_mobile_Showroom_smaller.mp4',
     color: '#E6D0C4',
     slug: 'vowels-video',
+  },
+  {
+    title: 'Ernest Lyford',
+    caption: 'Brand identity design for Ernest Lyford.',
+    video: 'NewInformation_ErnestLyford-Logo.mp4',
+    mobileVideo:'NewInformation_ErnestLyford-Logo_Mobile.mp4',
+    color: '#FFFFFF',
+    slug: 'ernest-lyford',
+  },
+  {
+    title: 'Homecoming',
+    caption: 'Packaging design for Oscillations, a collaborative coffee production with Homecoming and Botz.',
+    image: 'NewInformation_Oscillations.jpg',
+    mobileImage: 'NewInformation_Oscillations_Mobile.jpg',
+    color: '#FF0000',
+    slug: 'oscillations',
+  },
+  {
+    title: 'Homecoming',
+    caption: 'Website design for Oscillations, a collaborative coffee production with Homecoming and Botz. <a href="https://oscillations.coffee/" target="_blank">⭢ View here</a>',
+    video: 'NewInformation_Oscillations-Web.mp4',
+    mobileVideo: 'NewInformation_Oscillations-Web_Mobile.mp4',
+    color: '#FF0000',
+    slug: 'oscillations',
   },
   {
     title: 'Homecoming',
@@ -403,7 +427,7 @@ export default [
     color: '#32FC47',
     slug: 'aiany-3',
   },   
-    {
+  {
     title: 'Robert Rauschenberg Foundation',
     caption: 'Centennial website celebrating Rauschenberg’s legacy through an interactive collage of works and programs. <a href="https://rauschenberg100.org/" target="_blank">⭢ View here</a>',
     video:'NewInformation_RRF100_a_smaller.mp4',
@@ -413,5 +437,36 @@ export default [
     color: '#FE5917',
     slug: 'rrf-100',
   },
-  
+  {
+    title: 'Skowhegan School of Painting & Sculpture',
+    caption: 'Brand identity for Skowhegan School of Painting & Sculpture.',
+    image: 'NewInformation_Skowhegan_b.jpg',
+    mobileImage: 'NewInformation_Skowhegan_Mobile_b.jpg',
+    color: '#CCEBB2',
+    slug: 'skowhegan-brand',
+  },
+  {
+    title: 'Skowhegan School of Painting & Sculpture',
+    caption: 'Website design for Skowhegan School of Painting & Sculpture. <a href="https://skowheganart.org/" target="_blank">⭢ View here</a>',
+    video: 'NewInformation_Skowhegan_a.mp4',
+    mobileVideo: 'NewInformation_Skowhegan_Mobile_a.mp4',
+    color: '#E9B8BB',
+    slug: 'skowhegan-web',
+  },
+  {
+    title: 'New York City Children’s Theater',
+    caption: 'Brand identity for New York City Children’s Theater, featuring a custom typeface.',
+    image: 'NewInformation_NYCCT_a.jpg',
+    mobileImage: 'NewInformation_NYCCT_Mobile_a.jpg',
+    color: '#EBA912',
+    slug: 'nycct-brand',
+  },
+  {
+    title: 'New York City Children’s Theater',
+    caption: 'Brand identity for New York City Children’s Theater, featuring a custom typeface.',
+    video: 'NewInformation_NYCCT_b_smaller.mp4',
+    mobileVideo: 'NewInformation_NYCCT_Mobile_b_smaller.mp4',
+    color: '#FFFFFF',
+    slug: 'nycct-logo',
+  },
 ]
