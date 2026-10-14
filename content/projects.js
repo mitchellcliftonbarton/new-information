@@ -116,7 +116,7 @@ export default [
     slug: 'listening-to-clay'
   },
   {
-    title: 'Carmen Winant & Calista Lyon',
+    title: 'Carmen Winant and Calista Lyon',
     caption: 'Poster for <i>Breaking Water</i>, exhibition by Carmen Winant and Calista Lyon.',
     image: 'NewInformation_BreakingWater_a.jpg',
     mobileImage: 'NewInformation_BreakingWater_Mobile_a.jpg',
@@ -194,7 +194,7 @@ export default [
   },
     {
     title: 'Leah Beeferman',
-    caption: 'Three Weathers, a year-long weekly poster series documenting weather conditions with <a href="https://www.leahbeeferman.com/" target="_blank">Leah Beeferman</a>.',
+    caption: '<i>Three Weathers</i>, a year-long weekly poster series documenting weather conditions with <a href="https://www.leahbeeferman.com/" target="_blank">Leah Beeferman</a>.',
     video: 'NewInformation_ThreeWeathers.mp4',
     mobileVideo: 'NewInformation_ThreeWeathers_Mobile.mp4',
     color: '#FFFFFF',
