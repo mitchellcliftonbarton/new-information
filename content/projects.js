@@ -353,7 +353,7 @@ export default [
   {
     title: 'Homecoming',
     caption: 'Packaging design for Oscillations, a collaborative coffee production with Homecoming and Botz.',
-    image: 'NewInformation_Oscillations.jpg',
+    image: 'NewInformation_Oscillations_Desktop.jpg',
     mobileImage: 'NewInformation_Oscillations_Mobile.jpg',
     color: '#FF0000',
     slug: 'oscillations-packaging',
