@@ -1,12 +1,12 @@
 <template>
   <footer
     id="footer"
-    class="fixed bottom-0 left-0 flex justify-start items-end"
+    class="fixed bottom-0 left-0 flex flex-col md:flex-row justify-start items-start md:items-end"
     :class="device === 'desktop' ? 'p-6' : 'p-4 lg:p-6'"
   >
     <p
       v-if="currentProject"
-      class="h-text whitespace-nowrap mr-4 md:mr-16"
+      class="h-text whitespace-nowrap md:mr-16"
       :style="{ color: currentColor }"
     >
       {{ currentIndex + 1 }} of {{ projects.length }}
