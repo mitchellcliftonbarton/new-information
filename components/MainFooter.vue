@@ -6,6 +6,13 @@
   >
     <p
       v-if="currentProject"
+      class="h-text whitespace-nowrap mr-4 md:mr-16"
+      :style="{ color: currentColor }"
+    >
+      {{ currentIndex + 1 }} of {{ projects.length }}
+    </p>
+    <p
+      v-if="currentProject"
       class="h-text"
       :style="{ color: currentColor }"
       v-html="currentProject.caption"
@@ -19,8 +26,13 @@ import { mapState, mapGetters } from "vuex";
 export default {
   name: "MainFooter",
   computed: {
-    ...mapState(["currentProject", "device"]),
-    ...mapGetters(["currentColor"])
+    ...mapState(["currentProject", "projects", "device"]),
+    ...mapGetters(["currentColor"]),
+    currentIndex() {
+      return this.projects.findIndex(
+        project => project.slug === this.currentProject.slug
+      );
+    }
   }
 };
 </script>
