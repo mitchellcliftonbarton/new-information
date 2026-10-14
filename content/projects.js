@@ -194,7 +194,7 @@ export default [
   },
     {
     title: 'Leah Beeferman',
-    caption: 'Three Weathers, a year-long weekly poster series documenting weather conditions with <a href="https://www.leahbeeferman.com/" target="_blank">⭢ Lean Beeferman</a>.',
+    caption: 'Three Weathers, a year-long weekly poster series documenting weather conditions with <a href="https://www.leahbeeferman.com/" target="_blank">Lean Beeferman</a>.',
     video: 'NewInformation_ThreeWeathers.mp4',
     mobileVideo: 'NewInformation_ThreeWeathers_Mobile.mp4',
     color: '#FFFFFF',
