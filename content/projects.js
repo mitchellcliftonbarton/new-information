@@ -48,7 +48,7 @@ export default [
     caption: 'Brand identity for Mastic Beach Conservancy.',
     image: 'NewInformation_MBC-Tote.jpg',
     mobileImage: 'NewInformation_MBC-Tote_Mobile.jpg',
-    color: '#F25924',
+    color: '#009145',
     slug: 'mastic-beach-conservancy-tote'
   },
   {
