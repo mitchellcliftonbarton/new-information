@@ -49,7 +49,7 @@ export default [
     image: 'NewInformation_YoUExhibition_a.jpg',
     imageAlt: 'A photograph of a wall in the Queens Museum featuring big, bold text that says YEAR OF UNCERTAINTY, along with small exhibition text and timeline phases.',
     mobileImage: 'NewInformation_YoUExhibition_Mobile_a.jpg',
-    color: '#089af7',
+    color: '#D74E8A',
  /*   color: '#fe8c14', */
     slug: 'year-of-uncertainty'
   },
@@ -77,7 +77,7 @@ export default [
     image: 'NewInformation_QueensMuseum_a.jpg',
     imageAlt: 'Image of an entrance doorway to the Queens Museum featuring bright green entrance signage in both English and Spanish.',
     mobileImage: 'NewInformation_QueensMuseum_Mobile_a.jpg',
-    color: '#5bb271',
+    color: '#FCFF54',
     slug: 'queens-museum'
   },
   {
@@ -200,7 +200,7 @@ export default [
     image: 'NewInformation_Ford_Sign.jpg',
     mobileImage: 'NewInformation_Ford_Sign_Mobile.jpg',
     imageAlt: 'A photo of the exhibition poster',
-    color: '#F6DA4B',
+    color: '#BD271F',
     slug: 'FF-2',
   },
   {
@@ -283,7 +283,7 @@ export default [
     image: 'NewInformation_vowels_booklet.jpg',
     mobileImage:'NewInformation_vowels_booklet_mobile.jpg',
     imageAlt: 'A photo of a a boolet on a wooden table',
-    color: '#BA6E90',
+    color: '#B47390',
     slug: 'vowels-booklet',
   },
    {
@@ -291,7 +291,7 @@ export default [
     caption: 'Experience design for vowels, shaping how visitors move fluidly through a library and retail space.',
     video: 'NewInformation_Vowels_Showroom_smaller.mp4',
     mobileVideo:'NewInformation_Vowels_mobile_Showroom_smaller.mp4',
-    color: '#BA6E90',
+    color: '#B47390',
     slug: 'vowels-video',
   },
   {
@@ -300,7 +300,7 @@ export default [
     image: 'NewInformation_Homecoming_combo.jpg',
     imageAlt: 'A photo of four blind debossed boxes with different colors',
     mobileImage: 'NewInformation_Homecoming_Mobile_combo.jpg',
-    color: '#EFD0B4',
+    color: '#868E68',
     slug: 'hc-combo',
   },
   {
@@ -309,7 +309,7 @@ export default [
     image: 'NewInformation_Homecoming_purple.jpg',
     imageAlt: 'A photo of a blind debossed box in purple',
     mobileImage: 'NewInformation_Homecoming_Mobile_purple.jpg',
-    color: '#EFD0B4',
+    color: '#868E68',
     slug: 'hc-purple',
   },
   {
