@@ -227,7 +227,7 @@ export default [
   },
   {
     title: 'Ford Foundation',
-    caption: 'Exhibition design for “What Models Make Worlds: Critical Imaginaries of AI” at the Ford Foundation Gallery',
+    caption: 'Exhibition design for <i>What Models Make Worlds: Critical Imaginaries of AI</i> at the Ford Foundation Gallery.',
     image: 'NewInformation_Ford_Wall.jpg',
     mobileImage: 'NewInformation_Ford_Wall_Mobile.jpg',
     imageAlt: 'A photo of the exhibition space',
@@ -236,7 +236,7 @@ export default [
   },
   {
     title: 'Ford Foundation',
-    caption: 'Exhibition design for “What Models Make Worlds: Critical Imaginaries of AI” at the Ford Foundation Gallery',
+    caption: 'Exhibition design for <i>What Models Make Worlds: Critical Imaginaries of AI</i> at the Ford Foundation Gallery.',
     image: 'NewInformation_Ford_Sign.jpg',
     mobileImage: 'NewInformation_Ford_Sign_Mobile.jpg',
     imageAlt: 'A photo of the exhibition poster',
