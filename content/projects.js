@@ -37,7 +37,7 @@ export default [
   },  
   {
     title: 'Mastic Beach Conservancy',
-    caption: 'Website design for Mastic Beach Conservancy. <a href="https://masticbeachconservancy.org/" target="_blank"> ⭢ View here</a>',
+    caption: 'Website design for Mastic Beach Conservancy, supporting environment, ecologies, and community. <a href="https://masticbeachconservancy.org/" target="_blank"> ⭢ View here</a>',
     image: 'NewInformation_MBCWebsite_a.jpg',
     mobileImage: 'NewInformation_MBCWeb_mobile_a.jpg',
     color: '#2090E6',
@@ -45,7 +45,7 @@ export default [
   },
   {
     title: 'Mastic Beach Conservancy',
-    caption: 'Brand identity for Mastic Beach Conservancy.',
+    caption: 'Brand identity for Mastic Beach Conservancy, supporting environment, ecologies, and community.',
     image: 'NewInformation_MBC-Tote.jpg',
     mobileImage: 'NewInformation_MBC-Tote_Mobile.jpg',
     color: '#009145',
@@ -344,7 +344,7 @@ export default [
   },
   {
     title: 'Ernest Lyford',
-    caption: 'Brand identity design for Ernest Lyford.',
+    caption: 'Brand identity design for Ernest Lyford, a film production company run by Nicholas Ma.',
     video: 'NewInformation_ErnestLyford-Logo.mp4',
     mobileVideo:'NewInformation_ErnestLyford-Logo_Mobile.mp4',
     color: '#FFFFFF',
