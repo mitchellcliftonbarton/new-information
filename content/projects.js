@@ -85,7 +85,7 @@ export default [
     image: 'NewInformation_QueensMuseum_a.jpg',
     imageAlt: 'Image of an entrance doorway to the Queens Museum featuring bright green entrance signage in both English and Spanish.',
     mobileImage: 'NewInformation_QueensMuseum_Mobile_a.jpg',
-    color: '#FCFF54',
+    color: '#b8fa04',
     slug: 'queens-museum'
   },
   {
@@ -169,7 +169,7 @@ export default [
   },
     {
     title: 'A4',
-    caption: 'Design for an online magazine celebrating the vibrant, multifaceted, and rich AAPI cultural community in NYC and beyond. <a href="https://www.aaartsalliance.org/magazine" target="_blank">⭢ View here</a>',
+    caption: 'Design for an online magazine celebrating the rich AAPI cultural community in NYC and beyond. <a href="https://www.aaartsalliance.org/magazine" target="_blank">⭢ View here</a>',
     image: 'NewInformation_TheAmp_a.jpg',
     mobileImage: 'NewInformation_TheAmp_moble_a.jpg',
     imageAlt: 'Image of web page for The Amp, the new magazine site for A4, featuring bold graphic in red color.',
