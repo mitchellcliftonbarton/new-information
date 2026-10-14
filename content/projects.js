@@ -41,7 +41,15 @@ export default [
     image: 'NewInformation_MBCWebsite_a.jpg',
     mobileImage: 'NewInformation_MBCWeb_mobile_a.jpg',
     color: '#2090E6',
-    slug: 'mastic-beach-conservancy'
+    slug: 'mastic-beach-conservancy-website'
+  },
+  {
+    title: 'Mastic Beach Conservancy',
+    caption: 'Brand identity for Mastic Beach Conservancy.',
+    image: 'NewInformation_MBC-Tote.jpg',
+    mobileImage: 'NewInformation_MBC-Tote_Mobile.jpg',
+    color: '#F25924',
+    slug: 'mastic-beach-conservancy-tote'
   },
   {
     title: 'Queens Museum',
@@ -106,6 +114,14 @@ export default [
     mobileImage: 'NewInformation_ListeningToClay_Mobile_a.jpg',
     color: '#3D59A4',
     slug: 'listening-to-clay'
+  },
+  {
+    title: 'Carmen Winant & Calista Lyon',
+    caption: 'Poster for <i>Breaking Water</i>, exhibition by Carmen Winant and Calista Lyon.',
+    image: 'NewInformation_BreakingWater_a.jpg',
+    mobileImage: 'NewInformation_BreakingWater_Mobile_a.jpg',
+    color: '#CCCBCF',
+    slug: 'breaking-water'
   },
   {
     title: 'Processing Foundation',
@@ -176,6 +192,14 @@ export default [
     color: '#FF0000',
     slug: 'desi-santiago'
   },
+    {
+    title: 'Leah Beeferman',
+    caption: 'Three Weathers, a year-long weekly poster series documenting weather conditions with <a href="https://www.leahbeeferman.com/" target="_blank">⭢ Lean Beeferman</a>.',
+    video: 'NewInformation_ThreeWeathers.mp4',
+    mobileVideo: 'NewInformation_ThreeWeathers_Mobile.mp4',
+    color: '#FFFFFF',
+    slug: 'three-weathers'
+  },
   {
     title: 'Sacha Maric',
     caption: 'Portfolio website design for Sacha Maric, fluidly traversing fashion, personal, and portraiture photography. <a href="https://www.sachamaric.com/" target="_blank">⭢ View here</a>',
@@ -184,6 +208,22 @@ export default [
     imageAlt: 'Image or video of web page of portfolio website for Sacha Maric, featuring big bold fashion imagery.',
     color: '#ff99e1',
     slug: 'sacha-maric'
+  },
+  {
+    title: 'ATRBUTE',
+    caption: 'Editorial concept and design for Atrbute Curated, Issue 1.',
+    image: 'NewInformation_ATRBUTE1.jpg',
+    mobileImage: 'NewInformation_ATRBUTE1_Mobile.jpg',
+    color: '#CCD6E2',
+    slug: 'atrbute1'
+  },
+  {
+    title: 'ATRBUTE',
+    caption: 'Editorial concept and design for Atrbute Curated, Issue 2.',
+    image: 'NewInformation_ATRBUTE2.jpg',
+    mobileImage: 'NewInformation_ATRBUTE2_Mobile.jpg',
+    color: '#CCD6E2',
+    slug: 'atrbute2'
   },
   {
     title: 'Ford Foundation',
@@ -237,6 +277,14 @@ export default [
     mobileImage: 'NewInformation_Columbia_MOBILE_IQLstack.jpg',
     color: '#fdcba4',
     slug: 'iql-stack'
+  },
+  {
+    title: 'Walker Art Center',
+    caption: 'Book design for <i>Christine Sun Kim: All Day All Night</i>, published by Walker Art Center and Whitney Museum of American Art.',
+    image: 'NewInformation_CSK.jpg',
+    mobileImage: 'NewInformation_CSK_Mobile.jpg',
+    color: '#BE1B1A',
+    slug: 'csk'
   },
   {
     title: 'Storefront for Art & Architecture',
