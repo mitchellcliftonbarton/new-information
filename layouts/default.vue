@@ -20,6 +20,7 @@
           role="link"
           tabindex="0"
           @click="goToProject(previousProject)"
+          @mousedown.prevent
           @keydown.enter="goToProject(previousProject)"
           @mouseenter="handlePrevEnter"
           @mouseleave="handlePrevLeave"
@@ -40,6 +41,7 @@
           role="link"
           tabindex="0"
           @click="goToProject(nextProject)"
+          @mousedown.prevent
           @keydown.enter="goToProject(nextProject)"
           @mouseenter="handleNextEnter"
           @mouseleave="handleNextLeave"
@@ -182,6 +184,7 @@ export default {
   .prev,
   .next {
     cursor: none;
+    user-select: none;
     -webkit-tap-highlight-color: transparent;
 
     svg {
