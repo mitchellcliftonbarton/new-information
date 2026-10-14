@@ -37,7 +37,7 @@ export default [
   },  
   {
     title: 'Mastic Beach Conservancy',
-    caption: 'Website design for Mastic Beach Conservancy.<a href="https://masticbeachconservancy.org/" target="_blank">⭢ View here</a>',
+    caption: 'Website design for Mastic Beach Conservancy.<a href="https://masticbeachconservancy.org/" target="_blank"> ⭢ View here</a>',
     image: 'NewInformation_MBCWebsite_a.jpg',
     mobileImage: 'NewInformation_MBCWeb_mobile_a.jpg',
     color: '#2090E6',
