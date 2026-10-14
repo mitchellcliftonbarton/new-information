@@ -138,6 +138,11 @@ export default {
     goToProject(project) {
       this.$router.push(`/projects/${project.slug}`)
     },
+    handleKeydown(e) {
+      if (!this.currentProject || e.metaKey || e.ctrlKey || e.altKey || e.shiftKey) return
+      if (e.key === 'ArrowLeft') this.goToProject(this.previousProject)
+      if (e.key === 'ArrowRight') this.goToProject(this.nextProject)
+    },
     getDeviceType () {
       if (process.client) {
         const ua = navigator.userAgent
@@ -163,6 +168,11 @@ export default {
     this.$store.dispatch('setDevice', this.getDeviceType())
     
     console.log('%c \nDevelopment by Cold Rice \n \ncold-rice.info \n \n', 'color: grey')
+
+    window.addEventListener('keydown', this.handleKeydown)
+  },
+  beforeDestroy() {
+    window.removeEventListener('keydown', this.handleKeydown)
   }
 }
 </script>

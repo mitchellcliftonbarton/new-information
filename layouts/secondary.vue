@@ -17,9 +17,14 @@ import SecondaryFooter from '~/components/SecondaryFooter.vue';
 export default {
   components: { SecondaryFooter },
   computed: {
-    ...mapState(['device']),
+    ...mapState(['device', 'backLink']),
   },
   methods: {
+    // Esc closes About / Log, same as the X (ignored while typing in a field)
+    handleKeydown(e) {
+      if (e.key !== 'Escape' || e.target.closest('input, textarea, select')) return
+      this.$router.push(this.backLink)
+    },
     setIsMobile() {
           if (process.client) {
               window.matchMedia("(max-width: 1024px)").matches
@@ -45,6 +50,10 @@ export default {
   },
   mounted() {
     this.$store.dispatch('setDevice', this.getDeviceType())
+    window.addEventListener('keydown', this.handleKeydown)
+  },
+  beforeDestroy() {
+    window.removeEventListener('keydown', this.handleKeydown)
   }
 }
 </script>
