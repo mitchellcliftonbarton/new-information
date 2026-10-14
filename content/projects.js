@@ -356,7 +356,7 @@ export default [
     image: 'NewInformation_Oscillations.jpg',
     mobileImage: 'NewInformation_Oscillations_Mobile.jpg',
     color: '#FF0000',
-    slug: 'oscillations',
+    slug: 'oscillations-packaging',
   },
   {
     title: 'Homecoming',
@@ -364,7 +364,7 @@ export default [
     video: 'NewInformation_Oscillations-Web.mp4',
     mobileVideo: 'NewInformation_Oscillations-Web_Mobile.mp4',
     color: '#FF0000',
-    slug: 'oscillations',
+    slug: 'oscillations-web',
   },
   {
     title: 'Homecoming',
