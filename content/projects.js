@@ -240,7 +240,7 @@ export default [
     image: 'NewInformation_Ford_Sign.jpg',
     mobileImage: 'NewInformation_Ford_Sign_Mobile.jpg',
     imageAlt: 'A photo of the exhibition poster',
-    color: '#C11E14',
+    color: '#C71C13',
     slug: 'FF-2',
   },
   {
