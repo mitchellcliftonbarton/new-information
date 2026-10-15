@@ -355,7 +355,7 @@ export default [
     caption: 'Packaging design for Oscillations, a collaborative coffee production with Homecoming and Botz.',
     image: 'NewInformation_Oscillations_Desktop.jpg',
     mobileImage: 'NewInformation_Oscillations_Mobile.jpg',
-    color: '#FF0000',
+    color: '#E94B29',
     slug: 'oscillations-packaging',
   },
   {
@@ -363,7 +363,7 @@ export default [
     caption: 'Website design for Oscillations, a collaborative coffee production with Homecoming and Botz. <a href="https://oscillations.coffee/" target="_blank">⭢ View here</a>',
     video: 'NewInformation_Oscillations-Web.mp4',
     mobileVideo: 'NewInformation_Oscillations-Web_Mobile.mp4',
-    color: '#FF0000',
+    color: '#E94B29',
     slug: 'oscillations-web',
   },
   {
