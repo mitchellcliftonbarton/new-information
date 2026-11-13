@@ -144,10 +144,6 @@ export default [
   text: 'is listening to Sheila Hicks on Time Sensitive.'
 },
 {
-  date: '10.09.26',
-  text: 'is listening to Sheila Hicks on Time Sensitive.'
-},
-{
   date: '10.08.26',
   text: 'is watching Horse Lords at Pioneer Works.'
 },
