@@ -1,5 +1,149 @@
 export default [
 {
+  date: '11.13.26',
+  text: 'is reading Jay Caspian Kang in the New Yorker.'
+},
+{
+  date: '11.12.26',
+  text: 'is watching Headache at Knockdown Center.'
+},
+{
+  date: '11.11.26',
+  text: 'is going on a fall walk.'
+},
+{
+  date: '11.10.26',
+  text: 'is listening to A.G. Cook.'
+},
+{
+  date: '11.09.26',
+  text: 'is reading Heavy Traffic Magazine.'
+},
+{
+  date: '11.08.26',
+  text: 'is watching Raise the Red Lantern at Film Forum.'
+},
+{
+  date: '11.07.26',
+  text: 'is watching No One Else Says.'
+},
+{
+  date: '11.06.26',
+  text: 'is visiting The Morgan Library & Museum.'
+},
+{
+  date: '11.05.26',
+  text: 'is eating at Taku Sando.'
+},
+{
+  date: '11.04.26',
+  text: 'is listening to Headache.'
+},
+{
+  date: '11.03.26',
+  text: 'is reading Illuminations by Walter Benjamin.'
+},
+{
+  date: '11.02.26',
+  text: 'is listening to Burial.'
+},
+{
+  date: '11.01.26',
+  text: 'is watching Oren Ambarchi at Blank Forms.'
+},
+{
+  date: '10.31.26',
+  text: 'is watching The Rehearsal.'
+},
+{
+  date: '10.29.26',
+  text: 'is watching Jeremiah Chiu at Public Records.'
+},
+{
+  date: '10.29.26',
+  text: 'is watching Possible Love at Lincoln Center.'
+},
+{
+  date: '10.28.26',
+  text: 'is eating omakase.'
+},
+{
+  date: '10.27.26',
+  text: 'is listening to Faye Wong.'
+},
+{
+  date: '10.26.26',
+  text: 'is reading Artificial Intimacy by Sherry Turkle.'
+},
+{
+  date: '10.25.26',
+  text: 'is watching geese at Socrates Sculpture Park.'
+},
+{
+  date: '10.24.26',
+  text: 'is visiting the RISD Museum.'
+},
+{
+  date: '10.23.26',
+  text: 'is listening to Cardi B’s NPR Tiny Desk concert.'
+},
+{
+  date: '10.22.26',
+  text: 'is surfing Rockaway.'
+},
+{
+  date: '10.21.26',
+  text: 'is reading The Corrections by Jonathan Franzen.'
+},
+{
+  date: '10.20.26',
+  text: 'is looking at Costume Art at the Metropolitan Museum of Art.'
+},
+{
+  date: '10.19.26',
+  text: 'is listening to Oxis.'
+},
+{
+  date: '10.18.26',
+  text: 'is reading Harper’s.'
+},
+{
+  date: '10.17.26',
+  text: 'is watching The History of Concrete.'
+},
+{
+  date: '10.16.26',
+  text: 'is listening to Quadeca.'
+},
+{
+  date: '10.15.26',
+  text: 'is watching You Can See Everything.'
+},
+{
+  date: '10.14.26',
+  text: 'is listening to Native Dancer by Wayne Shorter.'
+},
+{
+  date: '10.13.26',
+  text: 'is watching Days of Being Wild.'
+},
+{
+  date: '10.12.26',
+  text: 'is looking at Krasner and Pollock: Past Continuous at the Metropolitan Museum of Art.'
+},
+{
+  date: '10.11.26',
+  text: 'is looking at Taryn Simon, Father Country I Do Love You at the Guggenheim Museum.'
+},
+{
+  date: '10.10.26',
+  text: 'is reading The Left Hand of Darkness by Ursula K. Le Guin.'
+},
+{
+  date: '10.09.26',
+  text: 'is listening to Sheila Hicks on Time Sensitive.'
+},
+{
   date: '10.09.26',
   text: 'is listening to Sheila Hicks on Time Sensitive.'
 },
